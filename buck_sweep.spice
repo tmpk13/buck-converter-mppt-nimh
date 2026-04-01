@@ -1,0 +1,47 @@
+* Async Buck Converter - 3.3V Output from Solar Panel
+* Schottky diode (async) topology
+* Parameterized: Vin_val, duty
+
+.param Vin_val=24
+.param duty=0.15
+.param fsw=100k
+.param period={1/fsw}
+.param ton={duty*period}
+
+* Input source
+Vin input 0 DC {Vin_val}
+
+* Input caps
+Cin1 input 0 22u IC={Vin_val}
+Cin2 input 0 100u IC={Vin_val}
+
+* High-side MOSFET (BSC093N04LS approximation)
+.model sw_hs SW(Ron=10m Roff=1e6 Vt=0.5 Vh=0.1)
+S1 input sw_node pwm 0 sw_hs
+
+* PWM source
+Vpwm pwm 0 PULSE(0 1 0 10n 10n {ton} {period})
+
+* Schottky diode (SS34-like: 40V 3A Schottky)
+.model schottky D(Is=1e-5 Rs=0.02 N=1.05 BV=40 IBV=1e-4 CJO=100p TT=5n)
+D1 0 sw_node schottky
+
+* Inductor 47uH with DCR
+L1 sw_node out_l 47u IC=0
+Rl_ser out_l out 38m
+
+* Output caps
+Cout1 out 0 470u IC=3.3
+Cout2 out 0 22u IC=3.3
+
+* Load: 3.3V / 1A = 3.3 ohm
+Rload out 0 3.3
+
+* Run 5ms to settle, measure last 1ms
+.tran 0.1u 5m UIC
+
+.meas tran Vout_avg AVG V(out) FROM=4m TO=5m
+.meas tran Vout_ripple PP V(out) FROM=4m TO=5m
+.meas tran IL_avg AVG I(L1) FROM=4m TO=5m
+
+.end
