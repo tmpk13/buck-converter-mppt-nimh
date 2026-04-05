@@ -2,9 +2,9 @@
 """Sweep Vin and duty cycle to find 4.2V output for async buck converter.
 
 Updated components:
-  - CSD18540Q5B (Ron=2.4mΩ)
+  - CSD18540Q5B (Ron=2.2mΩ)
   - SS56 Schottky (60V 5A)
-  - 10µH inductor (DCR ~15mΩ)
+  - 10µH inductor (DCR=18mΩ)
   - Input: 10µF×2 + 100µF
   - Output: 47µF×2 + 220µF
   - 50mΩ shunt between VOUT and VBAT
@@ -26,19 +26,19 @@ Cin1 input 0 10u IC={vin}
 Cin2 input 0 10u IC={vin}
 Cin3 input 0 100u IC={vin}
 
-* CSD18540Q5B: 60V N-FET, Rds_on=2.4mOhm @ Vgs=10V
-.model sw_hs SW(Ron=2.4m Roff=1e6 Vt=0.5 Vh=0.1)
+* CSD18540Q5B: 60V N-FET, Rds_on=2.2mOhm max @ Vgs=10V
+.model sw_hs SW(Ron=2.2m Roff=1e6 Vt=0.5 Vh=0.1)
 S1 input sw_node pwm 0 sw_hs
 
 Vpwm pwm 0 PULSE(0 1 0 10n 10n {ton:.10e} {period:.10e})
 
 * SS56: 60V 5A Schottky
-.model schottky D(Is=1e-4 Rs=0.015 N=1.05 BV=60 IBV=1e-4 CJO=200p TT=5n)
+.model schottky D(Is=1e-5 Rs=0.04 N=1.2 BV=60 IBV=1e-4 CJO=400p TT=5n)
 D1 0 sw_node schottky
 
-* 10uH inductor, DCR ~15mOhm
+* 10uH inductor, DCR=18mOhm
 L1 sw_node out_l 10u IC=0
-Rl out_l vout 15m
+Rl out_l vout 18m
 
 * Output caps: 47uF X5R x2 + 220uF electrolytic
 Cout1 vout 0 47u IC=4.2
