@@ -657,7 +657,7 @@
         "uuid": "cbc98a1b-0533-4e8d-81af-0515d3e50555"
       }
     ],
-    "used_designators": "I2C1,SWD1-2,BOOT1,UART1,#PWR28,#PWR31,R1,SMA1,PWR1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

@@ -1,6 +1,5 @@
 * Async Buck Converter - 3.6V Output from Solar Panel (12-32V input)
-* Updated components: CSD18540Q5B, SS56, 10µH, 50mΩ shunt
-* Schottky diode (async) topology
+* Schottky diode instead of synchronous low-side FET
 * Goal: find duty cycle vs input voltage for 3.6V output
 
 .param Vin_val=24
@@ -11,44 +10,126 @@
 * Input source
 Vin input 0 DC {Vin_val}
 
-* Input caps: 10µF X7R x2 + 100µF electrolytic
-Cin1 input 0 10u IC=24
-Cin2 input 0 10u IC=24
-Cin3 input 0 100u IC=24
+* Input caps
+Cin1 input 0 22u IC=24
+Cin2 input 0 100u IC=24
 
-* CSD18540Q5B: 60V N-FET, Rds_on=2.2mΩ max @ Vgs=10V
-.model sw_hs SW(Ron=2.2m Roff=1e6 Vt=0.5 Vh=0.1)
+* High-side MOSFET (BSC093N04LS model approximation)
+* Using voltage-controlled switch driven by PWM
+.model sw_hs SW(Ron=10m Roff=1e6 Vt=0.5 Vh=0.1)
 S1 input sw_node pwm 0 sw_hs
 
 * PWM source
 Vpwm pwm 0 PULSE(0 1 0 10n 10n {duty*period} {period})
 
-* SS56: 60V 5A Schottky (Vf~0.45V @ 2A)
-.model schottky D(Is=1e-5 Rs=0.04 N=1.2 BV=60 IBV=1e-4 CJO=400p TT=5n)
+* Schottky diode (e.g. SS34 or similar 40V 3A Schottky)
+.model schottky D(Is=1e-5 Rs=0.02 N=1.05 BV=40 IBV=1e-4 CJO=100p TT=5n)
 D1 0 sw_node schottky
 
-* Inductor 10µH, DCR=18mΩ (DMBJ CXP1265-100M-HG)
-L1 sw_node out_l 10u IC=0
-Rl_ser out_l vout 18m
+* Inductor 47uH (Coilcraft MSS1583, DCR ~38mOhm)
+L1 sw_node out 47u IC=0
+Rl_ser out out2 38m
 
-* Output caps: 47µF X5R x2 + 220µF electrolytic
-Cout1 vout 0 47u IC=3.3
-Cout2 vout 0 47u IC=3.3
-Cout3 vout 0 220u IC=3.3
+* Output caps
+Cout1 out2 0 470u IC=3.3
+Cout2 out2 0 22u IC=3.3
 
-* 50mΩ current sense shunt (VOUT -> VBAT)
-Rshunt vout vbat 50m
-
-* Load resistor (3.3V at ~1A = 3.3 ohm)
-Rload vbat 0 3.3
+* Load resistor (3.3V at ~1A = 3.3 ohm; or 2A = 1.65 ohm)
+Rload out2 0 3.3
 
 * Transient analysis - let it settle
 .tran 0.1u 5m UIC
 
 * Measurements
-.meas tran Vout_avg AVG V(vout) FROM=4m TO=5m
-.meas tran Vbat_avg AVG V(vbat) FROM=4m TO=5m
-.meas tran Vout_ripple PP V(vout) FROM=4m TO=5m
+.meas tran Vout_avg AVG V(out2) FROM=4m TO=5m
+.meas tran Vout_ripple PP V(out2) FROM=4m TO=5m
+.meas tran Iload_avg AVG I(Rload) FROM=4m TO=5m
 .meas tran IL_avg AVG I(L1) FROM=4m TO=5m
+
+.control
+* Sweep input voltage from 12V to 32V in 2V steps
+* For each Vin, binary search for duty cycle that gives ~3.3V output
+
+set filetype=ascii
+
+let vin_start = 12
+let vin_stop = 32
+let vin_step = 2
+let num_points = (vin_stop - vin_start) / vin_step + 1
+
+* Arrays to store results
+let vin_arr = vector(11)
+let duty_arr = vector(11)
+let vout_arr = vector(11)
+let idx = 0
+
+let vin_cur = vin_start
+
+* Loop over input voltages
+while vin_cur <= vin_stop
+
+  * Initial duty cycle estimate: 3.3/Vin
+  let duty_low = 0.05
+  let duty_high = 0.5
+  let duty_mid = 3.3 / vin_cur
+  let iter = 0
+  let converged = 0
+
+  * Binary search for correct duty cycle
+  while iter < 20 && converged = 0
+
+    alter Vin DC=$&vin_cur
+    alter @Vpwm[pulse] = [ 0 1 0 10n 10n $&duty_mid*1e-5 1e-5 ]
+
+    tran 0.1u 5m UIC
+    meas tran vout_meas AVG V(out2) FROM=4m TO=5m
+
+    let verr = vout_meas - 3.3
+
+    if abs(verr) < 0.01
+      let converged = 1
+    else
+      if verr > 0
+        * Output too high, reduce duty
+        let duty_high = duty_mid
+        let duty_mid = (duty_low + duty_mid) / 2
+      else
+        * Output too low, increase duty
+        let duty_low = duty_mid
+        let duty_mid = (duty_high + duty_mid) / 2
+      end
+    end
+
+    let iter = iter + 1
+    destroy all
+
+  end
+
+  * Store results
+  let vin_arr[idx] = vin_cur
+  let duty_arr[idx] = duty_mid
+  let vout_arr[idx] = vout_meas
+
+  echo "Vin=$&vin_cur V, Duty=$&duty_mid, Vout=$&vout_meas V (iters=$&iter)"
+
+  let idx = idx + 1
+  let vin_cur = vin_cur + vin_step
+
+end
+
+echo ""
+echo "=== SUMMARY: Duty Cycle vs Input Voltage for 3.3V Output ==="
+echo "Vin(V)  Duty(%)  Vout(V)"
+
+let i = 0
+while i < idx
+  let v = vin_arr[i]
+  let d = duty_arr[i] * 100
+  let vo = vout_arr[i]
+  echo "$&v  $&d  $&vo"
+  let i = i + 1
+end
+
+.endc
 
 .end

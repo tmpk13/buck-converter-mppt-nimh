@@ -1,101 +1,79 @@
 [
   {
     "vin": 12,
-    "duty_pct": 37.546,
-    "vout": 4.1988,
-    "vbat": 4.1012,
-    "ripple_mv": 12.0,
-    "il_avg": 1.953,
-    "vshunt_mv": 97.6
+    "duty_pct": 37.495,
+    "vout": 4.1958,
+    "ripple_mv": 9.11,
+    "il_avg": 1.999
   },
   {
     "vin": 14,
     "duty_pct": 32.314,
-    "vout": 4.1966,
-    "vbat": 4.099,
-    "ripple_mv": 12.87,
-    "il_avg": 1.952,
-    "vshunt_mv": 97.6
+    "vout": 4.2043,
+    "ripple_mv": 9.11,
+    "il_avg": 2.004
   },
   {
     "vin": 16,
-    "duty_pct": 28.391,
-    "vout": 4.2,
-    "vbat": 4.1023,
-    "ripple_mv": 13.67,
-    "il_avg": 1.954,
-    "vshunt_mv": 97.7
+    "duty_pct": 28.352,
+    "vout": 4.2047,
+    "ripple_mv": 8.37,
+    "il_avg": 2.004
   },
   {
     "vin": 18,
-    "duty_pct": 25.27,
-    "vout": 4.1952,
-    "vbat": 4.0976,
-    "ripple_mv": 14.64,
-    "il_avg": 1.951,
-    "vshunt_mv": 97.6
+    "duty_pct": 25.202,
+    "vout": 4.1958,
+    "ripple_mv": 8.18,
+    "il_avg": 1.999
   },
   {
     "vin": 20,
-    "duty_pct": 22.805,
-    "vout": 4.1983,
-    "vbat": 4.1007,
-    "ripple_mv": 14.62,
-    "il_avg": 1.953,
-    "vshunt_mv": 97.6
+    "duty_pct": 22.743,
+    "vout": 4.201,
+    "ripple_mv": 7.44,
+    "il_avg": 2.002
   },
   {
     "vin": 22,
-    "duty_pct": 20.787,
-    "vout": 4.2041,
-    "vbat": 4.1063,
-    "ripple_mv": 15.0,
-    "il_avg": 1.955,
-    "vshunt_mv": 97.8
+    "duty_pct": 20.676,
+    "vout": 4.1959,
+    "ripple_mv": 7.62,
+    "il_avg": 1.999
   },
   {
     "vin": 24,
-    "duty_pct": 19.055,
-    "vout": 4.1989,
-    "vbat": 4.1013,
-    "ripple_mv": 15.42,
-    "il_avg": 1.953,
-    "vshunt_mv": 97.7
+    "duty_pct": 19.004,
+    "vout": 4.2041,
+    "ripple_mv": 7.56,
+    "il_avg": 2.003
   },
   {
     "vin": 26,
-    "duty_pct": 17.589,
-    "vout": 4.1956,
-    "vbat": 4.0981,
-    "ripple_mv": 15.47,
-    "il_avg": 1.951,
-    "vshunt_mv": 97.6
+    "duty_pct": 17.542,
+    "vout": 4.2016,
+    "ripple_mv": 8.2,
+    "il_avg": 2.002
   },
   {
     "vin": 28,
-    "duty_pct": 16.355,
-    "vout": 4.1986,
-    "vbat": 4.101,
-    "ripple_mv": 16.07,
-    "il_avg": 1.953,
-    "vshunt_mv": 97.6
+    "duty_pct": 16.289,
+    "vout": 4.1988,
+    "ripple_mv": 7.96,
+    "il_avg": 2.001
   },
   {
     "vin": 30,
-    "duty_pct": 15.285,
-    "vout": 4.2034,
-    "vbat": 4.1057,
-    "ripple_mv": 16.6,
-    "il_avg": 1.955,
-    "vshunt_mv": 97.7
+    "duty_pct": 15.203,
+    "vout": 4.1972,
+    "ripple_mv": 4.17,
+    "il_avg": 1.999
   },
   {
     "vin": 32,
-    "duty_pct": 14.291,
-    "vout": 4.2016,
-    "vbat": 4.1039,
-    "ripple_mv": 17.62,
-    "il_avg": 1.954,
-    "vshunt_mv": 97.7
+    "duty_pct": 14.253,
+    "vout": 4.1957,
+    "ripple_mv": 5.44,
+    "il_avg": 1.998
   }
 ]
