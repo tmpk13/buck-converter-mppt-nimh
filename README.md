@@ -1,5 +1,7 @@
 # MPPT Buck Converter — NiMH D-Cell Charger
 
+![](PCB.png)
+
 ## Project Goal
 Solar MPPT buck converter charging 3× NiMH D cells in series. SMD build. High-side driver topology with synchronous rectification.
 
