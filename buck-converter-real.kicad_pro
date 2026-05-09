@@ -515,7 +515,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Documents/solar-gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -662,7 +662,7 @@
         "uuid": "cbc98a1b-0533-4e8d-81af-0515d3e50555"
       }
     ],
-    "used_designators": "D7,U2,#PWR10,#PWR37-38,#PWR40,J3-4",
+    "used_designators": "L3,Q1,Q3,J4,C24,D8-9,#PWR4,#PWR11-12,#PWR43-46,R16,R20",
     "variants": []
   },
   "sheets": [
