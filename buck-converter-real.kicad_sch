@@ -10901,12 +10901,6 @@
 		(uuid "529f62ff-b1bc-4d94-b3ab-abdda188086b")
 	)
 	(junction
-		(at 412.75 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f41485d-1b29-4396-b0cb-6149e39e0990")
-	)
-	(junction
 		(at 755.65 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10953,6 +10947,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83f85150-bd26-411e-86e0-7c9f9cfbb3c3")
+	)
+	(junction
+		(at 412.75 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85135978-3732-4523-bf59-954879f31e85")
 	)
 	(junction
 		(at 114.3 129.54)
@@ -11581,6 +11581,16 @@
 			(type default)
 		)
 		(uuid "2bf6a529-f902-4ce4-837d-f127cf6e6cfb")
+	)
+	(wire
+		(pts
+			(xy 412.75 218.44) (xy 412.75 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c11275e-ce74-4b7a-9a4d-33ff1fc1b2b1")
 	)
 	(wire
 		(pts
@@ -16880,7 +16890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 432.83 218.28 0)
 			(hide yes)
 			(show_name no)
@@ -18960,7 +18970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 427.75 218.28 0)
 			(hide yes)
 			(show_name no)
@@ -24417,7 +24427,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 412.75 212.09 0)
+		(at 412.75 218.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24428,7 +24438,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea7c4be7-26b2-4d2c-ad17-a1b3172c1c0a")
 		(property "Reference" "#PWR048"
-			(at 412.75 218.44 0)
+			(at 412.75 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24439,7 +24449,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 412.75 217.17 0)
+			(at 412.75 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24449,7 +24459,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 412.75 212.09 0)
+			(at 412.75 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24460,7 +24470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 212.09 0)
+			(at 412.75 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24471,7 +24481,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 412.75 212.09 0)
+			(at 412.75 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
