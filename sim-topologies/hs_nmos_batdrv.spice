@@ -1,0 +1,47 @@
+* Variant: same HS NMOS buck, but LM5109 VDD = 9V boosted from battery (Vgs=8.3 after boot diode)
+.include common.inc
+
+.param Vin_val=@VIN@
+.param duty=@DUTY@
+.param fsw=100k
+.param period={1/fsw}
+.param ton={duty*period}
+
+Vin input 0 DC {Vin_val}
+Cin input 0 100u IC={Vin_val}
+
+* Aux consumption of 78L12 + LM5109 quiescent (~4mA from solar rail)
+Iaux input 0 DC 4m
+
+* PWM logic signal
+Vpwm pwm 0 PULSE(0 1 0 10n 10n {ton} {period})
+
+* Gate rail: VDD = min(12, Vin-1.7); driver dead below UVLO 6.9V; bootstrap diode drop 0.7V
+* Drive referenced to switch node (bootstrap)
+Bdrv drv sw V = v(pwm) * 8.3
+Rg drv g 4.7
+
+M1 input g sw NBUCK
+
+* Freewheel Schottky
+D1 0 sw SS56
+
+* Inductor 47u, DCR 38m
+L1 sw o1 47u IC=1
+RL o1 bat_t 38m
+
+* Output cap 100u + 20m ESR
+Cout bat_t co1 100u IC=4.0
+Resr co1 0 20m
+
+* NiMH 3S battery: EMF 3.9V + 0.15 ohm
+Rint bat_t bx 0.15
+VB bx 0 DC 3.9
+
+* Probes
+Bpin pinv 0 V = -v(input)*i(Vin)
+Bpb  pbv  0 V = v(bat_t)*i(VB)
+Bvgs vgsv 0 V = v(g)-v(sw)
+
+.options reltol=2e-3 abstol=1e-9 vntol=1e-6 itl4=100 method=gear
+.end

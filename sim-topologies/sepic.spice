@@ -1,0 +1,46 @@
+* SEPIC: ground-referenced NMOS with common-ground battery (works Vin above OR below Vout)
+* Gate driven directly by 3.3V MCU PWM
+.include common.inc
+
+.param Vin_val=@VIN@
+.param duty=@DUTY@
+.param fsw=100k
+.param period={1/fsw}
+.param ton={duty*period}
+
+Vin input 0 DC {Vin_val}
+Cin input 0 100u IC={Vin_val}
+
+Vpwm pwm 0 PULSE(0 3.3 0 10n 10n {ton} {period})
+Rg pwm g 30
+
+* Input inductor
+RL1 input i2 38m
+L1 i2 sw 47u IC=1
+
+* Ground-referenced switch (D G S)
+M1 sw g 0 NLL
+
+* Coupling cap
+Cc sw cb 10u IC={Vin_val}
+Rcc cb nb 10m
+
+* Second inductor to ground
+L2 nb l2b 47u IC=0
+RL2 l2b 0 38m
+
+* Rectifier to output
+D1 nb bat_t SS56
+
+Cout bat_t co1 100u IC=4.0
+Resr co1 0 20m
+
+Rint bat_t bx 0.15
+VB bx 0 DC 3.9
+
+Bpin pinv 0 V = -v(input)*i(Vin)
+Bpb  pbv  0 V = v(bat_t)*i(VB)
+Bvgs vgsv 0 V = v(g)
+
+.options reltol=2e-3 abstol=1e-9 vntol=1e-6 itl4=100 method=gear
+.end

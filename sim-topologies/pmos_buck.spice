@@ -1,0 +1,54 @@
+* Plain buck: high-side PMOS, discrete level-shift gate drive (no aux rail, no driver IC)
+* Drive: MCU PWM -> 2N7002 level shift -> NPN/PNP emitter follower between Vin and (Vin-10V) zener rail
+.include common.inc
+
+.param Vin_val=@VIN@
+.param duty=@DUTY@
+.param fsw=100k
+.param period={1/fsw}
+.param ton={duty*period}
+
+Vin input 0 DC {Vin_val}
+Cin input 0 100u IC={Vin_val}
+
+* MCU PWM 3.3V. High = PMOS on.
+Vpwm pwm 0 PULSE(0 3.3 0 10n 10n {ton} {period})
+
+* Zener-derived low rail zr = Vin - 10V (or ~0 when Vin < ~10V)
+Dz zr input DZ10
+Rzb zr 0 10k
+Czr input zr 1u IC={min(10,Vin_val)}
+
+* Level shifter: 2N7002 saturating pull-down on node A, Rpu returns it to Vin
+Mls a pwm 0 N7002
+Rpu input a 2.2k
+
+* Emitter-follower pair drives PMOS gate; PNP collector at zr rail limits
+* gate swing to ~10V below Vin. Rb bounds PNP base current when A sits low.
+Rb a b 2.2k
+Qn gpp b gf QNPN
+Qp zr b gf QPNP
+Rgpp input gpp 1
+Rg gf g 10
+Rgs g input 10k
+
+* PMOS high-side switch (D G S)
+M1 sw g input PBUCK
+
+D1 0 sw SS56
+
+L1 sw o1 47u IC=1
+RL o1 bat_t 38m
+
+Cout bat_t co1 100u IC=4.0
+Resr co1 0 20m
+
+Rint bat_t bx 0.15
+VB bx 0 DC 3.9
+
+Bpin pinv 0 V = -v(input)*i(Vin)
+Bpb  pbv  0 V = v(bat_t)*i(VB)
+Bvgs vgsv 0 V = v(g)-v(input)
+
+.options reltol=2e-3 abstol=1e-9 vntol=1e-6 itl4=100 method=gear
+.end
