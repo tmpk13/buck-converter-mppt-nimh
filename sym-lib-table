@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "forest-ch")(type "KiCad")(uri "${KIPRJMOD}/forest-ch.kicad_sym")(options "")(descr "CH32V203 MCU and support parts from LCSC"))
+)
