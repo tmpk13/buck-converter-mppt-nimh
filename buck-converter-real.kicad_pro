@@ -547,7 +547,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Documents/solar-gerbers/",
+      "plot": "gerbs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
