@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ESP32-C6-MINI-1U-H4") (type "KiCad") (uri "/home/tmpk/gps-radio-board/ESP32_C6_MINI_1U_H4/ESP32-C6-MINI-1U-H4.kicad_sym") (options "") (descr ""))
+	(lib (name "ANT-GNSSCP-TH18L1") (type "KiCad") (uri "/home/tmpk/gps-radio-board/ANT_GNSSCP_TH18L1/ANT-GNSSCP-TH18L1.kicad_sym") (options "") (descr ""))
+	(lib (name "ANT-GNSSCP-SM12L1") (type "KiCad") (uri "/home/tmpk/gps-radio-board/ANT_GNSSCP_SM12L1/ANT-GNSSCP-SM12L1.kicad_sym") (options "") (descr ""))
+)
