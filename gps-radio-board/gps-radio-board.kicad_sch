@@ -5808,6 +5808,26 @@
 	)
 	(wire
 		(pts
+			(xy 591.82 363.22) (xy 594.36 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0991fa-0484-4fe9-a6a0-bf7151345e96")
+	)
+	(wire
+		(pts
+			(xy 598.17 365.76) (xy 591.82 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d275d70-f419-4d37-b415-1c5026607736")
+	)
+	(wire
+		(pts
 			(xy 676.91 228.6) (xy 679.45 228.6)
 		)
 		(stroke
@@ -5978,16 +5998,6 @@
 	)
 	(wire
 		(pts
-			(xy 590.55 359.41) (xy 594.36 359.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3613dc3e-3287-4b45-8987-c73a32ec015f")
-	)
-	(wire
-		(pts
 			(xy 477.52 359.41) (xy 477.52 361.95)
 		)
 		(stroke
@@ -6045,16 +6055,6 @@
 			(type default)
 		)
 		(uuid "3c7ddba9-663b-4192-ade6-fc0a52bf9741")
-	)
-	(wire
-		(pts
-			(xy 590.55 356.87) (xy 593.09 356.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dccf2d0-1d73-43db-9f3f-a4d0424deedb")
 	)
 	(wire
 		(pts
@@ -6348,7 +6348,7 @@
 	)
 	(wire
 		(pts
-			(xy 593.09 353.06) (xy 622.3 353.06)
+			(xy 591.82 353.06) (xy 622.3 353.06)
 		)
 		(stroke
 			(width 0)
@@ -6418,7 +6418,7 @@
 	)
 	(wire
 		(pts
-			(xy 593.09 356.87) (xy 593.09 353.06)
+			(xy 591.82 360.68) (xy 591.82 353.06)
 		)
 		(stroke
 			(width 0)
@@ -6958,7 +6958,7 @@
 	)
 	(wire
 		(pts
-			(xy 594.36 359.41) (xy 594.36 355.6)
+			(xy 594.36 363.22) (xy 594.36 355.6)
 		)
 		(stroke
 			(width 0)
@@ -8982,84 +8982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 590.55 354.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "462e7f39-2eb5-4067-9857-f5bf468e2a69")
-		(property "Reference" "#PWR031"
-			(at 590.55 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 590.55 349.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 590.55 354.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 590.55 354.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 590.55 354.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3dfe6f1-9e30-4a39-a31e-bf8ad8e4dbd4")
-		)
-		(instances
-			(project "gps-radio-board"
-				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 501.65 261.62 180)
 		(unit 1)
@@ -9301,7 +9223,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 590.55 361.95 0)
+		(at 591.82 368.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9312,7 +9234,7 @@
 		(fields_autoplaced yes)
 		(uuid "52d87dcf-01e0-4bb1-a147-f7aac6c2793c")
 		(property "Reference" "#PWR032"
-			(at 590.55 368.3 0)
+			(at 591.82 374.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9323,7 +9245,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 590.55 365.76 0)
+			(at 591.82 372.11 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9333,7 +9255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 590.55 361.95 0)
+			(at 591.82 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9344,7 +9266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 590.55 361.95 0)
+			(at 591.82 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9355,7 +9277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 590.55 370.84 0)
+			(at 591.82 377.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11800,7 +11722,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 585.47 356.87 0)
+		(at 586.74 363.22 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11811,7 +11733,7 @@
 		(dnp no)
 		(uuid "a7043810-b25d-427f-9048-5d816a9f4130")
 		(property "Reference" "J5"
-			(at 580.644 348.742 0)
+			(at 581.914 355.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11821,7 +11743,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 580.644 351.028 0)
+			(at 581.914 357.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11831,7 +11753,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 585.47 356.87 0)
+			(at 586.74 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11842,7 +11764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 585.47 356.87 0)
+			(at 586.74 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11853,7 +11775,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 585.47 356.87 0)
+			(at 586.74 363.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13010,6 +12932,84 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 598.17 365.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1d2b6df-ae28-4e99-8cf9-beadca859d18")
+		(property "Reference" "#PWR036"
+			(at 598.17 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 598.17 360.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 598.17 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 598.17 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 598.17 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ee25d28-cc67-4ae9-8e5c-76cd675750c4")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
