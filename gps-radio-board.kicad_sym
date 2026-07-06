@@ -596,7 +596,7 @@
 				)
 			)
 		)
-		(property "Value" "MAX-M10N"
+		(property "Value" "MAX-M10N-10B"
 			(at 11.43 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -617,7 +617,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://content.u-blox.com/sites/default/files/documents/MAX-M10N-00B_DataSheet_UBXDOC-963802114-13143.pdf"
+		(property "Datasheet" "https://content.u-blox.com/sites/default/files/documents/MAX-M10N-10B_DataSheet_UBXDOC-304424225-18248.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -628,7 +628,7 @@
 				)
 			)
 		)
-		(property "Description" "u-blox MAX-M10N standard precision GNSS module, UART, VCC 1.76V to 5.5V, LCC-18 10.1x9.7mm"
+		(property "Description" "u-blox MAX-M10N-10B standard precision GNSS module, SAW-LNA-SAW front-end for out-of-band immunity, UART, VCC 1.76V to 5.5V, LCC-18 10.1x9.7mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

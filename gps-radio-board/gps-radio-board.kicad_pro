@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [],
@@ -502,7 +502,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -632,7 +637,7 @@
         "uuid": "6516832b-56dd-436b-980b-7ee5d107ab91"
       }
     ],
-    "used_designators": "D1,C1-6,R1-4,#PWR6-7,#PWR9-28,U5-7,J3-4",
+    "used_designators": "D1-2,C1-10,RST2-3,R1-7,#PWR3,#PWR5-7,#PWR9-29,U5-7,J3-4",
     "variants": []
   },
   "sheets": [
