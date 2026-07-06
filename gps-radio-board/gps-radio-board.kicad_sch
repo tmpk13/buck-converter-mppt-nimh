@@ -5062,6 +5062,16 @@
 		)
 		(uuid "2a1e5849-20f4-44c3-8a05-2c09d305db74")
 	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 558.292 366.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d0f6a3a-3bda-4fa0-a105-d06ca6e29d5c")
+	)
 	(text "Recommended 120mA"
 		(exclude_from_sim no)
 		(at 624.078 299.212 0)
@@ -5114,7 +5124,7 @@
 	)
 	(text "Add caps?"
 		(exclude_from_sim no)
-		(at 665.734 350.012 90)
+		(at 664.718 346.964 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5141,6 +5151,16 @@
 			)
 		)
 		(uuid "ec100f34-6d16-429e-aed2-319b15cf0313")
+	)
+	(text "20mA"
+		(exclude_from_sim no)
+		(at 574.802 366.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff86a0df-611a-407a-8e20-318b0d7f49a6")
 	)
 	(junction
 		(at 543.56 388.62)
@@ -5936,7 +5956,7 @@
 	)
 	(wire
 		(pts
-			(xy 664.21 472.44) (xy 664.21 320.04)
+			(xy 662.94 472.44) (xy 662.94 320.04)
 		)
 		(stroke
 			(width 0)
@@ -6216,7 +6236,7 @@
 	)
 	(wire
 		(pts
-			(xy 508 472.44) (xy 664.21 472.44)
+			(xy 508 472.44) (xy 662.94 472.44)
 		)
 		(stroke
 			(width 0)
@@ -6346,7 +6366,7 @@
 	)
 	(wire
 		(pts
-			(xy 664.21 320.04) (xy 650.24 320.04)
+			(xy 662.94 320.04) (xy 650.24 320.04)
 		)
 		(stroke
 			(width 0)

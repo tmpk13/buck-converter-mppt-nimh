@@ -4498,6 +4498,17 @@
 			(uuid "d3064c8f-e5cd-44aa-a49e-311809bdd2fa")
 		)
 		(embedded_fonts no)
+		(model "/home/tmpk/gps-radio-board/w-sx.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -6285,6 +6296,17 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/RF_GPS.3dshapes/ublox_MAX.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/home/tmpk/gps-radio-board/g-w-rf.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8410,6 +8432,17 @@
 			(uuid "e86ad810-3eba-43d5-b1a2-3877606836fc")
 		)
 		(embedded_fonts no)
+		(model "/home/tmpk/gps-radio-board/w-rf-l.step"
+			(offset
+				(xyz 0 0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
