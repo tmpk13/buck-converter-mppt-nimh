@@ -1053,6 +1053,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1191,6 +1407,172 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3367,181 +3749,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Omron_B3FS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Omron_B3FS"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SW*Omron*B3FS*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Omron_B3FS_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "gps-radio-board:MAX-M10N"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4932,12 +5139,6 @@
 		(uuid "24b7d5f0-2f34-446f-8d40-4bfccb0f6bb7")
 	)
 	(junction
-		(at 487.68 342.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ac4d3a5-ed8d-4644-92da-157ceb4a2077")
-	)
-	(junction
 		(at 430.53 355.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4992,6 +5193,12 @@
 		(uuid "49aedfee-483b-4323-91e8-191097850cc8")
 	)
 	(junction
+		(at 467.36 322.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ac71f4f-a547-4337-8271-75e10cd15107")
+	)
+	(junction
 		(at 543.56 449.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5028,10 +5235,22 @@
 		(uuid "6b33a2e9-75e5-4b8a-87bf-393e1b376c08")
 	)
 	(junction
+		(at 513.08 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c7b046d-6ad4-47e0-863c-61584df13991")
+	)
+	(junction
 		(at 669.29 288.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e15bc95-b985-491f-b2b5-fc3e368679d6")
+	)
+	(junction
+		(at 496.57 335.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7019f4d5-ab73-4104-a4bf-a1e2e45a25df")
 	)
 	(junction
 		(at 543.56 411.48)
@@ -5094,6 +5313,12 @@
 		(uuid "96369a28-ed6a-48ef-b26c-1b9b5fbec080")
 	)
 	(junction
+		(at 430.53 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b3f9eca-0045-42dc-bdc1-fb54e08f04ee")
+	)
+	(junction
 		(at 539.75 299.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5140,12 +5365,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7b36e82-3769-46db-82bd-fc8e78a93458")
-	)
-	(junction
-		(at 513.08 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9f0e493-dbe6-4f67-8354-2595e38d7293")
 	)
 	(junction
 		(at 496.57 342.9)
@@ -5214,6 +5433,12 @@
 		(uuid "d092571b-ac7b-4e9f-b3e2-453ff5f911cd")
 	)
 	(junction
+		(at 458.47 325.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d550bcb6-34a8-47d3-b621-c19a58a970f6")
+	)
+	(junction
 		(at 543.56 403.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5250,10 +5475,6 @@
 	(no_connect
 		(at 622.3 347.98)
 		(uuid "10a5e728-db00-4d1e-99a1-d9a3372afd43")
-	)
-	(no_connect
-		(at 513.08 363.22)
-		(uuid "1da6ed62-bc4b-4436-8dfe-5e5c9552a6e1")
 	)
 	(no_connect
 		(at 622.3 323.85)
@@ -5294,10 +5515,6 @@
 	(no_connect
 		(at 543.56 370.84)
 		(uuid "6d2720da-65bb-4439-aaa8-a6bc92de7df3")
-	)
-	(no_connect
-		(at 513.08 360.68)
-		(uuid "772fbc16-f526-40e8-904c-0c4b6800a449")
 	)
 	(no_connect
 		(at 687.07 228.6)
@@ -5411,6 +5628,16 @@
 	)
 	(wire
 		(pts
+			(xy 467.36 322.58) (xy 447.04 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ac52fa-adc8-45c2-82af-a304446935e5")
+	)
+	(wire
+		(pts
 			(xy 678.18 288.29) (xy 669.29 288.29)
 		)
 		(stroke
@@ -5481,6 +5708,16 @@
 	)
 	(wire
 		(pts
+			(xy 496.57 335.28) (xy 473.71 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb8c81a-c39c-402f-9d53-a9f866fdb95b")
+	)
+	(wire
+		(pts
 			(xy 600.71 313.69) (xy 622.3 313.69)
 		)
 		(stroke
@@ -5521,6 +5758,26 @@
 	)
 	(wire
 		(pts
+			(xy 482.6 361.95) (xy 482.6 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b6d7bb-8fb6-42a0-98ba-eb27bfb5f9ad")
+	)
+	(wire
+		(pts
+			(xy 480.06 360.68) (xy 513.08 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12db795f-3070-4157-b49b-ff919342878b")
+	)
+	(wire
+		(pts
 			(xy 600.71 311.15) (xy 622.3 311.15)
 		)
 		(stroke
@@ -5538,6 +5795,16 @@
 			(type default)
 		)
 		(uuid "1abf2bc8-ae0a-436e-a266-93042b6e1c5f")
+	)
+	(wire
+		(pts
+			(xy 457.2 325.12) (xy 458.47 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd371d3-8e45-4480-b088-a8137ce5f17a")
 	)
 	(wire
 		(pts
@@ -5581,6 +5848,16 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 261.62) (xy 513.08 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a73630-8005-483f-9f35-ac9eae5290b7")
+	)
+	(wire
+		(pts
 			(xy 571.5 327.66) (xy 571.5 317.5)
 		)
 		(stroke
@@ -5601,7 +5878,17 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 370.84) (xy 513.08 370.84)
+			(xy 513.08 250.19) (xy 513.08 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a1757f7-d9f2-431f-aef1-4cc9751e2140")
+	)
+	(wire
+		(pts
+			(xy 502.92 370.84) (xy 513.08 370.84)
 		)
 		(stroke
 			(width 0)
@@ -5691,13 +5978,23 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 355.6) (xy 622.3 355.6)
+			(xy 590.55 359.41) (xy 594.36 359.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3613dc3e-3287-4b45-8987-c73a32ec015f")
+	)
+	(wire
+		(pts
+			(xy 477.52 359.41) (xy 477.52 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3643e9cb-9473-4d83-a118-c94729f71fcb")
 	)
 	(wire
 		(pts
@@ -5751,7 +6048,7 @@
 	)
 	(wire
 		(pts
-			(xy 600.71 353.06) (xy 622.3 353.06)
+			(xy 590.55 356.87) (xy 593.09 356.87)
 		)
 		(stroke
 			(width 0)
@@ -5778,6 +6075,16 @@
 			(type default)
 		)
 		(uuid "415a5bbd-de6d-4491-b002-36ff9fdd4c47")
+	)
+	(wire
+		(pts
+			(xy 670.56 328.93) (xy 671.83 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e4c7d6-32b9-4908-866b-98c4cb9585a7")
 	)
 	(wire
 		(pts
@@ -5841,13 +6148,13 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 363.22) (xy 502.92 363.22)
+			(xy 480.06 364.49) (xy 480.06 360.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e143601-0c2b-4850-9cb5-83cecb1e67d6")
+		(uuid "4ff72f44-fae3-4e6e-b3b6-620dd1f6b53c")
 	)
 	(wire
 		(pts
@@ -5858,6 +6165,16 @@
 			(type default)
 		)
 		(uuid "500bf257-7cbb-4f1a-964c-7ee211e55210")
+	)
+	(wire
+		(pts
+			(xy 511.81 363.22) (xy 511.81 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50104729-3212-4557-b478-288d24bd5aa5")
 	)
 	(wire
 		(pts
@@ -5888,6 +6205,16 @@
 			(type default)
 		)
 		(uuid "52de8c47-6ef4-498c-a8a3-da173c6ce1a2")
+	)
+	(wire
+		(pts
+			(xy 467.36 322.58) (xy 566.42 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bd5389-e05c-4ba5-9daf-760f039f8041")
 	)
 	(wire
 		(pts
@@ -5991,6 +6318,16 @@
 	)
 	(wire
 		(pts
+			(xy 665.48 326.39) (xy 671.83 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694b0ed9-ed34-4a44-9c21-2a320c330efb")
+	)
+	(wire
+		(pts
 			(xy 453.39 275.59) (xy 469.9 275.59)
 		)
 		(stroke
@@ -6011,6 +6348,16 @@
 	)
 	(wire
 		(pts
+			(xy 593.09 353.06) (xy 622.3 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d510a76-19ae-4a33-a61d-59fc5f99c9c1")
+	)
+	(wire
+		(pts
 			(xy 594.36 318.77) (xy 622.3 318.77)
 		)
 		(stroke
@@ -6018,6 +6365,16 @@
 			(type default)
 		)
 		(uuid "70a7e1ab-3f0d-40c9-a922-bececa10b20c")
+	)
+	(wire
+		(pts
+			(xy 513.08 363.22) (xy 511.81 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71396bd9-d803-4bdc-b9ec-48a9ebfcd70a")
 	)
 	(wire
 		(pts
@@ -6048,6 +6405,26 @@
 			(type default)
 		)
 		(uuid "74988caa-43ba-48b6-8ac1-a2b8ab49e10b")
+	)
+	(wire
+		(pts
+			(xy 511.81 361.95) (xy 482.6 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757d3930-7d60-470c-862f-d7c7df666a73")
+	)
+	(wire
+		(pts
+			(xy 593.09 356.87) (xy 593.09 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7638e1ef-d161-470f-835f-40f1f3b5f2ed")
 	)
 	(wire
 		(pts
@@ -6121,6 +6498,36 @@
 	)
 	(wire
 		(pts
+			(xy 594.36 355.6) (xy 622.3 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1d4cde-036c-4715-9d0e-c14c304ff385")
+	)
+	(wire
+		(pts
+			(xy 430.53 242.57) (xy 430.53 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e60c16-d0b3-4280-8fd1-bbc53d74d7c9")
+	)
+	(wire
+		(pts
+			(xy 665.48 327.66) (xy 665.48 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814e0391-8504-41ef-a871-d215e4197476")
+	)
+	(wire
+		(pts
 			(xy 502.92 363.22) (xy 502.92 317.5)
 		)
 		(stroke
@@ -6138,6 +6545,16 @@
 			(type default)
 		)
 		(uuid "89c93438-1988-4449-ad4d-84a8ea2ea8ff")
+	)
+	(wire
+		(pts
+			(xy 670.56 309.88) (xy 670.56 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1f17e2-7866-4128-8847-708a2c8a1839")
 	)
 	(wire
 		(pts
@@ -6171,16 +6588,6 @@
 	)
 	(wire
 		(pts
-			(xy 566.42 322.58) (xy 439.42 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d69e427-920c-4062-858f-d3c5791b5aee")
-	)
-	(wire
-		(pts
 			(xy 430.53 360.68) (xy 447.04 360.68)
 		)
 		(stroke
@@ -6188,6 +6595,16 @@
 			(type default)
 		)
 		(uuid "912199f7-fbd9-401b-8c25-a02b24bdb6e3")
+	)
+	(wire
+		(pts
+			(xy 458.47 325.12) (xy 563.88 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ce44b7-8e00-4342-a8bc-b57ad6ee08c7")
 	)
 	(wire
 		(pts
@@ -6201,7 +6618,7 @@
 	)
 	(wire
 		(pts
-			(xy 664.21 327.66) (xy 650.24 327.66)
+			(xy 665.48 327.66) (xy 650.24 327.66)
 		)
 		(stroke
 			(width 0)
@@ -6298,6 +6715,16 @@
 			(type default)
 		)
 		(uuid "9d36b141-a6b7-49a6-abb9-a2e6d00e0995")
+	)
+	(wire
+		(pts
+			(xy 477.52 364.49) (xy 480.06 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3dea62-883c-4377-b53d-070b957333c3")
 	)
 	(wire
 		(pts
@@ -6411,6 +6838,16 @@
 	)
 	(wire
 		(pts
+			(xy 473.71 335.28) (xy 473.71 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac328f0c-cee0-4276-af56-8a9aec75cc6d")
+	)
+	(wire
+		(pts
 			(xy 430.53 355.6) (xy 430.53 358.14)
 		)
 		(stroke
@@ -6461,6 +6898,16 @@
 	)
 	(wire
 		(pts
+			(xy 473.71 359.41) (xy 477.52 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5aca6a7-bdfe-462e-8a43-941fb024d2c3")
+	)
+	(wire
+		(pts
 			(xy 566.42 261.62) (xy 637.54 261.62)
 		)
 		(stroke
@@ -6468,6 +6915,16 @@
 			(type default)
 		)
 		(uuid "b6a0d109-0286-420d-a836-0dfa84926a67")
+	)
+	(wire
+		(pts
+			(xy 487.68 261.62) (xy 497.84 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f31dac-c30e-4ac1-8a5c-bfcccc3b1958")
 	)
 	(wire
 		(pts
@@ -6501,6 +6958,16 @@
 	)
 	(wire
 		(pts
+			(xy 594.36 359.41) (xy 594.36 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3422553-a5e3-4a72-96fc-2c29050f4b3a")
+	)
+	(wire
+		(pts
 			(xy 702.31 246.38) (xy 697.23 246.38)
 		)
 		(stroke
@@ -6531,7 +6998,7 @@
 	)
 	(wire
 		(pts
-			(xy 664.21 323.85) (xy 650.24 323.85)
+			(xy 650.24 323.85) (xy 671.83 323.85)
 		)
 		(stroke
 			(width 0)
@@ -6591,6 +7058,16 @@
 	)
 	(wire
 		(pts
+			(xy 477.52 367.03) (xy 482.6 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9f7425-e0fc-489d-8f38-e1b8d75791da")
+	)
+	(wire
+		(pts
 			(xy 478.79 349.25) (xy 477.52 349.25)
 		)
 		(stroke
@@ -6628,6 +7105,16 @@
 			(type default)
 		)
 		(uuid "d735efdc-5ef0-487d-80dd-7595b60ff423")
+	)
+	(wire
+		(pts
+			(xy 513.08 242.57) (xy 430.53 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d801370b-4d39-44e8-b617-23bcff99ddd6")
 	)
 	(wire
 		(pts
@@ -6701,17 +7188,7 @@
 	)
 	(wire
 		(pts
-			(xy 487.68 261.62) (xy 513.08 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8402c92-71c2-4b69-aef7-07062e5609e8")
-	)
-	(wire
-		(pts
-			(xy 447.04 325.12) (xy 563.88 325.12)
+			(xy 447.04 325.12) (xy 449.58 325.12)
 		)
 		(stroke
 			(width 0)
@@ -6890,7 +7367,7 @@
 		(uuid "983c8d9b-2a5c-415c-a00c-0fbc85dd4d2d")
 	)
 	(label "SWD-WIO-IO"
-		(at 600.71 353.06 0)
+		(at 598.17 353.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6920,7 +7397,7 @@
 		(uuid "b8b0e3ed-3518-46df-be67-15a04ab158b4")
 	)
 	(label "SWD-WIO-CLK"
-		(at 600.71 355.6 0)
+		(at 599.44 355.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7311,10 +7788,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13e671a9-5daa-45be-af39-c569cc462e8e")
 		(property "Reference" "C7"
-			(at 492.76 347.9801 0)
+			(at 501.904 348.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7325,7 +7801,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 492.76 345.4401 0)
+			(at 501.904 345.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7467,7 +7943,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 509.27 367.03 180)
+		(at 502.92 367.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7478,7 +7954,7 @@
 		(fields_autoplaced yes)
 		(uuid "173b1a33-e61b-4cb3-ae0a-91f6d1041c2e")
 		(property "Reference" "R7"
-			(at 506.73 368.3001 0)
+			(at 500.38 368.3001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7489,7 +7965,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 506.73 365.7601 0)
+			(at 500.38 365.7601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7500,7 +7976,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 508.254 366.776 90)
+			(at 501.904 366.776 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7511,7 +7987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 509.27 367.03 0)
+			(at 502.92 367.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7522,7 +7998,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 509.27 367.03 0)
+			(at 502.92 367.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,6 +8018,84 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 670.56 309.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1baf71a2-06b4-43af-8e30-1f81f9144193")
+		(property "Reference" "#PWR034"
+			(at 670.56 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 670.56 304.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 670.56 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 670.56 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 670.56 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b46737fd-0828-43d7-b04f-c34815eeaac7")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7626,6 +8180,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 453.39 325.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "221d9b82-d0a1-4d76-a79b-04f62bf86d11")
+		(property "Reference" "R8"
+			(at 453.39 318.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 453.39 321.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 453.136 326.136 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 453.39 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 453.39 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "130a0d34-94cc-41f0-b1c8-d15634cc8f6b")
+		)
+		(pin "2"
+			(uuid "239a8f85-ed7b-4f21-b990-8894010cf97b")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 524.51 269.24 0)
 		(unit 1)
@@ -7698,6 +8332,84 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 477.52 369.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be7f9d3-8efc-4e60-8125-58dd8fa56eeb")
+		(property "Reference" "#PWR035"
+			(at 477.52 375.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 477.52 373.38 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 477.52 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 477.52 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 477.52 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c25f9fac-1dac-41af-8e15-c56833050c5f")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7942,6 +8654,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 472.44 364.49 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "382238ad-e680-4b8a-a45a-abbd9190c70a")
+		(property "Reference" "J7"
+			(at 467.614 356.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 467.614 358.648 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 472.44 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 472.44 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 472.44 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "654164f0-1b56-42d6-b2f5-7440671f0bc6")
+		)
+		(pin "2"
+			(uuid "c2747d72-ec28-4bb3-9a19-e6ef71623a9c")
+		)
+		(pin "4"
+			(uuid "afb2d494-80ff-46cc-a7ca-270603599a69")
+		)
+		(pin "3"
+			(uuid "d25fbb91-b721-41b7-99fd-b7323a741d1e")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 461.01 355.6 0)
 		(unit 1)
@@ -8102,85 +8900,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 482.6 342.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3da02b57-76a5-4ad6-a0dd-7803ed11bfde")
-		(property "Reference" "RST2"
-			(at 475.488 335.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Omron_B3FS"
-			(at 475.488 338.582 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
-			(at 482.6 337.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 482.6 337.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 482.6 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5ff9a42-e2f3-4ddf-8ae9-6251506f6c32")
-		)
-		(pin "1"
-			(uuid "c2a9364d-dc3b-4653-a6e1-1cafc6ec70bb")
-		)
-		(instances
-			(project "gps-radio-board"
-				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
-					(reference "RST2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 524.51 265.43 0)
 		(unit 1)
@@ -8257,6 +8976,164 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 590.55 354.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "462e7f39-2eb5-4067-9857-f5bf468e2a69")
+		(property "Reference" "#PWR031"
+			(at 590.55 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 590.55 349.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 590.55 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 590.55 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 590.55 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3dfe6f1-9e30-4a39-a31e-bf8ad8e4dbd4")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 501.65 261.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49767ddf-3bbd-4403-adb8-d1a98330be91")
+		(property "Reference" "D3"
+			(at 501.9675 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "40V@1A"
+			(at 501.9675 257.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 501.65 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 501.65 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3653fe43-8d77-4128-9c34-a8613ca24261")
+		)
+		(pin "1"
+			(uuid "c2e82e9a-bf8c-45a2-8f66-07ab07ef50f3")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8424,6 +9301,84 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 590.55 361.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52d87dcf-01e0-4bb1-a147-f7aac6c2793c")
+		(property "Reference" "#PWR032"
+			(at 590.55 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 590.55 365.76 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 590.55 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 590.55 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 590.55 370.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0338d01a-c167-489f-ac59-23ff3d0df536")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 549.91 336.55 0)
 		(unit 1)
 		(body_style 1)
@@ -8534,7 +9489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 490.22 372.11 0)
 			(hide yes)
 			(show_name no)
@@ -8588,6 +9543,86 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 443.23 322.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "638389ac-4876-439d-9077-408718a67eb0")
+		(property "Reference" "R9"
+			(at 443.23 316.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 443.23 318.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 442.976 323.596 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 443.23 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 443.23 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "581f852d-16fe-4166-8dd5-78d1e426a70e")
+		)
+		(pin "2"
+			(uuid "8bfb3f0f-e9f1-43d2-98da-1003957842e0")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8838,10 +9873,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6925b1c4-01a7-4dc8-8c1c-18655d9be8f6")
 		(property "Reference" "R6"
-			(at 494.03 340.3601 0)
+			(at 501.396 340.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8852,7 +9886,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 494.03 337.8201 0)
+			(at 501.904 337.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9198,6 +10232,162 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 458.47 332.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c92c6ab-eb09-4db9-a682-a84b60ad4335")
+		(property "Reference" "#PWR029"
+			(at 458.47 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 458.47 336.55 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 458.47 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4895be8f-bb1f-4708-8d2f-103fec1f36e9")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 671.83 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d1066c4-c813-445f-9058-146549a27850")
+		(property "Reference" "#PWR033"
+			(at 671.83 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 671.83 335.28 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 671.83 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 671.83 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 671.83 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d90c922d-3259-4f51-970e-ae1e83420eb6")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 539.75 303.53 0)
 		(unit 1)
@@ -9352,6 +10542,88 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 513.08 246.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89484132-a886-47c1-a2e1-acd42737afe1")
+		(property "Reference" "D4"
+			(at 515.62 245.4274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "40V@1A"
+			(at 515.62 247.9674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 513.08 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 513.08 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 513.08 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed48e225-1897-439d-9269-6d2f85d211d2")
+		)
+		(pin "1"
+			(uuid "9c19c3ef-9f91-4351-8ea3-bf1e5a0e4371")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10370,6 +11642,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 467.36 326.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2834033-eda7-4425-a092-3a291c130d8a")
+		(property "Reference" "C12"
+			(at 470.408 331.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15p"
+			(at 470.408 329.184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 466.3948 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.36 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 467.36 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da3f390d-8a54-48b8-bbbe-d9fc4e069cfa")
+		)
+		(pin "2"
+			(uuid "0cb6cfb9-355d-4514-8fa0-3c6e7d908ddf")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 681.99 264.16 0)
 		(unit 1)
@@ -10442,6 +11793,92 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 585.47 356.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7043810-b25d-427f-9048-5d816a9f4130")
+		(property "Reference" "J5"
+			(at 580.644 348.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 580.644 351.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 585.47 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 585.47 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 585.47 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1156ba4e-26f2-4327-97ce-7a60a00276c9")
+		)
+		(pin "2"
+			(uuid "7c92a909-7946-42b9-8d5f-b8b2a2cffab9")
+		)
+		(pin "4"
+			(uuid "71305055-a741-4431-9f91-78f7f6ff42c4")
+		)
+		(pin "3"
+			(uuid "e7f12012-b785-4aaa-957e-a984800ce549")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10881,7 +12318,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 453.39 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -11023,6 +12460,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 676.91 326.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bad02024-4693-41be-bdbd-4a1409a7b571")
+		(property "Reference" "J6"
+			(at 681.736 318.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 681.736 320.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+			(at 676.91 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 676.91 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 676.91 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7dae5ca-9d62-4d6e-8b21-8e0989ae540d")
+		)
+		(pin "2"
+			(uuid "151f4016-29b9-4dee-9e66-c8f57eb71b57")
+		)
+		(pin "4"
+			(uuid "c9e3646a-22b8-46aa-9738-d01cce9a5398")
+		)
+		(pin "3"
+			(uuid "2e236adb-2cf0-47f2-9bd1-b9419ca8cda2")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 678.18 295.91 0)
 		(unit 1)
@@ -11095,6 +12617,84 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 467.36 330.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caa40690-9650-4d94-b37e-ac0aa9162307")
+		(property "Reference" "#PWR030"
+			(at 467.36 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 467.36 334.01 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 467.36 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 467.36 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 467.36 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d8574a2-69ca-4618-9441-866ddafdf02c")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11982,6 +13582,85 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 458.47 328.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f67c60cd-5af9-4cd5-b164-ee5760dad959")
+		(property "Reference" "C11"
+			(at 461.518 334.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15p"
+			(at 461.518 331.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 457.5048 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 458.47 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00beb729-ae29-4efb-bb01-41f2a1e801b2")
+		)
+		(pin "2"
+			(uuid "a17b18b4-d47f-4820-8b31-cb63164565d9")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "C11")
 					(unit 1)
 				)
 			)
