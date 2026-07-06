@@ -5034,7 +5034,7 @@
 	)
 	(text "Radio"
 		(exclude_from_sim no)
-		(at 660.0892 341.428 0)
+		(at 618.744 372.618 0)
 		(effects
 			(font
 				(size 3.175 3.175)
@@ -5062,6 +5062,16 @@
 		)
 		(uuid "2a1e5849-20f4-44c3-8a05-2c09d305db74")
 	)
+	(text "Recommended 120mA"
+		(exclude_from_sim no)
+		(at 624.078 299.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4be14eee-520f-4d54-bc90-0b6891f032a7")
+	)
 	(text "<-Connect if active antenna used\n"
 		(exclude_from_sim no)
 		(at 715.264 240.792 0)
@@ -5082,6 +5092,16 @@
 		)
 		(uuid "923cdb97-9498-4134-b83b-9df0b64cafe4")
 	)
+	(text "Recommended 500mA"
+		(exclude_from_sim no)
+		(at 527.558 328.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "961da0f8-3359-4307-b5ac-2b58cd5fc163")
+	)
 	(text "GPS"
 		(exclude_from_sim no)
 		(at 657.86 215.138 0)
@@ -5091,6 +5111,26 @@
 			)
 		)
 		(uuid "aae33076-3b02-4c47-bb39-530feab3ac12")
+	)
+	(text "Add caps?"
+		(exclude_from_sim no)
+		(at 665.734 350.012 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd9ab22a-ede1-4bb1-84bc-d6e59a8fff57")
+	)
+	(text "Recommended 250mA"
+		(exclude_from_sim no)
+		(at 694.944 216.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6683343-afd1-40c1-a273-eac944da1156")
 	)
 	(text "Battery Charger\n"
 		(exclude_from_sim no)
@@ -5557,10 +5597,6 @@
 		(uuid "d97072ab-4f8a-4135-9183-55a51ed97af4")
 	)
 	(no_connect
-		(at 513.08 365.76)
-		(uuid "e30076d6-5787-40b3-a455-4f3307ae7565")
-	)
-	(no_connect
 		(at 513.08 368.3)
 		(uuid "e3896d49-6867-4b4b-baa1-562f4c76b349")
 	)
@@ -5770,6 +5806,16 @@
 	)
 	(wire
 		(pts
+			(xy 650.24 327.66) (xy 665.48 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1501831e-d534-4ba2-8456-9c552b393c48")
+	)
+	(wire
+		(pts
 			(xy 600.71 311.15) (xy 622.3 311.15)
 		)
 		(stroke
@@ -5787,6 +5833,16 @@
 			(type default)
 		)
 		(uuid "1abf2bc8-ae0a-436e-a266-93042b6e1c5f")
+	)
+	(wire
+		(pts
+			(xy 513.08 365.76) (xy 508 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b072441-158c-4f69-9bae-1f47bf8487a1")
 	)
 	(wire
 		(pts
@@ -5877,6 +5933,16 @@
 			(type default)
 		)
 		(uuid "2511b6bd-f494-43df-99f0-71a6f21cacd9")
+	)
+	(wire
+		(pts
+			(xy 664.21 472.44) (xy 664.21 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27218a74-e4a5-4aa2-a298-5226f58ea19b")
 	)
 	(wire
 		(pts
@@ -6150,6 +6216,16 @@
 	)
 	(wire
 		(pts
+			(xy 508 472.44) (xy 664.21 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc5fdf6-34d1-4bf3-a5e0-66498f46f162")
+	)
+	(wire
+		(pts
 			(xy 480.06 364.49) (xy 480.06 360.68)
 		)
 		(stroke
@@ -6267,6 +6343,16 @@
 			(type default)
 		)
 		(uuid "5e5689f6-8509-4597-a87d-47fd57ce5713")
+	)
+	(wire
+		(pts
+			(xy 664.21 320.04) (xy 650.24 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f8866d-4c54-4ec6-8099-04a1f70be568")
 	)
 	(wire
 		(pts
@@ -6640,16 +6726,6 @@
 	)
 	(wire
 		(pts
-			(xy 665.48 327.66) (xy 650.24 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e7c300-8150-4b84-b79a-7f260836e615")
-	)
-	(wire
-		(pts
 			(xy 568.96 363.22) (xy 562.61 363.22)
 		)
 		(stroke
@@ -6680,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 604.52 358.14) (xy 622.3 358.14)
+			(xy 610.87 358.14) (xy 622.3 358.14)
 		)
 		(stroke
 			(width 0)
@@ -7120,6 +7196,16 @@
 	)
 	(wire
 		(pts
+			(xy 508 365.76) (xy 508 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6c9c36-c311-441b-8a0d-e5d905c933f8")
+	)
+	(wire
+		(pts
 			(xy 478.79 349.25) (xy 477.52 349.25)
 		)
 		(stroke
@@ -7389,7 +7475,7 @@
 		(uuid "657639bb-9994-4294-9abf-3f61b03350fd")
 	)
 	(label "I2C-2-SCA"
-		(at 664.21 327.66 180)
+		(at 661.67 327.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7399,7 +7485,7 @@
 		(uuid "6a479aaf-0826-4881-a3fc-8f801e5126ee")
 	)
 	(label "I2C-2-SCL"
-		(at 664.21 323.85 180)
+		(at 661.67 323.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7409,7 +7495,7 @@
 		(uuid "6f831c36-d1b6-499f-a91c-518a082ffd66")
 	)
 	(label "I2C-1-SDA"
-		(at 604.52 358.14 0)
+		(at 610.87 358.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
