@@ -5193,12 +5193,6 @@
 		(uuid "49aedfee-483b-4323-91e8-191097850cc8")
 	)
 	(junction
-		(at 467.36 322.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ac71f4f-a547-4337-8271-75e10cd15107")
-	)
-	(junction
 		(at 543.56 449.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5215,6 +5209,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57402f8b-ed50-41a2-9fd7-7147ad870ffc")
+	)
+	(junction
+		(at 458.47 325.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "675338a0-ee97-49d9-8aac-48ce982767be")
 	)
 	(junction
 		(at 543.56 419.1)
@@ -5367,6 +5367,12 @@
 		(uuid "b7b36e82-3769-46db-82bd-fc8e78a93458")
 	)
 	(junction
+		(at 467.36 322.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7d8fd3e-2018-4111-a09c-31b6ead83fcf")
+	)
+	(junction
 		(at 496.57 342.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5433,12 +5439,6 @@
 		(uuid "d092571b-ac7b-4e9f-b3e2-453ff5f911cd")
 	)
 	(junction
-		(at 458.47 325.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d550bcb6-34a8-47d3-b621-c19a58a970f6")
-	)
-	(junction
 		(at 543.56 403.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5471,10 +5471,6 @@
 	(no_connect
 		(at 666.75 259.08)
 		(uuid "0190c139-bdd6-477f-bf02-e567afbb9b34")
-	)
-	(no_connect
-		(at 622.3 347.98)
-		(uuid "10a5e728-db00-4d1e-99a1-d9a3372afd43")
 	)
 	(no_connect
 		(at 622.3 323.85)
@@ -5571,10 +5567,6 @@
 	(no_connect
 		(at 622.3 328.93)
 		(uuid "f4f661c7-a051-47a8-b371-a61f60966014")
-	)
-	(no_connect
-		(at 622.3 350.52)
-		(uuid "ff201a42-327a-4985-b791-843e9cfc5df1")
 	)
 	(wire
 		(pts
@@ -5918,6 +5910,16 @@
 	)
 	(wire
 		(pts
+			(xy 562.61 363.22) (xy 562.61 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d15558e-07a4-49ed-a32e-0fc46d15b2aa")
+	)
+	(wire
+		(pts
 			(xy 543.56 439.42) (xy 543.56 441.96)
 		)
 		(stroke
@@ -6088,7 +6090,7 @@
 	)
 	(wire
 		(pts
-			(xy 566.42 350.52) (xy 566.42 322.58)
+			(xy 565.15 350.52) (xy 565.15 322.58)
 		)
 		(stroke
 			(width 0)
@@ -6208,7 +6210,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 322.58) (xy 566.42 322.58)
+			(xy 467.36 322.58) (xy 565.15 322.58)
 		)
 		(stroke
 			(width 0)
@@ -6388,6 +6390,16 @@
 	)
 	(wire
 		(pts
+			(xy 568.96 347.98) (xy 568.96 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729ca82c-6d72-43ad-801d-a135383b38c8")
+	)
+	(wire
+		(pts
 			(xy 513.08 299.72) (xy 539.75 299.72)
 		)
 		(stroke
@@ -6455,6 +6467,16 @@
 			(type default)
 		)
 		(uuid "77cba9fa-8dcb-4489-8604-7de2b21aa4ed")
+	)
+	(wire
+		(pts
+			(xy 622.3 350.52) (xy 571.5 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b320a78-cf18-4e56-a081-922b8f2b8ed2")
 	)
 	(wire
 		(pts
@@ -6568,7 +6590,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 353.06) (xy 563.88 353.06)
+			(xy 543.56 353.06) (xy 562.61 353.06)
 		)
 		(stroke
 			(width 0)
@@ -6598,7 +6620,7 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 325.12) (xy 563.88 325.12)
+			(xy 458.47 325.12) (xy 562.61 325.12)
 		)
 		(stroke
 			(width 0)
@@ -6625,6 +6647,16 @@
 			(type default)
 		)
 		(uuid "93e7c300-8150-4b84-b79a-7f260836e615")
+	)
+	(wire
+		(pts
+			(xy 568.96 363.22) (xy 562.61 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a0fa24-2c52-4223-bca0-16b24562ce1f")
 	)
 	(wire
 		(pts
@@ -6685,6 +6717,16 @@
 			(type default)
 		)
 		(uuid "98c0c073-4d08-43e9-bc4a-c809c4061a57")
+	)
+	(wire
+		(pts
+			(xy 571.5 350.52) (xy 571.5 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f2f2f0-3575-4112-a4dd-5cc332fa4457")
 	)
 	(wire
 		(pts
@@ -6768,7 +6810,7 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 325.12) (xy 563.88 353.06)
+			(xy 562.61 325.12) (xy 562.61 353.06)
 		)
 		(stroke
 			(width 0)
@@ -6845,6 +6887,16 @@
 			(type default)
 		)
 		(uuid "ac328f0c-cee0-4276-af56-8a9aec75cc6d")
+	)
+	(wire
+		(pts
+			(xy 622.3 347.98) (xy 568.96 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2347ca-196b-4626-92a8-369f3c72e575")
 	)
 	(wire
 		(pts
@@ -7098,7 +7150,7 @@
 	)
 	(wire
 		(pts
-			(xy 543.56 350.52) (xy 566.42 350.52)
+			(xy 543.56 350.52) (xy 565.15 350.52)
 		)
 		(stroke
 			(width 0)
@@ -7297,7 +7349,7 @@
 		(uuid "20cd91d4-3385-4a84-bd15-6c16dda6be31")
 	)
 	(label "USB_D-"
-		(at 553.72 350.52 180)
+		(at 552.45 350.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7417,7 +7469,7 @@
 		(uuid "cd66e1b6-aaff-4d00-a02b-cf9bf9baa2ac")
 	)
 	(label "USB_D+"
-		(at 553.72 353.06 180)
+		(at 552.45 353.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7695,6 +7747,88 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 571.5 377.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "071b18ce-4db5-45e1-9e21-e251dacd2ac7")
+		(property "Reference" "R10"
+			(at 574.04 375.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 574.04 378.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 572.516 377.444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 571.5 377.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 571.5 377.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74d4ac22-46d3-467b-99e6-aaf792c8455e")
+		)
+		(pin "2"
+			(uuid "ab1ae496-5f5f-4c42-aa46-8a31e88b337f")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8254,6 +8388,84 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 562.61 381 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "280a8e45-13dd-4a5c-affa-d57cfaaafc86")
+		(property "Reference" "#PWR038"
+			(at 562.61 387.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 562.61 384.81 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 562.61 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 562.61 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 562.61 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4257a761-d67a-4bf9-900d-dae642b486e1")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9294,6 +9506,99 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 571.5 369.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5356ef41-caac-45e1-8111-82fc4e91f0ca")
+		(property "Reference" "D5"
+			(at 575.31 369.8874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 575.31 372.4274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 571.5 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 571.5 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 571.5 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 571.5 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7e3578f9-2231-4c27-a4a3-a09be4b145f9")
+		)
+		(pin "1"
+			(uuid "cde19415-0747-4b4f-b41e-d8b7933601ff")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11327,6 +11632,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 562.61 377.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ef12b44-b6ab-496d-a672-e112a9bc07ae")
+		(property "Reference" "R11"
+			(at 565.15 375.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 565.15 378.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 563.626 377.444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 562.61 377.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 562.61 377.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3601d6bc-5b48-4a34-b4a7-d6819fd55da7")
+		)
+		(pin "2"
+			(uuid "32b21bd8-9471-48f0-b396-6237446b0aac")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 452.12 358.14 0)
 		(unit 1)
@@ -12123,6 +12510,99 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 562.61 369.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b15f076d-5d88-4f0c-8df0-e3b61109f401")
+		(property "Reference" "D6"
+			(at 566.42 369.8874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 566.42 372.4274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 562.61 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 562.61 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 562.61 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 562.61 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d2aada99-fe3b-441c-933b-0e28028f681a")
+		)
+		(pin "1"
+			(uuid "be3d6b67-ebc1-47a1-8ea0-4b38a698bd6a")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13010,6 +13490,84 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 571.5 381 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f2f273-dd0d-4083-a020-bd6c0ecf7b51")
+		(property "Reference" "#PWR037"
+			(at 571.5 387.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 571.5 384.81 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 571.5 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 571.5 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 571.5 389.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a7aa1bf-554e-4520-bb6d-952a1f62fbdf")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
