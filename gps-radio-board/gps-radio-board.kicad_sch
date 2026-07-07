@@ -6337,12 +6337,6 @@
 		(uuid "757c005c-0dcc-4637-8273-146326e1cafe")
 	)
 	(junction
-		(at 224.79 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7990fe8b-7fee-4a0d-b9fd-3ab7f8c17f58")
-	)
-	(junction
 		(at 250.19 287.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6756,6 +6750,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 194.31) (xy 381 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3dae17-d41c-4beb-830b-438cd381a958")
+	)
+	(wire
+		(pts
 			(xy 241.3 134.62) (xy 241.3 151.13)
 		)
 		(stroke
@@ -6843,6 +6847,16 @@
 			(type default)
 		)
 		(uuid "120668ee-e02a-4aeb-872e-4bae9590e702")
+	)
+	(wire
+		(pts
+			(xy 297.18 238.76) (xy 298.45 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a160fb-5424-42b2-8aaa-ac08d192b803")
 	)
 	(wire
 		(pts
@@ -6963,26 +6977,6 @@
 			(type default)
 		)
 		(uuid "1bd371d3-8e45-4480-b088-a8137ce5f17a")
-	)
-	(wire
-		(pts
-			(xy 298.45 233.68) (xy 300.99 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d0991fa-0484-4fe9-a6a0-bf7151345e96")
-	)
-	(wire
-		(pts
-			(xy 304.8 236.22) (xy 298.45 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d275d70-f419-4d37-b415-1c5026607736")
 	)
 	(wire
 		(pts
@@ -7186,16 +7180,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 132.08) (xy 224.79 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346a9cf6-63dd-4b81-ab6c-55e351953e73")
-	)
-	(wire
-		(pts
 			(xy 344.17 132.08) (xy 344.17 158.75)
 		)
 		(stroke
@@ -7233,16 +7217,6 @@
 			(type default)
 		)
 		(uuid "3717a98b-a141-4182-bfc3-04f32ca348a4")
-	)
-	(wire
-		(pts
-			(xy 219.71 132.08) (xy 224.79 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "388f5278-6d3a-4c37-b0f4-7206cd2f79f5")
 	)
 	(wire
 		(pts
@@ -7306,16 +7280,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 199.39) (xy 378.46 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45e4c7d6-32b9-4908-866b-98c4cb9585a7")
-	)
-	(wire
-		(pts
 			(xy 355.6 166.37) (xy 384.81 166.37)
 		)
 		(stroke
@@ -7323,6 +7287,16 @@
 			(type default)
 		)
 		(uuid "45e67f75-b96d-4376-a48e-8789c31eecdd")
+	)
+	(wire
+		(pts
+			(xy 381 201.93) (xy 378.46 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4669cd62-bd4b-4212-a03b-badc2b229126")
 	)
 	(wire
 		(pts
@@ -7353,6 +7327,16 @@
 			(type default)
 		)
 		(uuid "47ded7be-3a4b-47d3-b0f4-23e9c8e09ac4")
+	)
+	(wire
+		(pts
+			(xy 377.19 199.39) (xy 381 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4912a281-79d6-4b56-894e-14c12dafa093")
 	)
 	(wire
 		(pts
@@ -7486,7 +7470,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 132.08) (xy 231.14 132.08)
+			(xy 219.71 132.08) (xy 231.14 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7513,6 +7497,16 @@
 			(type default)
 		)
 		(uuid "5a50a525-4e2f-4087-81a5-cf6e9b56e7f7")
+	)
+	(wire
+		(pts
+			(xy 297.18 233.68) (xy 300.99 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a802402-c2fe-4f51-b4d5-0396b2e2630f")
 	)
 	(wire
 		(pts
@@ -7636,16 +7630,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 196.85) (xy 378.46 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "694b0ed9-ed34-4a44-9c21-2a320c330efb")
-	)
-	(wire
-		(pts
 			(xy 160.02 146.05) (xy 176.53 146.05)
 		)
 		(stroke
@@ -7666,13 +7650,23 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 223.52) (xy 328.93 223.52)
+			(xy 297.18 223.52) (xy 328.93 223.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6d510a76-19ae-4a33-a61d-59fc5f99c9c1")
+	)
+	(wire
+		(pts
+			(xy 297.18 236.22) (xy 304.8 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da39227-a819-4b8a-b1aa-c645b0e58963")
 	)
 	(wire
 		(pts
@@ -7756,7 +7750,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 231.14) (xy 298.45 223.52)
+			(xy 297.18 231.14) (xy 297.18 223.52)
 		)
 		(stroke
 			(width 0)
@@ -8166,6 +8160,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 196.85) (xy 381 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e946f4-8348-4b02-8344-0a88088dca34")
+	)
+	(wire
+		(pts
 			(xy 250.19 317.5) (xy 250.19 320.04)
 		)
 		(stroke
@@ -8483,16 +8487,6 @@
 			(type default)
 		)
 		(uuid "c84a046a-d943-46c9-bb98-b8d4d1e46ef5")
-	)
-	(wire
-		(pts
-			(xy 356.87 194.31) (xy 378.46 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c89b5d3f-405a-4fa8-a1a2-336b8dfe30d9")
 	)
 	(wire
 		(pts
@@ -8955,7 +8949,7 @@
 		(uuid "983c8d9b-2a5c-415c-a00c-0fbc85dd4d2d")
 	)
 	(label "SWD-WIO-IO"
-		(at 304.8 223.52 0)
+		(at 306.07 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15863,8 +15857,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 293.37 233.68 0)
-		(mirror y)
+		(at 292.1 236.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15874,7 +15867,7 @@
 		(dnp no)
 		(uuid "a7043810-b25d-427f-9048-5d816a9f4130")
 		(property "Reference" "J5"
-			(at 288.544 225.552 0)
+			(at 287.274 244.348 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15884,7 +15877,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 288.544 227.838 0)
+			(at 287.274 242.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15894,7 +15887,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 293.37 233.68 0)
+			(at 292.1 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15905,7 +15898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 293.37 233.68 0)
+			(at 292.1 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15916,7 +15909,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 293.37 233.68 0)
+			(at 292.1 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16363,6 +16356,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 224.79 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d661ec-ee8c-4144-8973-e2db7ccdba94")
+		(property "Reference" "#PWR051"
+			(at 224.79 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_E"
+			(at 224.79 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 224.79 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b11d7e6-bed4-41bf-927b-fd7c849bcae2")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 180.34 134.62 0)
 		(unit 1)
@@ -16617,7 +16688,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 383.54 196.85 0)
+		(at 386.08 199.39 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16627,7 +16699,7 @@
 		(dnp no)
 		(uuid "bad02024-4693-41be-bdbd-4a1409a7b571")
 		(property "Reference" "J6"
-			(at 388.366 188.722 0)
+			(at 390.906 207.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16637,7 +16709,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 388.366 191.008 0)
+			(at 390.906 205.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16647,7 +16719,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
-			(at 383.54 196.85 0)
+			(at 386.08 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16658,7 +16730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 383.54 196.85 0)
+			(at 386.08 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16669,7 +16741,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 383.54 196.85 0)
+			(at 386.08 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
