@@ -6163,6 +6163,12 @@
 		(uuid "185a6b4b-09ae-452d-b406-0fa74430f58b")
 	)
 	(junction
+		(at 146.05 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "194d32e9-714f-464e-bed7-347621e6ce6d")
+	)
+	(junction
 		(at 250.19 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7536,7 +7542,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 146.05) (xy 160.02 146.05)
+			(xy 137.16 146.05) (xy 146.05 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8703,6 +8709,16 @@
 			(type default)
 		)
 		(uuid "e04a850a-9653-47ad-9781-fe3cd6f9a9af")
+	)
+	(wire
+		(pts
+			(xy 146.05 146.05) (xy 160.02 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05288eb-2cec-44ec-a0b8-7be142227eb1")
 	)
 	(wire
 		(pts
@@ -13457,6 +13473,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 146.05 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76b55269-d8b3-4fda-96ea-e5706399e778")
+		(property "Reference" "C21"
+			(at 149.86 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 149.86 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 147.0152 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c96e77f-8328-4740-85da-06957361bae0")
+		)
+		(pin "2"
+			(uuid "b49d4fd0-526e-4604-8566-590e6d57f50a")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 196.85 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -14615,6 +14713,84 @@
 			(project "gps-radio-board"
 				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 146.05 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95a0cc11-cdc8-4667-95f7-8c98bccc5f0a")
+		(property "Reference" "#PWR053"
+			(at 146.05 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 157.48 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "812b7e82-244e-4196-ac15-267691b7f299")
+		)
+		(instances
+			(project "gps-radio-board"
+				(path "/6516832b-56dd-436b-980b-7ee5d107ab91"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
