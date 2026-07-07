@@ -513,7 +513,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gps-gerb/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -637,7 +637,7 @@
         "uuid": "6516832b-56dd-436b-980b-7ee5d107ab91"
       }
     ],
-    "used_designators": "#PWR51",
+    "used_designators": "C20,#PWR51-52",
     "variants": []
   },
   "sheets": [
