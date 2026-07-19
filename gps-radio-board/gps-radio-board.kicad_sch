@@ -6223,12 +6223,6 @@
 		(uuid "381f5e7f-a373-414d-b082-d7115ce58d1c")
 	)
 	(junction
-		(at 344.17 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f7420bd-8db8-4413-a3f0-1d7e37075b5f")
-	)
-	(junction
 		(at 264.16 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6615,6 +6609,10 @@
 	(no_connect
 		(at 250.19 236.22)
 		(uuid "94658fa3-629f-4a25-9282-d65b899c8d63")
+	)
+	(no_connect
+		(at 340.36 172.72)
+		(uuid "9e905261-ed37-4627-9e54-d6d3f99252bf")
 	)
 	(no_connect
 		(at 388.62 99.06)
@@ -8262,16 +8260,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 172.72) (xy 344.17 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa60e10b-cf17-4e0c-92fa-73607a9485a5")
-	)
-	(wire
-		(pts
 			(xy 383.54 92.71) (xy 383.54 99.06)
 		)
 		(stroke
@@ -8950,7 +8938,7 @@
 		)
 		(uuid "657639bb-9994-4294-9abf-3f61b03350fd")
 	)
-	(label "I2C-2-SCA"
+	(label "I2C-2-SDA"
 		(at 368.3 198.12 180)
 		(effects
 			(font
@@ -16219,7 +16207,7 @@
 		(dnp no)
 		(uuid "a7043810-b25d-427f-9048-5d816a9f4130")
 		(property "Reference" "J5"
-			(at 287.274 244.348 0)
+			(at 291.338 242.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16229,7 +16217,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 287.274 242.062 0)
+			(at 289.56 226.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
