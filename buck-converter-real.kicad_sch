@@ -12451,6 +12451,12 @@
 		(uuid "0e93fa22-9d0d-403d-b11d-a2e93adaaf6f")
 	)
 	(junction
+		(at 655.32 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f083a6f-86c6-41a4-ad13-c7fed51219c7")
+	)
+	(junction
 		(at 259.08 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12505,6 +12511,12 @@
 		(uuid "1ff6f5e9-3b84-4c2a-9be1-809c70491d99")
 	)
 	(junction
+		(at 673.1 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "204a2c6c-75d8-4b1f-9e95-f0d80c4258e3")
+	)
+	(junction
 		(at 341.63 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12539,18 +12551,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e4298a8-34cf-4bd5-8e49-7003ba966881")
-	)
-	(junction
-		(at 652.78 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3046d256-00d8-4399-a15a-88090a37fba0")
-	)
-	(junction
-		(at 673.1 273.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3188980c-bcc3-469d-8ec4-398afdd1b617")
 	)
 	(junction
 		(at 533.4 279.4)
@@ -12673,12 +12673,6 @@
 		(uuid "6085fda1-5a76-4759-a0c6-e6913dce6673")
 	)
 	(junction
-		(at 673.1 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67f339d7-514f-4ee6-b788-e7e24bd3f9b2")
-	)
-	(junction
 		(at 598.17 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12787,12 +12781,6 @@
 		(uuid "8f243314-3ffa-4d56-9410-bf034feb78e3")
 	)
 	(junction
-		(at 632.46 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f454bef-a4e3-4eb4-8947-800645500643")
-	)
-	(junction
 		(at 593.09 339.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12829,6 +12817,12 @@
 		(uuid "9e84ed50-a696-4a3d-bc32-8f383df8d570")
 	)
 	(junction
+		(at 645.16 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a351a569-5018-4c66-8ab0-b0620c02f5c1")
+	)
+	(junction
 		(at 375.92 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12853,12 +12847,6 @@
 		(uuid "aa5f3ae4-0393-4be8-a548-f6372188f04c")
 	)
 	(junction
-		(at 652.78 273.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adcbe00d-17ec-4e27-b46b-274fb27ab2e1")
-	)
-	(junction
 		(at 261.62 275.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12869,6 +12857,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afe616b5-6574-4de6-bb07-9fca95e63dee")
+	)
+	(junction
+		(at 655.32 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b13d9f5b-e6bf-4b1c-af7e-80055032e41a")
 	)
 	(junction
 		(at 593.09 350.52)
@@ -12893,6 +12887,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7bdb410-f221-4d6e-b32f-0832f388ef02")
+	)
+	(junction
+		(at 673.1 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b88e6ec4-8ba9-4e0e-b739-d34dc24e0449")
 	)
 	(junction
 		(at 369.57 87.63)
@@ -13132,16 +13132,6 @@
 	)
 	(wire
 		(pts
-			(xy 673.1 261.62) (xy 673.1 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0310ac5b-71e0-4cc6-8773-8e303b7b1a8c")
-	)
-	(wire
-		(pts
 			(xy 261.62 275.59) (xy 273.05 275.59)
 		)
 		(stroke
@@ -13152,7 +13142,7 @@
 	)
 	(wire
 		(pts
-			(xy 623.57 261.62) (xy 632.46 261.62)
+			(xy 623.57 261.62) (xy 645.16 261.62)
 		)
 		(stroke
 			(width 0)
@@ -13372,6 +13362,16 @@
 	)
 	(wire
 		(pts
+			(xy 645.16 270.51) (xy 645.16 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f63bce-fc15-4fc3-a992-a0c4e532fff6")
+	)
+	(wire
+		(pts
 			(xy 698.5 269.24) (xy 689.61 269.24)
 		)
 		(stroke
@@ -13449,6 +13449,16 @@
 			(type default)
 		)
 		(uuid "1cd8b7f6-7d17-4c9d-84d9-3fc1e342d275")
+	)
+	(wire
+		(pts
+			(xy 655.32 261.62) (xy 673.1 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1fa795-ba04-49eb-a1d6-efda03d5fcb7")
 	)
 	(wire
 		(pts
@@ -14182,6 +14192,16 @@
 	)
 	(wire
 		(pts
+			(xy 645.16 262.89) (xy 645.16 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46800045-7d92-422e-b6aa-915b3f82c1db")
+	)
+	(wire
+		(pts
 			(xy 266.7 88.9) (xy 273.05 88.9)
 		)
 		(stroke
@@ -14482,7 +14502,7 @@
 	)
 	(wire
 		(pts
-			(xy 632.46 261.62) (xy 632.46 262.89)
+			(xy 655.32 261.62) (xy 655.32 262.89)
 		)
 		(stroke
 			(width 0)
@@ -14782,7 +14802,7 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 273.05) (xy 652.78 270.51)
+			(xy 673.1 273.05) (xy 673.1 270.51)
 		)
 		(stroke
 			(width 0)
@@ -14849,16 +14869,6 @@
 			(type default)
 		)
 		(uuid "72912faf-63e8-4dc9-8867-a4fc4292ef0d")
-	)
-	(wire
-		(pts
-			(xy 673.1 261.62) (xy 689.61 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72dc73ef-8475-4593-a238-967d24a106ac")
 	)
 	(wire
 		(pts
@@ -15072,16 +15082,6 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 261.62) (xy 673.1 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86df39df-67dd-443a-b3d9-b1fe2e36402c")
-	)
-	(wire
-		(pts
 			(xy 195.58 321.31) (xy 220.98 321.31)
 		)
 		(stroke
@@ -15152,16 +15152,6 @@
 	)
 	(wire
 		(pts
-			(xy 632.46 261.62) (xy 652.78 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b2f57f1-82a4-43e3-8016-e005fc262fc1")
-	)
-	(wire
-		(pts
 			(xy 215.9 156.21) (xy 215.9 162.56)
 		)
 		(stroke
@@ -15202,16 +15192,6 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 273.05) (xy 673.1 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9097d0fb-0f20-4fac-8dc0-1b1afb4dc4b1")
-	)
-	(wire
-		(pts
 			(xy 430.53 321.31) (xy 476.25 321.31)
 		)
 		(stroke
@@ -15249,6 +15229,16 @@
 			(type default)
 		)
 		(uuid "9207bef6-5479-4ee6-aa51-7e8a9a6f4e8f")
+	)
+	(wire
+		(pts
+			(xy 645.16 273.05) (xy 655.32 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92928ac8-7ab2-4f43-838e-bd1e1f97184e")
 	)
 	(wire
 		(pts
@@ -15342,7 +15332,7 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 261.62) (xy 652.78 262.89)
+			(xy 673.1 261.62) (xy 673.1 262.89)
 		)
 		(stroke
 			(width 0)
@@ -15439,16 +15429,6 @@
 			(type default)
 		)
 		(uuid "a35de995-98dd-42da-b438-a279ab03ca72")
-	)
-	(wire
-		(pts
-			(xy 673.1 273.05) (xy 673.1 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b7501b-7037-4199-b26f-d8fcdc20454f")
 	)
 	(wire
 		(pts
@@ -15982,7 +15962,7 @@
 	)
 	(wire
 		(pts
-			(xy 632.46 273.05) (xy 652.78 273.05)
+			(xy 655.32 273.05) (xy 673.1 273.05)
 		)
 		(stroke
 			(width 0)
@@ -16122,6 +16102,16 @@
 	)
 	(wire
 		(pts
+			(xy 645.16 261.62) (xy 655.32 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba48a3c-9794-49bd-86f9-cb1e9ca28e66")
+	)
+	(wire
+		(pts
 			(xy 572.77 311.15) (xy 572.77 316.23)
 		)
 		(stroke
@@ -16242,7 +16232,7 @@
 	)
 	(wire
 		(pts
-			(xy 632.46 273.05) (xy 632.46 270.51)
+			(xy 655.32 273.05) (xy 655.32 270.51)
 		)
 		(stroke
 			(width 0)
@@ -16649,6 +16639,16 @@
 			(type default)
 		)
 		(uuid "ff3f6c72-77ba-4fa9-82fb-14d91eba875b")
+	)
+	(wire
+		(pts
+			(xy 673.1 261.62) (xy 689.61 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff460ac8-08bd-4c86-b741-52dc6ae8a3fe")
 	)
 	(wire
 		(pts
@@ -17474,7 +17474,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 401.574 192.024 90)
 			(hide yes)
 			(show_name no)
@@ -17935,7 +17935,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:SMBJ36A")
-		(at 673.1 266.7 90)
+		(at 645.16 266.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17945,7 +17945,7 @@
 		(dnp no)
 		(uuid "15b14b23-0ae5-4f72-87db-5f73dba5bf16")
 		(property "Reference" "D4"
-			(at 674.37 263.652 90)
+			(at 646.43 263.652 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17956,7 +17956,7 @@
 			)
 		)
 		(property "Value" "SMBJ43A - 43VWM 69.4VC"
-			(at 661.162 258.318 90)
+			(at 628.396 275.082 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17967,7 +17967,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 673.1 266.7 0)
+			(at 645.16 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17978,7 +17978,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/0b6222bec7e12d83185b51d73cb6a54d/SMBJ_ser.pdf"
-			(at 673.1 266.7 0)
+			(at 645.16 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17989,7 +17989,7 @@
 			)
 		)
 		(property "Description" "SMB Unidirectional TVS diode, 36V, 600W, Alternate KiCAD Library"
-			(at 673.1 266.7 0)
+			(at 645.16 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18049,7 +18049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 367.284 277.114 90)
 			(hide yes)
 			(show_name no)
@@ -20518,7 +20518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 339.344 269.494 90)
 			(hide yes)
 			(show_name no)
@@ -23550,7 +23550,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_1206")
-		(at 632.46 266.7 0)
+		(at 655.32 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23561,7 +23561,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d6679b4-0421-4530-ba58-4d90e33f225c")
 		(property "Reference" "C11"
-			(at 636.27 265.4299 0)
+			(at 659.13 265.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23572,7 +23572,7 @@
 			)
 		)
 		(property "Value" "1206 10uF"
-			(at 636.27 267.9699 0)
+			(at 659.13 267.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23583,7 +23583,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-			(at 633.4252 270.51 0)
+			(at 656.2852 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23594,7 +23594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 632.46 266.7 0)
+			(at 655.32 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23605,7 +23605,7 @@
 			)
 		)
 		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-			(at 632.46 266.7 0)
+			(at 655.32 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23715,7 +23715,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_1206")
-		(at 652.78 266.7 0)
+		(at 673.1 266.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23725,7 +23725,7 @@
 		(dnp no)
 		(uuid "61d3a7e8-250a-4bca-9234-66b4e3112a7b")
 		(property "Reference" "C20"
-			(at 655.828 264.16 0)
+			(at 676.148 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23736,7 +23736,7 @@
 			)
 		)
 		(property "Value" "1206 10uF"
-			(at 655.828 266.7 0)
+			(at 676.148 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23747,7 +23747,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
-			(at 653.7452 270.51 0)
+			(at 674.0652 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23758,7 +23758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 652.78 266.7 0)
+			(at 673.1 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23769,7 +23769,7 @@
 			)
 		)
 		(property "Description" "SMD 1206 MLCC capacitor, Alternate KiCad Library"
-			(at 652.78 266.7 0)
+			(at 673.1 266.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33878,7 +33878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 414.274 192.024 90)
 			(hide yes)
 			(show_name no)
