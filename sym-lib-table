@@ -3,4 +3,5 @@
 	(lib (name "forest-ch") (type "KiCad") (uri "${KIPRJMOD}/forest-ch.kicad_sym") (options "") (descr "CH32V203 MCU and support parts from LCSC"))
 	(lib (name "ISL83490IBZ") (type "KiCad") (uri "${KIPRJMOD}/ISL83490IBZ/ISL83490IBZ.kicad_sym") (options "") (descr ""))
 	(lib (name "ISOW1432BDFMR") (type "KiCad") (uri "${KIPRJMOD}/ISOW1432BDFMR/ISOW1432BDFMR.kicad_sym") (options "") (descr ""))
+	(lib (name "MSD-1-A") (type "KiCad") (uri "${KIPRJMOD}/sd-card/MSD-1-A.kicad_sym") (options "") (descr ""))
 )
