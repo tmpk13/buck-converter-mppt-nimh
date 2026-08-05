@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
+          "corner_radius": 0.5,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -706,7 +706,7 @@
         "uuid": "cbc98a1b-0533-4e8d-81af-0515d3e50555"
       }
     ],
-    "used_designators": "J2-3,J13-15,TP1-2,RST3-4,R2,R13,R17-21,R35,R37-48,D2,D7-9,D14,C13,C15-16,C19,C21,C24-29,C34-38,C42-48,L1,L4-5,Y1-2,#PWR6-10,#PWR14-15,#PWR20,#PWR35,#PWR39,#PWR44-46,#PWR48,#PWR58-60,#PWR62,#PWR64,#PWR67,#PWR69-72,#PWR76-98,F1,U1-2,U4,U6-12",
+    "used_designators": "H1-4,J2-3,J12-15,TP1-2,RST3-4,R2,R13,R17-21,R35,R37-48,D2,D7-9,D14,C13,C15-16,C19,C21,C24-29,C34-38,C42-48,L1,L4-5,Y1-2,#PWR6-10,#PWR14-17,#PWR20,#PWR35,#PWR39,#PWR44-46,#PWR48,#PWR57-60,#PWR62,#PWR64,#PWR67-72,#PWR75-98,Q2,F1,U1-2,U4,U6-12",
     "variants": []
   },
   "sheets": [
