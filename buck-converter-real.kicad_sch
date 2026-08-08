@@ -15198,16 +15198,6 @@
 		)
 		(uuid "73d98d87-f73f-4e9b-acbf-2e056ada5353")
 	)
-	(label "Receiver Output Enable"
-		(at 593.09 284.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "744e5d48-ed6c-480a-b4d7-d67e35dc96c4")
-	)
 	(label "SWD-WIO-CLK"
 		(at 410.21 302.26 180)
 		(effects
@@ -15308,6 +15298,16 @@
 		)
 		(uuid "ad8b8c4c-12a4-42e0-8b57-01e45321b82b")
 	)
+	(label "Receiver Input Enable"
+		(at 593.09 284.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af62715b-0b6c-415a-9f55-e66f066b3259")
+	)
 	(label "Solar In"
 		(at 270.51 106.68 0)
 		(effects
@@ -15317,16 +15317,6 @@
 			(justify left bottom)
 		)
 		(uuid "b0d3d2d3-7b99-42b6-ab95-53122113266d")
-	)
-	(label "Receiver Input Enable"
-		(at 590.55 260.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c436453c-5792-4b1b-b5a5-11e280cf4b8f")
 	)
 	(label "SPI-SCK"
 		(at 575.31 247.65 180)
@@ -15467,6 +15457,16 @@
 			(justify right bottom)
 		)
 		(uuid "f27a92d2-45c1-48dd-bd91-eeccdb2a993b")
+	)
+	(label "Receiver Output Enable"
+		(at 590.55 260.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8c54a5f-0327-409a-938b-9397b617107c")
 	)
 	(label "UART-WIO-RX"
 		(at 410.21 309.88 180)
