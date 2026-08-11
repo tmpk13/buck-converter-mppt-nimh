@@ -11559,12 +11559,6 @@
 		(uuid "6dc7ca12-2f04-4392-ab27-c2b9fdd4f87c")
 	)
 	(junction
-		(at 356.87 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f4fa8a1-5968-427c-b1ab-161292076ae2")
-	)
-	(junction
 		(at 213.36 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11629,6 +11623,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c7f2d8f-5b5a-4b15-92fe-da785428d2ce")
+	)
+	(junction
+		(at 274.32 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9edd15ad-8f0a-490a-adaf-430a417f9947")
 	)
 	(junction
 		(at 588.01 200.66)
@@ -12966,16 +12966,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 127) (xy 356.87 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a45894-04b9-48ca-bfea-3fbca1e1cb37")
-	)
-	(wire
-		(pts
 			(xy 289.56 134.62) (xy 289.56 153.67)
 		)
 		(stroke
@@ -13033,16 +13023,6 @@
 			(type default)
 		)
 		(uuid "4f1abeec-6400-4d50-91a4-9915051ef246")
-	)
-	(wire
-		(pts
-			(xy 434.34 339.09) (xy 434.34 341.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fa84a63-931d-4405-bdfa-14cb4afb8b62")
 	)
 	(wire
 		(pts
@@ -13906,16 +13886,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 118.11) (xy 356.87 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "900c40ba-5d02-4e56-903d-658580a5408f")
-	)
-	(wire
-		(pts
 			(xy 124.46 99.06) (xy 142.24 99.06)
 		)
 		(stroke
@@ -14043,6 +14013,16 @@
 			(type default)
 		)
 		(uuid "969acd97-3e2b-4986-9a3f-8111f51efe68")
+	)
+	(wire
+		(pts
+			(xy 419.1 367.03) (xy 419.1 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9763773d-caf6-4566-88f4-d27cb3de7013")
 	)
 	(wire
 		(pts
@@ -14186,6 +14166,16 @@
 	)
 	(wire
 		(pts
+			(xy 405.13 367.03) (xy 419.1 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f81624-280c-4c0d-bf4e-9c52e5dd693c")
+	)
+	(wire
+		(pts
 			(xy 642.62 322.58) (xy 657.86 322.58)
 		)
 		(stroke
@@ -14286,7 +14276,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 127) (xy 368.3 127)
+			(xy 349.25 127) (xy 368.3 127)
 		)
 		(stroke
 			(width 0)
@@ -14403,16 +14393,6 @@
 			(type default)
 		)
 		(uuid "b828d083-a972-4a6b-8d3e-00f0c9804666")
-	)
-	(wire
-		(pts
-			(xy 427.99 349.25) (xy 434.34 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b920d381-7761-4dce-aa60-00c4bdcaf6ce")
 	)
 	(wire
 		(pts
@@ -14676,16 +14656,6 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 349.25) (xy 405.13 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1fb85ee-2dca-42a8-89c1-24b00ac99f4c")
-	)
-	(wire
-		(pts
 			(xy 411.48 228.6) (xy 411.48 220.98)
 		)
 		(stroke
@@ -14746,16 +14716,6 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 349.25) (xy 405.13 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d561dba4-ffd5-4a88-81ff-5f1ca8e860b3")
-	)
-	(wire
-		(pts
 			(xy 422.91 294.64) (xy 394.97 294.64)
 		)
 		(stroke
@@ -14763,6 +14723,16 @@
 			(type default)
 		)
 		(uuid "d5c76e0f-04e6-4e90-87a8-135d6d6373b0")
+	)
+	(wire
+		(pts
+			(xy 274.32 127) (xy 274.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7403d13-56c3-4d6d-ac25-d2dced4c6aa8")
 	)
 	(wire
 		(pts
@@ -14793,6 +14763,16 @@
 			(type default)
 		)
 		(uuid "da3d5f59-c68b-470d-a362-a57768f39182")
+	)
+	(wire
+		(pts
+			(xy 405.13 317.5) (xy 405.13 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6ff603-d761-486c-8934-5805dc6571bf")
 	)
 	(wire
 		(pts
@@ -18819,6 +18799,84 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 419.1 346.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2899c773-c982-463e-a7a3-b8ed9f0b07d2")
+		(property "Reference" "#PWR022"
+			(at 419.1 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 419.1 341.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 419.1 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 419.1 346.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e44f93bc-249d-4111-b2f5-618b8f456e17")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 565.15 226.06 0)
 		(unit 1)
 		(body_style 1)
@@ -22239,83 +22297,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 356.87 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5fa7b723-ee75-478f-9eee-7073768af778")
-		(property "Reference" "TP7"
-			(at 359.7431 110.9979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 359.7431 113.5379 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "buck-forest:Testhole-1.00mm"
-			(at 361.95 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 361.95 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "BOUT"
-			(at 365.252 115.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "73b9dbab-e14c-4eaf-990b-c57117f46fd4")
-		)
-		(instances
-			(project "buck-converter-real"
-				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 389.89 152.4 0)
 		(unit 1)
@@ -23062,6 +23043,98 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 419.1 358.14 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ae4eea2-a8ac-4b88-b30c-4a4ac9aba6b9")
+		(property "Reference" "D13"
+			(at 415.798 358.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 413.258 358.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 419.1 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 419.1 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 419.1 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c466463e-bdd8-4b06-8409-1141071b4524")
+		)
+		(pin "2"
+			(uuid "1678efa7-92ce-4596-b640-e4ba5d813512")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -24998,86 +25071,6 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 434.34 345.44 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83905dc8-19b1-4439-a4a6-044c3e5eedb4")
-		(property "Reference" "R41"
-			(at 430.276 343.662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 430.276 347.218 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 433.324 345.694 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 434.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 434.34 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c4b6e78-b0f7-4b00-a09a-66199fd869a9")
-		)
-		(pin "2"
-			(uuid "9095e761-b9d3-4ff1-a096-c0324baaad65")
-		)
-		(instances
-			(project "buck-converter-real"
-				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -28742,86 +28735,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Omron_B3FS")
-		(at 422.91 349.25 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf8fdcab-568e-46a9-8159-d761d453737a")
-		(property "Reference" "SW3"
-			(at 417.576 341.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW"
-			(at 416.306 344.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
-			(at 422.91 344.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 422.91 344.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 422.91 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5aaffbf7-141b-4ad1-be69-ece6d5729e92")
-		)
-		(pin "1"
-			(uuid "1e5e5066-293e-4411-8765-452f65274d74")
-		)
-		(instances
-			(project "buck-converter-real"
-				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 434.34 321.31 0)
 		(mirror y)
@@ -29962,85 +29875,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 434.34 339.09 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccf4a06e-2776-420a-9cd5-25efe2cfcff4")
-		(property "Reference" "#PWR098"
-			(at 434.34 342.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 434.34 334.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 434.34 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 434.34 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 434.34 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f251b1b-c623-4008-b167-b66393c911fd")
-		)
-		(instances
-			(project "buck-converter-real"
-				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 140.97 184.15 270)
@@ -30928,6 +30762,88 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 419.1 350.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d924bf35-7e93-4c43-8789-8336792b8975")
+		(property "Reference" "R41"
+			(at 421.64 351.7901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 421.64 349.2501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 418.084 350.266 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 419.1 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 419.1 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7c4a1a8-01a1-477e-a1ad-bb536a0d607d")
+		)
+		(pin "2"
+			(uuid "9c99300a-1f0d-4d1b-a761-0ec0e6407726")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -33545,6 +33461,83 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 274.32 142.24 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdfc48e0-27e6-45c5-a9f7-e3d3240374bd")
+		(property "Reference" "TP8"
+			(at 261.9531 144.0179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 261.9531 146.5579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "buck-forest:Testhole-1.00mm"
+			(at 269.24 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BPWM"
+			(at 264.1633 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f50d370-3829-4f0e-81f8-ce619ace274e")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
