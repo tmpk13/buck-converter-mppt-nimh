@@ -11421,6 +11421,12 @@
 		(uuid "5db1b439-defb-4bab-8bfe-fa1828ac0c4d")
 	)
 	(junction
+		(at 295.91 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e4a4a67-0453-456c-9c13-92e0bd5fe4a3")
+	)
+	(junction
 		(at 635 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11551,6 +11557,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c8ff4f9-3140-47d6-a29f-cf5e2e57245f")
+	)
+	(junction
+		(at 295.91 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0bb1722-4ccf-4821-b98f-97aa5b7ef618")
 	)
 	(junction
 		(at 588.01 200.66)
@@ -12176,6 +12188,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 101.6) (xy 295.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c617267-5e6e-4d91-ac99-e3a70eb3b183")
+	)
+	(wire
+		(pts
 			(xy 114.3 175.26) (xy 114.3 237.49)
 		)
 		(stroke
@@ -12353,6 +12375,16 @@
 			(type default)
 		)
 		(uuid "2c9b3b78-379f-4ce1-ae99-8a2824b7d4cd")
+	)
+	(wire
+		(pts
+			(xy 295.91 134.62) (xy 297.18 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df6adf7-1a84-4421-b45f-2905bbae9b2d")
 	)
 	(wire
 		(pts
@@ -13036,6 +13068,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 109.22) (xy 295.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ed0968-a97f-452d-b396-6fc4316fde8c")
+	)
+	(wire
+		(pts
 			(xy 396.24 142.24) (xy 396.24 139.7)
 		)
 		(stroke
@@ -13113,6 +13155,16 @@
 			(type default)
 		)
 		(uuid "646bb499-4682-4964-8750-b8a3ecd632d0")
+	)
+	(wire
+		(pts
+			(xy 295.91 116.84) (xy 299.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649a480a-2230-473c-9c46-5bb5e6dce023")
 	)
 	(wire
 		(pts
@@ -13303,6 +13355,16 @@
 			(type default)
 		)
 		(uuid "6f455843-ebe8-4c4d-be15-164da81f422b")
+	)
+	(wire
+		(pts
+			(xy 295.91 139.7) (xy 295.91 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f96a661-6582-4972-8d1e-d478df540a58")
 	)
 	(wire
 		(pts
@@ -14376,7 +14438,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 116.84) (xy 299.72 116.84)
+			(xy 290.83 116.84) (xy 295.91 116.84)
 		)
 		(stroke
 			(width 0)
@@ -14406,7 +14468,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 134.62) (xy 297.18 134.62)
+			(xy 289.56 134.62) (xy 295.91 134.62)
 		)
 		(stroke
 			(width 0)
@@ -16784,7 +16846,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ54A"
+		(property "Value" "SMBJ36A"
 			(at 106.426 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21375,6 +21437,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 295.91 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a34c415-b4d7-4ae7-b122-b0e176c3ba0a")
+		(property "Reference" "R53"
+			(at 293.37 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 292.735 144.653 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 296.926 143.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 295.91 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "806fe147-98f8-4b65-a413-6cf27ffb5230")
+		)
+		(pin "2"
+			(uuid "45b6a06e-5ea0-43f1-b79c-e0adb9d93fee")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 290.83 101.6 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c264cbf-37b4-4bb1-92a5-30c7feaa3a63")
+		(property "Reference" "#PWR038"
+			(at 290.83 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.83 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 290.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5eb8c465-a55c-44e7-8bee-30efe4afba58")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_1206")
 		(at 124.46 92.71 0)
 		(unit 1)
@@ -23022,6 +23244,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 295.91 105.41 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7596db71-20c9-45e0-872c-1a3630f3d9d3")
+		(property "Reference" "R52"
+			(at 301.498 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 301.244 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 294.894 105.156 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 295.91 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52dc4e2b-669d-4f0c-9731-ff43e8c9e120")
+		)
+		(pin "2"
+			(uuid "5141da6b-13c8-4aa4-9d7e-6692136bfb1f")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 358.14 250.19 0)
 		(unit 1)
@@ -24242,6 +24545,85 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 295.91 147.32 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "852891d3-fa0d-4f2d-aa3d-764d1e80c1fd")
+		(property "Reference" "#PWR030"
+			(at 295.91 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.91 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 295.91 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbd7b1f8-707b-4eed-b2b3-5d14d706c8f0")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
