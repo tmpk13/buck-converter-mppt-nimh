@@ -11439,6 +11439,12 @@
 		(uuid "42f22fb5-c8ae-4560-94ac-c50a8782c5ca")
 	)
 	(junction
+		(at 349.25 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45490183-365a-4faf-a3fd-2b561ea08acd")
+	)
+	(junction
 		(at 379.73 284.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11455,6 +11461,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54f572a3-1cb3-484a-9fa7-7dfe9de9c669")
+	)
+	(junction
+		(at 314.96 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "594e88af-2115-4519-ab7d-a7d1a2aa4c26")
+	)
+	(junction
+		(at 250.19 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c5f7580-da60-41cb-ac7a-fbdb8bbb120a")
 	)
 	(junction
 		(at 642.62 322.58)
@@ -11595,12 +11613,6 @@
 		(uuid "9c7f2d8f-5b5a-4b15-92fe-da785428d2ce")
 	)
 	(junction
-		(at 368.3 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c8ff4f9-3140-47d6-a29f-cf5e2e57245f")
-	)
-	(junction
 		(at 295.91 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11737,6 +11749,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8b7bb1f-06fe-4786-8039-0c9366a1cbbf")
+	)
+	(junction
+		(at 368.3 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc2f163d-94e1-46c1-8906-edbdfe73e04b")
 	)
 	(junction
 		(at 172.72 318.77)
@@ -12320,7 +12338,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 127) (xy 347.98 127)
+			(xy 314.96 127) (xy 341.63 127)
 		)
 		(stroke
 			(width 0)
@@ -12517,6 +12535,16 @@
 			(type default)
 		)
 		(uuid "31ec1f8d-b738-4eb4-835a-6e8f97a7a11c")
+	)
+	(wire
+		(pts
+			(xy 332.74 139.7) (xy 314.96 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3316364a-3bce-4d0c-aa90-6f608933e1f5")
 	)
 	(wire
 		(pts
@@ -12860,7 +12888,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 109.22) (xy 281.94 109.22)
+			(xy 243.84 109.22) (xy 250.19 109.22)
 		)
 		(stroke
 			(width 0)
@@ -12907,6 +12935,16 @@
 			(type default)
 		)
 		(uuid "48d7914f-f614-4266-b7ae-22dc5c2be0e7")
+	)
+	(wire
+		(pts
+			(xy 349.25 127) (xy 368.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a45894-04b9-48ca-bfea-3fbca1e1cb37")
 	)
 	(wire
 		(pts
@@ -13317,6 +13355,16 @@
 			(type default)
 		)
 		(uuid "6bbd612e-001f-4e21-a3ea-fd617a3a9b10")
+	)
+	(wire
+		(pts
+			(xy 250.19 109.22) (xy 281.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be3aa36-8d27-4139-bcc1-5fcc2ab766b4")
 	)
 	(wire
 		(pts
@@ -13777,6 +13825,16 @@
 			(type default)
 		)
 		(uuid "89088f8a-650a-49ef-bd15-e56fcf2ddb04")
+	)
+	(wire
+		(pts
+			(xy 332.74 113.03) (xy 332.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9a5798-992a-4094-b2ac-48b3bb06c402")
 	)
 	(wire
 		(pts
@@ -14730,6 +14788,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 105.41) (xy 332.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de48d3d4-0731-4fe4-a211-0383c804d352")
+	)
+	(wire
+		(pts
 			(xy 163.83 307.34) (xy 163.83 308.61)
 		)
 		(stroke
@@ -14737,16 +14805,6 @@
 			(type default)
 		)
 		(uuid "dee8511c-aec8-4023-a9c4-22230b3190b6")
-	)
-	(wire
-		(pts
-			(xy 355.6 127) (xy 368.3 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe27699-68d9-403b-8b90-5bec4e396c6a")
 	)
 	(wire
 		(pts
@@ -15756,6 +15814,86 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 332.74 109.22 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "01bacf9e-e05b-4f9c-a715-950023448308")
+		(property "Reference" "C38"
+			(at 341.122 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 341.122 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 333.7052 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 332.74 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b20d2b0-38aa-46ac-8fde-71b186e9bdf6")
+		)
+		(pin "2"
+			(uuid "91706da5-a283-4ce9-b5f7-7da615762c19")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -17259,6 +17397,86 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 349.25 130.81 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19f55114-8ac5-4eb5-9598-75f9f88fb25f")
+		(property "Reference" "C37"
+			(at 357.632 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 357.632 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 350.2152 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 349.25 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3416f607-aea2-44d4-86e1-cb11957eef63")
+		)
+		(pin "2"
+			(uuid "19498ebb-8819-45e2-b96b-93ac3ebbee46")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -19874,7 +20092,7 @@
 	(symbol
 		(lib_name "L_1")
 		(lib_id "Device:L")
-		(at 351.79 127 90)
+		(at 345.44 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19884,7 +20102,7 @@
 		(dnp no)
 		(uuid "3db8540e-58c3-48d0-943c-e34160a1db79")
 		(property "Reference" "L3"
-			(at 351.79 121.412 90)
+			(at 345.44 121.412 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19894,7 +20112,7 @@
 			)
 		)
 		(property "Value" "33UH 4.5A 58mOhm"
-			(at 351.536 124.46 90)
+			(at 345.186 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19904,7 +20122,7 @@
 			)
 		)
 		(property "Footprint" "buck-forest:HCM1A1305V3-330-R"
-			(at 351.79 127 0)
+			(at 345.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19915,7 +20133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 127 0)
+			(at 345.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19926,7 +20144,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 351.79 127 0)
+			(at 345.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23205,6 +23423,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 349.25 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74cae416-f7bf-46e7-a2cd-87fe63d131e6")
+		(property "Reference" "#PWR028"
+			(at 349.25 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 349.25 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 349.25 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07ace97b-d2f2-4498-a0de-7132ffa17fd1")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 651.51 179.07 0)
 		(unit 1)
@@ -24704,7 +25000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
+		(property "Footprint" "buck-forest:Testpad"
 			(at 182.88 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -25895,6 +26191,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 250.19 116.84 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c1fd2a3-995f-4d43-aff7-3a9fd23acde3")
+		(property "Reference" "#PWR0109"
+			(at 250.19 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13b707f5-bc51-4e57-ba46-1e4c87aa3f09")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
 		(at 422.91 331.47 0)
 		(mirror y)
@@ -26689,6 +27064,86 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 250.19 113.03 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab61e145-36d8-45d2-b2f9-3408e163f776")
+		(property "Reference" "C39"
+			(at 258.572 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V"
+			(at 258.572 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 251.1552 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 250.19 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "471e5b91-2e33-47b2-9f8b-5bfa5e4d8252")
+		)
+		(pin "2"
+			(uuid "04b0d3c8-84ab-47d0-8417-45a4f7c7e139")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -27799,7 +28254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "buck-forest:Testpad"
 			(at 182.88 217.17 0)
 			(hide yes)
 			(show_name no)
