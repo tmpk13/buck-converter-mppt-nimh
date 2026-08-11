@@ -11008,7 +11008,7 @@
 	)
 	(text "Ideal diode (OR)"
 		(exclude_from_sim no)
-		(at 216.662 221.234 0)
+		(at 215.9 218.694 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11020,7 +11020,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 131.826 281.686 0)
+		(at 132.588 285.75 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -11029,6 +11029,16 @@
 			)
 		)
 		(uuid "27e2ce88-d3fd-45f2-9065-a1b507693027")
+	)
+	(text "3V3 ~600mA budget"
+		(exclude_from_sim no)
+		(at 676.656 314.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38891c29-52c0-4f81-b9c7-1ce1a1277b65")
 	)
 	(text "USB 5V out switch"
 		(exclude_from_sim no)
@@ -11100,7 +11110,7 @@
 		)
 		(uuid "68de1290-abde-409e-a31e-a7f9e83a2fc0")
 	)
-	(text "USB Interface"
+	(text "USB Interface\n(Device/Host)"
 		(exclude_from_sim no)
 		(at 360.934 279.654 0)
 		(effects
@@ -11135,6 +11145,28 @@
 			)
 		)
 		(uuid "927abdee-5130-4d87-af18-9ab8be6ba067")
+	)
+	(text "3V3 ~10mA MAX"
+		(exclude_from_sim no)
+		(at 625.348 169.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ef05165-e3f0-43ab-a839-8ecad1060b2f")
+	)
+	(text "WIO I2C"
+		(exclude_from_sim no)
+		(at 676.656 311.658 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "a2c6d296-f5d5-4ec2-a276-f23978792d31")
 	)
 	(text "Active Low"
 		(exclude_from_sim no)
@@ -11184,6 +11216,16 @@
 		)
 		(uuid "c92433b2-dae1-4584-ad15-357494f17958")
 	)
+	(text "3V3 ~160mA MAX"
+		(exclude_from_sim no)
+		(at 546.608 218.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d24bfd12-e1d5-480c-a246-16bb721e9730")
+	)
 	(text "WIO SWD"
 		(exclude_from_sim no)
 		(at 604.774 312.928 0)
@@ -11230,9 +11272,9 @@
 		)
 		(uuid "ea279326-61f9-4ae5-9265-a91913bebd11")
 	)
-	(text "@ 400 mAnom"
+	(text "@ ~200mAnom load"
 		(exclude_from_sim no)
-		(at 182.118 168.148 0)
+		(at 173.736 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19148,7 +19190,7 @@
 		(dnp no)
 		(uuid "342da572-850d-4e56-8ff2-eb51edc76722")
 		(property "Reference" "J1"
-			(at 126.492 301.498 0)
+			(at 130.81 301.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19159,7 +19201,7 @@
 			)
 		)
 		(property "Value" "USB_C_2.0_16P"
-			(at 126.492 304.038 0)
+			(at 130.81 304.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19921,7 +19963,7 @@
 		(dnp no)
 		(uuid "3fe67463-214c-48d4-b889-b9d103f76adb")
 		(property "Reference" "U13"
-			(at 42.926 233.172 0)
+			(at 43.18 230.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19931,7 +19973,7 @@
 			)
 		)
 		(property "Value" "TPS22991CRAAR"
-			(at 42.926 235.712 0)
+			(at 43.18 233.426 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19962,9 +20004,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 243.84 0)
-			(hide yes)
+		(property "Description" "2A Max Cont."
+			(at 43.434 235.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24663,7 +24704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 182.88 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -25536,7 +25577,7 @@
 		(dnp no)
 		(uuid "9162daaf-cb14-4100-bc12-45d692d44bc0")
 		(property "Reference" "U2"
-			(at 215.9 226.06 0)
+			(at 215.9 223.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25546,7 +25587,7 @@
 			)
 		)
 		(property "Value" "LM66200DRLR"
-			(at 215.9 228.346 0)
+			(at 215.9 225.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25577,9 +25618,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 215.9 238.76 0)
-			(hide yes)
+		(property "Description" "2.5A Cont."
+			(at 215.9 227.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30085,7 +30125,7 @@
 		(dnp no)
 		(uuid "d8edecce-dde0-4f6f-87c6-e0194f81dd23")
 		(property "Reference" "U7"
-			(at 182.626 253.492 0)
+			(at 182.88 251.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30095,7 +30135,7 @@
 			)
 		)
 		(property "Value" "TPS22991CRAAR"
-			(at 182.626 256.032 0)
+			(at 182.88 253.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30126,9 +30166,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 182.88 264.16 0)
-			(hide yes)
+		(property "Description" "2A Max Cont."
+			(at 182.88 256.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30812,10 +30851,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e25d3812-dd9f-4c0d-ba90-bfeed34dd9ae")
 		(property "Reference" "U1"
-			(at 284.2795 111.76 0)
+			(at 272.288 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30825,8 +30863,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MIC4605"
-			(at 284.2795 114.3 0)
+		(property "Value" "MIC4605-2YM"
+			(at 267.208 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
