@@ -11379,6 +11379,12 @@
 		(uuid "21ead89e-143f-454b-a7f0-a929d37d1a8a")
 	)
 	(junction
+		(at 289.56 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24bc6a10-cf86-42ad-9223-cc6781db5312")
+	)
+	(junction
 		(at 149.86 294.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11553,6 +11559,12 @@
 		(uuid "6dc7ca12-2f04-4392-ab27-c2b9fdd4f87c")
 	)
 	(junction
+		(at 356.87 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f4fa8a1-5968-427c-b1ab-161292076ae2")
+	)
+	(junction
 		(at 213.36 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11595,6 +11607,12 @@
 		(uuid "90365188-4a57-4ead-8215-62cfe29ac2c4")
 	)
 	(junction
+		(at 298.45 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97ac9db2-710f-4fe7-9e7a-bae09f3953bf")
+	)
+	(junction
 		(at 229.87 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11611,12 +11629,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c7f2d8f-5b5a-4b15-92fe-da785428d2ce")
-	)
-	(junction
-		(at 295.91 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0bb1722-4ccf-4821-b98f-97aa5b7ef618")
 	)
 	(junction
 		(at 588.01 200.66)
@@ -11715,16 +11727,16 @@
 		(uuid "ba8a0061-2226-4100-8bf2-36d9628bd8b7")
 	)
 	(junction
+		(at 90.17 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc936016-e9f5-4e45-8ecc-db6b941ad5e2")
+	)
+	(junction
 		(at 224.79 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c32f95fa-243a-40bf-a188-f7f3b5aaca14")
-	)
-	(junction
-		(at 90.17 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4ecc14e-e779-4b78-bd2f-4468392b647b")
 	)
 	(junction
 		(at 427.99 231.14)
@@ -11767,6 +11779,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce015b80-f078-4f5b-a497-a580452ad4ce")
+	)
+	(junction
+		(at 290.83 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d8b6b4-c94e-4e0c-8a32-52dade8e6e2f")
 	)
 	(junction
 		(at 397.51 213.36)
@@ -12248,7 +12266,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 101.6) (xy 295.91 101.6)
+			(xy 285.75 101.6) (xy 290.83 101.6)
 		)
 		(stroke
 			(width 0)
@@ -12848,6 +12866,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 116.84) (xy 298.45 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4588c5ce-4545-4bd4-b123-2e218d3cdc5a")
+	)
+	(wire
+		(pts
 			(xy 213.36 109.22) (xy 222.25 109.22)
 		)
 		(stroke
@@ -12938,13 +12966,23 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 127) (xy 368.3 127)
+			(xy 349.25 127) (xy 356.87 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49a45894-04b9-48ca-bfea-3fbca1e1cb37")
+	)
+	(wire
+		(pts
+			(xy 289.56 134.62) (xy 289.56 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2d55dd-7d7f-4d1d-9789-2901f19c0db4")
 	)
 	(wire
 		(pts
@@ -13025,6 +13063,16 @@
 			(type default)
 		)
 		(uuid "51189d72-f9e4-47db-b14a-9b584ad89f9f")
+	)
+	(wire
+		(pts
+			(xy 298.45 116.84) (xy 299.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517904c7-a8f9-473d-b40e-db377a213d6c")
 	)
 	(wire
 		(pts
@@ -13148,7 +13196,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 109.22) (xy 295.91 116.84)
+			(xy 290.83 109.22) (xy 290.83 116.84)
 		)
 		(stroke
 			(width 0)
@@ -13235,16 +13283,6 @@
 			(type default)
 		)
 		(uuid "646bb499-4682-4964-8750-b8a3ecd632d0")
-	)
-	(wire
-		(pts
-			(xy 295.91 116.84) (xy 299.72 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "649a480a-2230-473c-9c46-5bb5e6dce023")
 	)
 	(wire
 		(pts
@@ -13535,6 +13573,16 @@
 			(type default)
 		)
 		(uuid "742f899d-f4f0-458a-87d1-715c6371bba2")
+	)
+	(wire
+		(pts
+			(xy 298.45 101.6) (xy 298.45 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7462920d-8052-4474-93d8-732bf18f8a5c")
 	)
 	(wire
 		(pts
@@ -13855,6 +13903,16 @@
 			(type default)
 		)
 		(uuid "8f1b8938-17ee-428c-8186-f26be2e03222")
+	)
+	(wire
+		(pts
+			(xy 356.87 118.11) (xy 356.87 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900c40ba-5d02-4e56-903d-658580a5408f")
 	)
 	(wire
 		(pts
@@ -14228,6 +14286,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 127) (xy 368.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a965d18b-b834-4239-b6f3-2ec7dfb1efb4")
+	)
+	(wire
+		(pts
 			(xy 595.63 195.58) (xy 614.68 195.58)
 		)
 		(stroke
@@ -14535,16 +14603,6 @@
 			(type default)
 		)
 		(uuid "cbbca050-2344-4eb3-a916-e6468abec2d7")
-	)
-	(wire
-		(pts
-			(xy 290.83 116.84) (xy 295.91 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbf90925-c578-4b43-8cd7-0eb9d33baa2f")
 	)
 	(wire
 		(pts
@@ -18047,7 +18105,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 39.37 172.72 0)
+		(at 298.45 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18055,10 +18113,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1dffe125-b47c-4b1a-a987-8efa29d5454a")
 		(property "Reference" "TP5"
-			(at 41.91 168.1479 0)
+			(at 301.3231 94.4879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18069,7 +18126,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 41.91 170.6879 0)
+			(at 301.3231 97.0279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18079,8 +18136,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "buck-forest:Testhole"
-			(at 44.45 172.72 0)
+		(property "Footprint" "buck-forest:Testhole-1.00mm"
+			(at 303.53 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18091,7 +18148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 172.72 0)
+			(at 303.53 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18101,9 +18158,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 39.37 172.72 0)
-			(hide yes)
+		(property "Description" "HFET"
+			(at 306.832 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18601,85 +18657,6 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 90.17 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26ecda1d-0753-40aa-95b4-93d1e39220f0")
-		(property "Reference" "TP3"
-			(at 92.71 155.4479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 92.71 157.9879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ddcf842c-a35b-4fb4-b3e5-6e084b5a49ba")
-		)
-		(instances
-			(project "buck-converter-real"
-				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -19391,6 +19368,83 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2dd97d9b-ac4f-4f11-9429-ede66f195e68")
+		(property "Reference" "TP4"
+			(at 92.456 162.814 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.456 165.354 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "buck-forest:Testhole-1.00mm"
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "EN"
+			(at 93.5577 167.8941 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94ac3ff1-c66e-49fd-b78f-0f002c5d9d1e")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -21857,7 +21911,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 290.83 101.6 0)
+		(at 285.75 101.6 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21869,7 +21923,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c264cbf-37b4-4bb1-92a5-30c7feaa3a63")
 		(property "Reference" "#PWR038"
-			(at 290.83 107.95 0)
+			(at 285.75 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21880,7 +21934,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 290.83 106.68 0)
+			(at 285.75 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21890,7 +21944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290.83 101.6 0)
+			(at 285.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21901,7 +21955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 101.6 0)
+			(at 285.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21912,7 +21966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 290.83 101.6 0)
+			(at 285.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22179,6 +22233,83 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 356.87 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5fa7b723-ee75-478f-9eee-7073768af778")
+		(property "Reference" "TP7"
+			(at 359.7431 110.9979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 359.7431 113.5379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "buck-forest:Testhole-1.00mm"
+			(at 361.95 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BOUT"
+			(at 365.252 115.824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73b9dbab-e14c-4eaf-990b-c57117f46fd4")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -23661,7 +23792,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 295.91 105.41 180)
+		(at 290.83 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23671,7 +23802,7 @@
 		(dnp no)
 		(uuid "7596db71-20c9-45e0-872c-1a3630f3d9d3")
 		(property "Reference" "R52"
-			(at 301.498 103.124 0)
+			(at 296.418 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23682,7 +23813,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 301.244 105.664 0)
+			(at 296.164 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23693,7 +23824,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 294.894 105.156 90)
+			(at 289.814 105.156 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23704,7 +23835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 105.41 0)
+			(at 290.83 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23715,7 +23846,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 295.91 105.41 0)
+			(at 290.83 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24048,6 +24179,83 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 289.56 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79585157-5cf2-4970-9e61-4bd7cf2b0bab")
+		(property "Reference" "TP6"
+			(at 286.6869 160.7821 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 286.6869 158.2421 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "buck-forest:Testhole-1.00mm"
+			(at 284.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LFET"
+			(at 281.178 155.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39f53537-88e7-4e37-9da3-628c65df862d")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -25055,10 +25263,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "88273f64-0961-492f-aef2-5f82b0e957ac")
 		(property "Reference" "TP2"
-			(at 180.34 203.7079 0)
+			(at 179.832 199.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25069,7 +25276,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 180.34 206.2479 0)
+			(at 179.832 201.676 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25079,7 +25286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "buck-forest:Testpad"
+		(property "Footprint" "buck-forest:Testhole-1.00mm"
 			(at 182.88 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -25101,9 +25308,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 177.8 208.28 0)
-			(hide yes)
+		(property "Description" "3V3"
+			(at 181.4846 204.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28309,10 +28515,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bc7000b6-4350-418e-b6c6-ebed4f6ac527")
 		(property "Reference" "TP1"
-			(at 180.34 212.5979 0)
+			(at 180.086 209.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28323,7 +28528,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 180.34 215.1379 0)
+			(at 180.086 212.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28333,7 +28538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "buck-forest:Testpad"
+		(property "Footprint" "buck-forest:Testhole-1.00mm"
 			(at 182.88 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -28355,9 +28560,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 177.8 217.17 0)
-			(hide yes)
+		(property "Description" "EN"
+			(at 181.1877 214.8841 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28691,85 +28895,6 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 90.17 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c042d67c-df64-4537-88f6-fa99a8a67d7a")
-		(property "Reference" "TP4"
-			(at 92.71 165.6079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 92.71 168.1479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9758eea-95ab-4bea-b163-d3e2c60acebd")
-		)
-		(instances
-			(project "buck-converter-real"
-				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -30642,6 +30767,83 @@
 			(project "buck-converter-real"
 				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d86d2e6d-eea3-4b6d-a850-a32e6b83480c")
+		(property "Reference" "TP3"
+			(at 92.202 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.202 153.416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "buck-forest:Testhole-1.00mm"
+			(at 95.25 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3V3"
+			(at 93.8546 155.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "054100d2-a07c-4002-b8df-4924e235279d")
+		)
+		(instances
+			(project "buck-converter-real"
+				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
