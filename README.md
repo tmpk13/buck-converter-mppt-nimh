@@ -1,1 +1,1 @@
-# gps-radio-board
+# MPPT Buck Converter — NiMH D-Cell Charger
