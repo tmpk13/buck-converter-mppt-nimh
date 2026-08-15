@@ -11382,12 +11382,6 @@
 		(uuid "0188b116-cb02-44d8-8bce-9915f1660c58")
 	)
 	(junction
-		(at 516.89 393.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0920cf68-1271-4476-95eb-992cb9a5c5b2")
-	)
-	(junction
 		(at 396.24 386.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12636,16 +12630,6 @@
 			(type default)
 		)
 		(uuid "3637a3f3-88e1-486a-b94a-8cb01f3ec7c6")
-	)
-	(wire
-		(pts
-			(xy 524.51 408.94) (xy 524.51 419.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b55e87-db97-4a5a-a0e2-373b987ccb52")
 	)
 	(wire
 		(pts
@@ -14706,6 +14690,16 @@
 			(type default)
 		)
 		(uuid "cbbca050-2344-4eb3-a916-e6468abec2d7")
+	)
+	(wire
+		(pts
+			(xy 524.51 411.48) (xy 524.51 408.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd9e757-60c9-42bb-ba71-10bb3482ee5a")
 	)
 	(wire
 		(pts
@@ -25582,84 +25576,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 516.89 401.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b706250-a1b8-4f30-b8b3-1a85b763d89b")
-		(property "Reference" "#PWR055"
-			(at 516.89 407.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 516.89 406.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 516.89 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 516.89 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 516.89 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6b98c2d-9f7f-46ef-8a27-5cabe6be026d")
-		)
-		(instances
-			(project "buck-converter-real"
-				(path "/cbc98a1b-0533-4e8d-81af-0515d3e50555"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 496.57 271.78 0)
 		(unit 1)
@@ -32482,7 +32398,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 516.89 397.51 0)
+		(at 524.51 415.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32492,7 +32408,7 @@
 		(dnp no)
 		(uuid "f7c4ba22-edef-4693-81b8-87c514953250")
 		(property "Reference" "R58"
-			(at 514.35 396.2399 0)
+			(at 521.97 414.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32503,7 +32419,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 514.35 398.7799 0)
+			(at 521.97 416.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32514,7 +32430,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 517.906 397.764 90)
+			(at 525.526 415.544 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32525,7 +32441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 516.89 397.51 0)
+			(at 524.51 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32536,7 +32452,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 516.89 397.51 0)
+			(at 524.51 415.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
