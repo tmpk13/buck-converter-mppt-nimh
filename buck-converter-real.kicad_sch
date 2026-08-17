@@ -8028,7 +8028,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 2.54 5.08) (xy 2.54 1.778)
 					)
 					(stroke
 						(width 0)
@@ -8062,7 +8062,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 2.54 -5.08) (xy 2.54 0) (xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -8117,26 +8117,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 -7.62 90)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -8145,7 +8126,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "[2-4]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8154,26 +8135,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 7.62 270)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -8182,64 +8144,7 @@
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
+					(number "[5-8]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11646,10 +11551,10 @@
 		(uuid "8232c053-1817-4dc9-9fcd-4ee00362b933")
 	)
 	(junction
-		(at 557.53 386.08)
+		(at 557.53 416.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "85b420f6-d20c-497d-8d4d-bfd4902eeaa3")
+		(uuid "82e3dfcc-0188-4658-90cf-8c112a0f7040")
 	)
 	(junction
 		(at 594.36 416.56)
@@ -11686,12 +11591,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a85d285-339a-4deb-9b94-1f49c317a301")
-	)
-	(junction
-		(at 354.33 262.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bb17c93-3dc7-4cd7-8c9e-9c0214565424")
 	)
 	(junction
 		(at 234.95 105.41)
@@ -11754,6 +11653,12 @@
 		(uuid "af88b40a-97e3-4651-9025-99b1ecd5d45f")
 	)
 	(junction
+		(at 557.53 386.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0eaddcf-0d91-4b13-8792-6c384040bc8d")
+	)
+	(junction
 		(at 524.51 408.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11790,7 +11695,7 @@
 		(uuid "ba8a0061-2226-4100-8bf2-36d9628bd8b7")
 	)
 	(junction
-		(at 509.27 424.18)
+		(at 509.27 429.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb329dec-f1dc-488e-89bf-4e9b9a596ab8")
@@ -11802,7 +11707,7 @@
 		(uuid "bc1d7078-66a1-4ccb-840f-8a5346c215f6")
 	)
 	(junction
-		(at 504.19 424.18)
+		(at 504.19 429.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be43be26-6d01-45c1-9dd0-efba8b7bba57")
@@ -11832,6 +11737,12 @@
 		(uuid "c6a9ca50-d850-4d80-94ce-25f22fb885c6")
 	)
 	(junction
+		(at 524.51 401.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c76955cf-1eca-4b79-8839-560b988833cf")
+	)
+	(junction
 		(at 346.71 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11842,6 +11753,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c803b51d-4656-42e1-9771-d4eb2feed7c0")
+	)
+	(junction
+		(at 354.33 262.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8f5d35e-dc9b-43e9-bb51-e4bb0065f19b")
 	)
 	(junction
 		(at 466.09 386.08)
@@ -11896,12 +11813,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d936fe68-ea6d-4f6b-b7af-26219fe3d21f")
-	)
-	(junction
-		(at 557.53 416.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbf9bebd-c673-4c71-861c-68ca4d0ac5ad")
 	)
 	(junction
 		(at 342.9 139.7)
@@ -12493,6 +12404,16 @@
 	)
 	(wire
 		(pts
+			(xy 557.53 386.08) (xy 557.53 393.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce452de-7d48-4054-8974-c1e1ceea014e")
+	)
+	(wire
+		(pts
 			(xy 163.83 255.27) (xy 165.1 255.27)
 		)
 		(stroke
@@ -12543,16 +12464,6 @@
 	)
 	(wire
 		(pts
-			(xy 557.53 406.4) (xy 557.53 416.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "313dbe04-44a6-4270-939a-553a3974a4e4")
-	)
-	(wire
-		(pts
 			(xy 276.86 166.37) (xy 271.78 166.37)
 		)
 		(stroke
@@ -12583,7 +12494,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 262.89) (xy 354.33 262.89)
+			(xy 358.14 262.89) (xy 354.33 262.89)
 		)
 		(stroke
 			(width 0)
@@ -12903,16 +12814,6 @@
 	)
 	(wire
 		(pts
-			(xy 557.53 396.24) (xy 557.53 386.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4848ec36-bdd8-46aa-8113-b0d71e2e89f8")
-	)
-	(wire
-		(pts
 			(xy 488.95 405.13) (xy 499.11 405.13)
 		)
 		(stroke
@@ -13073,6 +12974,16 @@
 	)
 	(wire
 		(pts
+			(xy 557.53 408.94) (xy 557.53 416.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584b2332-87f9-4baf-9607-06552f419d9a")
+	)
+	(wire
+		(pts
 			(xy 444.5 386.08) (xy 444.5 387.35)
 		)
 		(stroke
@@ -13123,7 +13034,7 @@
 	)
 	(wire
 		(pts
-			(xy 504.19 424.18) (xy 516.89 424.18)
+			(xy 504.19 429.26) (xy 516.89 429.26)
 		)
 		(stroke
 			(width 0)
@@ -13793,7 +13704,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 424.18) (xy 504.19 424.18)
+			(xy 472.44 429.26) (xy 504.19 429.26)
 		)
 		(stroke
 			(width 0)
@@ -13973,7 +13884,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 424.18) (xy 472.44 279.4)
+			(xy 472.44 429.26) (xy 472.44 279.4)
 		)
 		(stroke
 			(width 0)
@@ -14303,6 +14214,16 @@
 	)
 	(wire
 		(pts
+			(xy 524.51 401.32) (xy 524.51 408.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ae8305-b3b4-4be1-9deb-d65d8ad6222a")
+	)
+	(wire
+		(pts
 			(xy 340.36 175.26) (xy 349.25 175.26)
 		)
 		(stroke
@@ -14453,7 +14374,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 393.7) (xy 524.51 408.94)
+			(xy 524.51 393.7) (xy 524.51 401.32)
 		)
 		(stroke
 			(width 0)
@@ -14703,7 +14624,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 411.48) (xy 524.51 408.94)
+			(xy 524.51 416.56) (xy 524.51 408.94)
 		)
 		(stroke
 			(width 0)
@@ -14843,7 +14764,7 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 408.94) (xy 524.51 408.94)
+			(xy 511.81 401.32) (xy 524.51 401.32)
 		)
 		(stroke
 			(width 0)
@@ -15163,7 +15084,7 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 431.8) (xy 524.51 429.26)
+			(xy 524.51 436.88) (xy 524.51 434.34)
 		)
 		(stroke
 			(width 0)
@@ -15320,6 +15241,16 @@
 			(type default)
 		)
 		(uuid "f3dafd50-d31a-451e-88e3-9bc5fed6ca59")
+	)
+	(wire
+		(pts
+			(xy 368.3 262.89) (xy 369.57 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4747bfa-f1e6-4d88-93f5-f7baf81d6b84")
 	)
 	(wire
 		(pts
@@ -15752,7 +15683,7 @@
 		(uuid "9af1ba2a-02cd-4641-a077-9d06b579dba9")
 	)
 	(label "PWM_Buck"
-		(at 491.49 424.18 0)
+		(at 491.49 429.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17189,26 +17120,11 @@
 		(pin "1"
 			(uuid "30b3040e-1912-4203-a82e-515138653951")
 		)
-		(pin "3"
+		(pin "[2-4]"
 			(uuid "9f8aa8f7-c188-4c0a-a0bd-88a677a172ed")
 		)
-		(pin "2"
+		(pin "[5-8]"
 			(uuid "f9d6e1e3-0dc6-4abe-9920-70d42956f660")
-		)
-		(pin "6"
-			(uuid "63763b30-e1a6-4479-882d-80826a2a5215")
-		)
-		(pin "4"
-			(uuid "9e42cf09-5f01-4568-9752-eab12a215fde")
-		)
-		(pin "5"
-			(uuid "9a76ede7-3850-4bfe-9db7-fdf04999bbd9")
-		)
-		(pin "7"
-			(uuid "ff845218-5bfa-48b5-89a8-7608f87f3840")
-		)
-		(pin "8"
-			(uuid "0b215415-0f70-4aa4-bd8b-02213faeaf82")
 		)
 		(instances
 			(project "buck-converter-real"
@@ -17221,7 +17137,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 509.27 427.99 0)
+		(at 509.27 433.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17231,7 +17147,7 @@
 		(dnp no)
 		(uuid "14f84266-ff93-40c5-ae2b-0d39fb0d986a")
 		(property "Reference" "R55"
-			(at 506.73 426.7199 0)
+			(at 506.73 431.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17242,7 +17158,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 506.73 429.2599 0)
+			(at 506.73 434.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17253,7 +17169,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 510.286 428.244 90)
+			(at 510.286 433.324 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17264,7 +17180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 509.27 427.99 0)
+			(at 509.27 433.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17275,7 +17191,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 509.27 427.99 0)
+			(at 509.27 433.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18262,7 +18178,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 364.49 262.89 0)
+		(at 363.22 262.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18272,7 +18188,7 @@
 		(dnp no)
 		(uuid "1d4e2d75-027e-4b89-9ccf-1ed9681bea6d")
 		(property "Reference" "SW1"
-			(at 363.982 255.016 0)
+			(at 362.712 255.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18282,7 +18198,7 @@
 			)
 		)
 		(property "Value" "WIO_RST"
-			(at 364.49 257.556 0)
+			(at 363.22 257.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18292,7 +18208,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
-			(at 364.49 257.81 0)
+			(at 363.22 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18303,7 +18219,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 364.49 257.81 0)
+			(at 363.22 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18314,7 +18230,7 @@
 			)
 		)
 		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 364.49 262.89 0)
+			(at 363.22 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21911,7 +21827,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS123")
-		(at 521.97 424.18 0)
+		(at 521.97 429.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21921,7 +21837,7 @@
 		(dnp no)
 		(uuid "5cb69b2c-cc35-4522-9cd3-2e713dea297d")
 		(property "Reference" "Q3"
-			(at 527.812 427.736 0)
+			(at 527.812 432.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21932,7 +21848,7 @@
 			)
 		)
 		(property "Value" "BSS123NH6433XTMA1"
-			(at 526.034 430.53 0)
+			(at 526.034 435.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21943,7 +21859,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 527.05 426.085 0)
+			(at 527.05 431.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21956,7 +21872,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf"
-			(at 527.05 427.99 0)
+			(at 527.05 433.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21968,7 +21884,7 @@
 			)
 		)
 		(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-			(at 521.97 424.18 0)
+			(at 521.97 429.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22299,7 +22215,7 @@
 				)
 			)
 		)
-		(property "Details" "Hold@5A Trip@10A"
+		(property "Details" "6V Hold@5A Trip@10A"
 			(at 653.288 413.766 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23907,7 +23823,7 @@
 			)
 		)
 		(property "Value" "10uF 50V"
-			(at 499.872 195.834 0)
+			(at 498.602 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24202,7 +24118,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 510.54 408.94 90)
+		(at 511.81 401.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24212,7 +24128,7 @@
 		(dnp no)
 		(uuid "79585157-5cf2-4970-9e61-4bd7cf2b0bab")
 		(property "Reference" "TP6"
-			(at 505.46 401.32 90)
+			(at 506.73 393.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24223,7 +24139,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 502.1101 403.7329 90)
+			(at 503.3801 396.1129 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24234,7 +24150,7 @@
 			)
 		)
 		(property "Footprint" "buck-forest:Testhole-1.00mm"
-			(at 510.54 403.86 0)
+			(at 511.81 396.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24245,7 +24161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 510.54 403.86 0)
+			(at 511.81 396.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24256,7 +24172,7 @@
 			)
 		)
 		(property "Description" "LFET"
-			(at 507.619 406.019 90)
+			(at 508.889 398.399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25222,7 +25138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "buck-forest:Testhole-1.00mm"
+		(property "Footprint" "buck-forest:Testpad"
 			(at 240.03 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -26853,7 +26769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 372.11 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -27544,7 +27460,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 524.51 431.8 0)
+		(at 524.51 436.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27555,7 +27471,7 @@
 		(fields_autoplaced yes)
 		(uuid "aed575b8-14b9-4889-9a5e-4d6df54bea77")
 		(property "Reference" "#PWR053"
-			(at 524.51 438.15 0)
+			(at 524.51 443.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27566,7 +27482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 524.51 436.88 0)
+			(at 524.51 441.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27576,7 +27492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 524.51 431.8 0)
+			(at 524.51 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27587,7 +27503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 524.51 431.8 0)
+			(at 524.51 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27598,7 +27514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 524.51 431.8 0)
+			(at 524.51 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27722,7 +27638,7 @@
 			)
 		)
 		(property "Value" "SS56 60V 700mV@5A"
-			(at 413.766 382.524 0)
+			(at 406.908 382.524 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28487,7 +28403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "buck-forest:Testhole-1.00mm"
+		(property "Footprint" "buck-forest:Testpad"
 			(at 240.03 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -32262,7 +32178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 509.27 431.8 0)
+		(at 509.27 436.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32273,7 +32189,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4617bf4-21f1-442c-bb1c-e6706171697a")
 		(property "Reference" "#PWR052"
-			(at 509.27 438.15 0)
+			(at 509.27 443.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32284,7 +32200,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 509.27 436.88 0)
+			(at 509.27 441.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32294,7 +32210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 509.27 431.8 0)
+			(at 509.27 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32305,7 +32221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 509.27 431.8 0)
+			(at 509.27 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32316,7 +32232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 509.27 431.8 0)
+			(at 509.27 436.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32418,7 +32334,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 524.51 415.29 0)
+		(at 524.51 420.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32428,7 +32344,7 @@
 		(dnp no)
 		(uuid "f7c4ba22-edef-4693-81b8-87c514953250")
 		(property "Reference" "R58"
-			(at 521.97 414.0199 0)
+			(at 521.97 419.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32439,7 +32355,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 521.97 416.5599 0)
+			(at 521.97 421.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32450,7 +32366,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 525.526 415.544 90)
+			(at 525.526 420.624 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32461,7 +32377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 524.51 415.29 0)
+			(at 524.51 420.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32472,7 +32388,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 524.51 415.29 0)
+			(at 524.51 420.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32816,7 +32732,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 504.19 424.18 0)
+		(at 504.19 429.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32826,7 +32742,7 @@
 		(dnp no)
 		(uuid "fdfc48e0-27e6-45c5-a9f7-e3d3240374bd")
 		(property "Reference" "TP8"
-			(at 516.5569 422.4021 0)
+			(at 499.364 422.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32837,7 +32753,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 516.5569 419.8621 0)
+			(at 502.92 420.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32848,7 +32764,7 @@
 			)
 		)
 		(property "Footprint" "buck-forest:Testhole-1.00mm"
-			(at 509.27 424.18 0)
+			(at 509.27 429.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32859,7 +32775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 509.27 424.18 0)
+			(at 509.27 429.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32870,7 +32786,7 @@
 			)
 		)
 		(property "Description" "BPWM"
-			(at 514.3467 416.56 0)
+			(at 504.19 423.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
