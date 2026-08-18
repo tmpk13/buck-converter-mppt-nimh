@@ -1516,20 +1516,19 @@
 				)
 			)
 		)
-		(symbol "TPT482-VS2R_0_1"
+		(symbol "TPT482-VS2R_1_1"
 			(rectangle
 				(start -5.08 6.35)
 				(end 5.08 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 254 255 182 1)
 				)
 			)
-		)
-		(symbol "TPT482-VS2R_1_1"
 			(pin input line
 				(at -7.62 3.81 0)
 				(length 2.54)

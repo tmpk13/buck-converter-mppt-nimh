@@ -515,6 +515,7 @@
       "netlist": "",
       "plot": "gps-gerb/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
