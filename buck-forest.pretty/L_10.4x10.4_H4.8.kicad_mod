@@ -1,0 +1,246 @@
+(footprint "L_10.4x10.4_H4.8"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Choke, SMD, 10.4x10.4mm 4.8mm height")
+	(tags "Choke SMD")
+	(property "Reference" "REF**"
+		(at 0 -6.35 0)
+		(layer "F.SilkS")
+		(uuid "9dab3646-e521-4ae2-b77f-d689d62480cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_10.4x10.4_H4.8"
+		(at 0 6.35 0)
+		(layer "F.Fab")
+		(uuid "382dbe3f-6f58-42f4-ab45-3339b3744eb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d3fa7ea-0690-4ba3-be75-45b816932a05")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "501f27fd-5ecc-431c-a622-fe6d6630fa85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.3 -5.3)
+		(end 5.3 -5.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16e16c58-abbb-42f9-a746-2b15fa6bd99a")
+	)
+	(fp_line
+		(start -5.3 -2.1)
+		(end -5.3 -5.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8253e189-eefd-4d16-95dc-a6e580fd561c")
+	)
+	(fp_line
+		(start -5.3 5.3)
+		(end -5.3 2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39c64474-0204-49c4-ba29-cc519a314b1f")
+	)
+	(fp_line
+		(start 5.3 -5.3)
+		(end 5.3 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ed48854-e144-4494-a167-dff0cae0dd18")
+	)
+	(fp_line
+		(start 5.3 2.1)
+		(end 5.3 5.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d14d7410-cc7b-4bea-9f61-ea3c67ab49c3")
+	)
+	(fp_line
+		(start 5.3 5.3)
+		(end -5.3 5.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60323928-dc98-4a8b-be58-fb07280a9258")
+	)
+	(fp_rect
+		(start -6.25 -6.25)
+		(end 6.25 6.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5af7ebdb-ba5a-4297-bfc5-7664c0a01687")
+	)
+	(fp_line
+		(start -5.2 -5.2)
+		(end -5.2 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0691e2c8-a5ce-4303-9b0b-e1788a21c7b5")
+	)
+	(fp_line
+		(start -5.2 -5.2)
+		(end 5.2 -5.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab8fd754-1add-405d-b544-3516a5193263")
+	)
+	(fp_line
+		(start -5.2 5.2)
+		(end -5.2 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "730a492f-92e5-42c3-aa0c-33a4a8fb4073")
+	)
+	(fp_line
+		(start -5.2 5.2)
+		(end 5.2 5.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f2626f9-2e1f-4d90-9efc-35c9de05cdb5")
+	)
+	(fp_line
+		(start 5.2 -5.2)
+		(end 5.2 -2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c9f69a3-278c-4276-acb5-7eaa988b1729")
+	)
+	(fp_line
+		(start 5.2 5.2)
+		(end 5.2 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae338e4a-7249-4869-aba5-14634ac6d684")
+	)
+	(fp_arc
+		(start -3.17 -3.17)
+		(mid 0 -4.483057)
+		(end 3.17 -3.17)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6e91fcc-497d-4bfd-afd0-02a93991ae4b")
+	)
+	(fp_arc
+		(start 3.17 3.17)
+		(mid 0 4.483057)
+		(end -3.17 3.17)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ddbf62ca-f03f-4452-b9a5-fdbaa046a46a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "916b36f1-9433-4833-bf55-d2fccafea7df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4 0)
+		(size 4 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ed6cd2c1-4231-4f87-a78d-86b593e54fa9")
+	)
+	(pad "2" smd rect
+		(at 4 0)
+		(size 4 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "447e25e9-797c-46c3-b515-bdee9782e311")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_10.4x10.4_H4.8.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
