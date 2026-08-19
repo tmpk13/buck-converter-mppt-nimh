@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.127,
+          "min_thickness": 0.15,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.127,
+          "thermal_relief_gap": 0.15,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -767,7 +767,7 @@
         "uuid": "4cdf6610-548b-4e3a-b225-b0938ce29599"
       }
     ],
-    "used_designators": "L1,L3-6,C11,C13,C15-16,C19-40,C42-48,RST3-4,TP1-8,R1-2,R11-22,R30-31,R35-58,J2-3,J5-6,J10-15,H1-4,#FLG1,F1,Q1-11,D1-9,D12-14,U1-2,U4,U6-13,Y1-2,#PWR2,#PWR4-12,#PWR14-17,#PWR19-20,#PWR22,#PWR26-32,#PWR35,#PWR38-39,#PWR42-46,#PWR48,#PWR51-64,#PWR67-72,#PWR75-109",
+    "used_designators": "L1,L3-6,C11,C13,C15-16,C19-40,C42-48,RST3-4,TP1-8,R1-2,R11-22,R30-31,R35-58,J2-3,J5-6,J10-15,H1-4,#FLG1,F1,Q1-11,D1-9,D12-14,U1-2,U4,U6-13,Y1-2,#PWR2,#PWR4-12,#PWR14-17,#PWR19-20,#PWR22,#PWR26-32,#PWR35,#PWR38-39,#PWR42-46,#PWR48,#PWR51-64,#PWR67-73,#PWR75-109",
     "variants": []
   },
   "sheets": [
