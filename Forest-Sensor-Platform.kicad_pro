@@ -76,7 +76,112 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|110438750|98475000|4a5e8cc4-52e4-454a-85c4-99c6936526cc|606f0b2d-c81a-4188-9c1f-84b88f3a3394",
+          "RS422 footprint."
+        ],
+        [
+          "clearance|110438750|98650000|4a5e8cc4-52e4-454a-85c4-99c6936526cc|f93d1f57-476d-4c7d-a8d8-fcc22b403177",
+          "RS422 footprint."
+        ],
+        [
+          "clearance|110438750|99475000|7523f1b8-a569-460a-b57d-07c2536b3bdb|f93d1f57-476d-4c7d-a8d8-fcc22b403177",
+          "RS422 footprint."
+        ],
+        [
+          "clearance|110438750|99975000|d28b8eab-b5d8-4efe-ac9a-3cf756b76d9f|7523f1b8-a569-460a-b57d-07c2536b3bdb",
+          "RS422 footprint."
+        ],
+        [
+          "clearance|111013214|99050000|667834c3-8242-4843-b04b-8ce36b546fe0|8321b296-3724-4017-8de7-770ead4c7d35",
+          "RS422 footprint clearance."
+        ],
+        [
+          "clearance|114638750|98475000|fe63af3e-1df9-4f8f-85b6-e8506ce1c4ac|0dc1c18e-f1f4-4efa-86ba-87f0f0729345",
+          "RS422 footprint."
+        ],
+        [
+          "clearance|114638750|98650000|fe63af3e-1df9-4f8f-85b6-e8506ce1c4ac|51cfade9-df51-4a32-9795-e811d9677582",
+          "RS422 footprint."
+        ],
+        [
+          "clearance|114638750|99475000|1462b441-400e-4bc6-ae17-5c32619f67b1|51cfade9-df51-4a32-9795-e811d9677582",
+          "RS422 footprint."
+        ],
+        [
+          "clearance|114638750|99650000|1462b441-400e-4bc6-ae17-5c32619f67b1|018e59b1-dda6-4a10-ab3a-dc072494ad43",
+          "RS422 footprint."
+        ],
+        [
+          "copper_edge_clearance|100385000|67712500|ec9de2c3-819e-4917-9d7c-fb83cf599944|43c02d27-dbb2-4d1c-b829-a819b3c6c591",
+          "Edge connector SMA"
+        ],
+        [
+          "copper_edge_clearance|103250000|67712500|ec9de2c3-819e-4917-9d7c-fb83cf599944|51026628-f666-4a14-8855-8d4bbd51218e",
+          "Edge connector SMA"
+        ],
+        [
+          "copper_edge_clearance|103250000|67712500|ec9de2c3-819e-4917-9d7c-fb83cf599944|bb04df0f-5de1-481a-9b50-efcf2ec92400",
+          "SMA edge mounted."
+        ],
+        [
+          "copper_edge_clearance|97600000|67712500|ec9de2c3-819e-4917-9d7c-fb83cf599944|4dbade98-0fc5-46bc-8d07-cfd680ba8aaa",
+          "SMA edge mounted."
+        ],
+        [
+          "copper_edge_clearance|97600000|67712500|ec9de2c3-819e-4917-9d7c-fb83cf599944|58c09c71-e030-4002-80ea-7989e78c3963",
+          "Edge connector SMA"
+        ],
+        [
+          "hole_clearance|112650000|126052500|20f9ab23-52b1-45d6-9b31-2f5870bbe766|78f4e295-3dad-4fa5-80fa-4a854a4a379f",
+          "USB connector footprint."
+        ],
+        [
+          "hole_clearance|112650000|126052500|867ee85f-05d3-44b5-b0af-66597dc32cf0|78f4e295-3dad-4fa5-80fa-4a854a4a379f",
+          "USB connector footprint."
+        ],
+        [
+          "hole_clearance|118750000|126052500|17b4e012-7ec0-43c4-8d5c-76bae861c664|2ad5bb16-1506-42bc-86c6-4b0d5255ad7b",
+          "USB connector footprint."
+        ],
+        [
+          "hole_clearance|118750000|126052500|c3f72de4-1f4f-4c57-a1d4-49d1de93b36a|2ad5bb16-1506-42bc-86c6-4b0d5255ad7b",
+          "USB connector footprint."
+        ],
+        [
+          "starved_thermal|105550000|112772500|815e5141-58e7-4b5f-9da8-82bbeb212540|14b1f79d-07c6-4214-baad-1e6fe459f302|F.Cu",
+          "GND connected for thermal conduction."
+        ],
+        [
+          "starved_thermal|112500000|125627500|815e5141-58e7-4b5f-9da8-82bbeb212540|20f9ab23-52b1-45d6-9b31-2f5870bbe766|F.Cu",
+          "USB tight connection. Mounting hole blocking."
+        ],
+        [
+          "starved_thermal|112500000|125627500|815e5141-58e7-4b5f-9da8-82bbeb212540|867ee85f-05d3-44b5-b0af-66597dc32cf0|F.Cu",
+          "USB tight connection. Mounting hole blocking."
+        ],
+        [
+          "starved_thermal|118900000|125627500|815e5141-58e7-4b5f-9da8-82bbeb212540|17b4e012-7ec0-43c4-8d5c-76bae861c664|F.Cu",
+          "USB tight connection. Mounting hole blocking."
+        ],
+        [
+          "starved_thermal|118900000|125627500|815e5141-58e7-4b5f-9da8-82bbeb212540|c3f72de4-1f4f-4c57-a1d4-49d1de93b36a|F.Cu",
+          "USB connector footprint."
+        ],
+        [
+          "starved_thermal|79812500|87200000|815e5141-58e7-4b5f-9da8-82bbeb212540|2df35810-b306-4605-b014-dc66b11ce722|F.Cu",
+          "Current sense lines block full GND."
+        ],
+        [
+          "starved_thermal|82087500|87200000|815e5141-58e7-4b5f-9da8-82bbeb212540|f52307a7-1eda-46d8-b234-1d7495e987ad|F.Cu",
+          "Current sense lines run inside."
+        ],
+        [
+          "starved_thermal|95662500|105600000|815e5141-58e7-4b5f-9da8-82bbeb212540|80167c44-9d24-415d-9bcd-0c4c7dadcd18|F.Cu",
+          "Thermal connected GND"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -121,14 +226,14 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -618,7 +723,7 @@
         {
           "group_by": true,
           "label": "Manufacturer",
-          "name": "Manufacturer",
+          "name": "MANUFACTURER",
           "show": true
         },
         {
@@ -691,12 +796,6 @@
           "group_by": false,
           "label": "Details",
           "name": "Details",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
           "show": false
         },
         {

@@ -1117,7 +1117,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_Shielded:Conn_01x04_Shielded"
+		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1128,7 +1128,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0.254 4.826 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1137,8 +1137,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Shielded"
-				(at 1.016 -7.366 0)
+			(property "Value" "Conn_01x04_MountingPin"
+				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1170,7 +1170,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic shielded connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1192,7 +1192,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1SH*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1203,21 +1203,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_Shielded_1_1"
+			(symbol "Conn_01x04_MountingPin_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 3.556)
-					(end 1.016 -6.096)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1227,8 +1216,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 2.667)
-					(end 0.254 2.413)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1238,8 +1227,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 0.127)
-					(end 0.254 -0.127)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1249,8 +1238,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 -2.413)
-					(end 0.254 -2.667)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1260,19 +1249,39 @@
 					)
 				)
 				(rectangle
-					(start -1.016 -4.953)
-					(end 0.254 -5.207)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
 					(at -5.08 2.54 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_1"
 						(effects
 							(font
@@ -1290,7 +1299,7 @@
 				)
 				(pin passive line
 					(at -5.08 0 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_2"
 						(effects
 							(font
@@ -1308,7 +1317,7 @@
 				)
 				(pin passive line
 					(at -5.08 -2.54 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_3"
 						(effects
 							(font
@@ -1326,7 +1335,7 @@
 				)
 				(pin passive line
 					(at -5.08 -5.08 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_4"
 						(effects
 							(font
@@ -1344,15 +1353,15 @@
 				)
 				(pin passive line
 					(at 0 -10.16 90)
-					(length 3.81)
-					(name "Shield"
+					(length 3.048)
+					(name "MountPin"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SH"
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1363,7 +1372,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_Shielded:Conn_01x05_Shielded"
+		(symbol "Connector_Generic_MountingPin:Conn_01x05_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1374,7 +1383,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0.254 7.366 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1383,8 +1392,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05_Shielded"
-				(at 1.016 -7.366 0)
+			(property "Value" "Conn_01x05_MountingPin"
+				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1416,7 +1425,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic shielded connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1438,7 +1447,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1SH*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1449,21 +1458,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x05_Shielded_1_1"
+			(symbol "Conn_01x05_MountingPin_1_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 1.27 -6.35)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 6.096)
-					(end 1.016 -6.096)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1473,8 +1471,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 5.207)
-					(end 0.254 4.953)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1484,8 +1482,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 2.667)
-					(end 0.254 2.413)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1495,8 +1493,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 0.127)
-					(end 0.254 -0.127)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1506,8 +1504,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 -2.413)
-					(end 0.254 -2.667)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1517,19 +1515,39 @@
 					)
 				)
 				(rectangle
-					(start -1.016 -4.953)
-					(end 0.254 -5.207)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
 					(at -5.08 5.08 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_1"
 						(effects
 							(font
@@ -1547,7 +1565,7 @@
 				)
 				(pin passive line
 					(at -5.08 2.54 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_2"
 						(effects
 							(font
@@ -1565,7 +1583,7 @@
 				)
 				(pin passive line
 					(at -5.08 0 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_3"
 						(effects
 							(font
@@ -1583,7 +1601,7 @@
 				)
 				(pin passive line
 					(at -5.08 -2.54 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_4"
 						(effects
 							(font
@@ -1601,7 +1619,7 @@
 				)
 				(pin passive line
 					(at -5.08 -5.08 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_5"
 						(effects
 							(font
@@ -1619,15 +1637,15 @@
 				)
 				(pin passive line
 					(at 0 -10.16 90)
-					(length 3.81)
-					(name "Shield"
+					(length 3.048)
+					(name "MountPin"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SH"
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5192,7 +5210,7 @@
 							)
 						)
 					)
-					(number "[2,3,5]"
+					(number "[2,3,5,7]"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7076,7 +7094,7 @@
 	)
 	(text "Ideal diode (OR)\n5V USB Controller"
 		(exclude_from_sim no)
-		(at 266.7 105.664 0)
+		(at 266.7 141.224 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7088,7 +7106,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 123.952 149.606 0)
+		(at 123.952 185.166 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7192,7 +7210,7 @@
 	)
 	(text "Active Low"
 		(exclude_from_sim no)
-		(at 253.238 115.062 0)
+		(at 253.238 150.622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7202,7 +7220,7 @@
 		)
 		(uuid "a7bb1ccc-b0bb-4d2c-86b5-3ef4538233af")
 	)
-	(text "RS422/482"
+	(text "RS422/485"
 		(exclude_from_sim no)
 		(at 571.5 241.808 0)
 		(effects
@@ -7329,10 +7347,10 @@
 		(uuid "15d19e22-9334-4fbf-a1fd-f57333317cfc")
 	)
 	(junction
-		(at 346.71 308.61)
+		(at 344.17 306.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c0a34e3-87b0-4fe4-820c-98867e15dfe3")
+		(uuid "24a33e38-2898-415f-ba02-0dbcad21c710")
 	)
 	(junction
 		(at 163.83 255.27)
@@ -7353,7 +7371,7 @@
 		(uuid "2f03c3b3-702c-4409-92b2-a5547b0a1e69")
 	)
 	(junction
-		(at 331.47 127)
+		(at 331.47 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3075814e-795a-469f-9374-704599037e03")
@@ -7363,6 +7381,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "392810c0-b612-43c0-9b4c-6a81a1a7cffd")
+	)
+	(junction
+		(at 346.71 308.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39a1aca5-3e46-488a-8ed6-7a38bcf5963a")
 	)
 	(junction
 		(at 429.26 295.91)
@@ -7401,7 +7425,7 @@
 		(uuid "47c294ba-6b8b-4503-801e-a1d2ba28a8ac")
 	)
 	(junction
-		(at 115.57 185.42)
+		(at 115.57 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bbeb5b1-ff1d-46d6-8def-6237260daf1d")
@@ -7413,7 +7437,7 @@
 		(uuid "50e2f1a2-8c2e-49d1-a2fa-677432caf273")
 	)
 	(junction
-		(at 125.73 162.56)
+		(at 125.73 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d4de4a2-a1cb-4110-a674-62e1e932228a")
@@ -7437,7 +7461,7 @@
 		(uuid "616ba683-bc20-47db-8686-75e70bde1389")
 	)
 	(junction
-		(at 331.47 160.02)
+		(at 331.47 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "623d204c-bab8-47f7-be0d-5efee30f6f90")
@@ -7449,19 +7473,13 @@
 		(uuid "6956d79a-a3ae-4585-9d5e-9c979d2d04f8")
 	)
 	(junction
-		(at 344.17 306.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a0e5562-d91a-4adf-b1f0-a36655441717")
-	)
-	(junction
 		(at 430.53 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6acb8400-972c-44c9-9108-57ef1ac58181")
 	)
 	(junction
-		(at 115.57 124.46)
+		(at 115.57 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70cf797d-8592-442e-b5db-46ae58a9cd4a")
@@ -7483,6 +7501,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78c9faf5-c9d0-40a5-9be0-e02fa5511225")
+	)
+	(junction
+		(at 194.31 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e8dc04b-4546-478b-8bbb-5aaa8f429a64")
 	)
 	(junction
 		(at 552.45 323.85)
@@ -7521,13 +7545,13 @@
 		(uuid "92cdabc6-45a7-4f60-a20c-87ef1383062d")
 	)
 	(junction
-		(at 125.73 160.02)
+		(at 125.73 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a85d285-339a-4deb-9b94-1f49c317a301")
 	)
 	(junction
-		(at 234.95 105.41)
+		(at 234.95 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c7f2d8f-5b5a-4b15-92fe-da785428d2ce")
@@ -7557,7 +7581,7 @@
 		(uuid "af88b40a-97e3-4651-9025-99b1ecd5d45f")
 	)
 	(junction
-		(at 266.7 135.89)
+		(at 266.7 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7b9d1dc-56f5-401c-bc51-9a6ffdc8cfe7")
@@ -7581,7 +7605,7 @@
 		(uuid "ba8a0061-2226-4100-8bf2-36d9628bd8b7")
 	)
 	(junction
-		(at 275.59 127)
+		(at 275.59 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfe9cc39-84e4-4f6c-9bf0-b322773a80ca")
@@ -7603,12 +7627,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca50b8bb-8c15-4f0a-88c1-9db39ba2014b")
-	)
-	(junction
-		(at 144.78 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdf66c6d-73cd-4cac-8771-5cfe7b92e86e")
 	)
 	(junction
 		(at 610.87 231.14)
@@ -7647,16 +7665,16 @@
 		(uuid "e3735e23-c2cb-4ea5-9f2e-5fc3d85fe0ab")
 	)
 	(junction
-		(at 194.31 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e80b74cb-68ca-4598-855a-7fe43f4e2858")
-	)
-	(junction
 		(at 496.57 303.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e85b2d74-a14f-4372-9a43-1180ffbc84f4")
+	)
+	(junction
+		(at 144.78 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8693edf-412c-487b-a9ef-47656f9b15fe")
 	)
 	(junction
 		(at 181.61 251.46)
@@ -7687,7 +7705,7 @@
 		(uuid "49cc7c78-7587-4ece-9bb7-18c05c173a1b")
 	)
 	(no_connect
-		(at 125.73 179.07)
+		(at 125.73 214.63)
 		(uuid "5317310e-4632-401c-af9b-651c5dee784f")
 	)
 	(no_connect
@@ -7703,7 +7721,7 @@
 		(uuid "aca89ff2-4710-4cae-8498-ef5e55b8ba4b")
 	)
 	(no_connect
-		(at 125.73 176.53)
+		(at 125.73 212.09)
 		(uuid "ce3ea1f0-656c-453c-a284-2113c1f56d61")
 	)
 	(wire
@@ -7718,7 +7736,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 137.16) (xy 344.17 306.07)
+			(xy 344.17 172.72) (xy 344.17 306.07)
 		)
 		(stroke
 			(width 0)
@@ -7748,7 +7766,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 224.79) (xy 194.31 124.46)
+			(xy 194.31 228.6) (xy 194.31 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7758,7 +7776,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 312.42) (xy 128.27 224.79)
+			(xy 128.27 312.42) (xy 128.27 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7768,7 +7786,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 162.56) (xy 317.5 162.56)
+			(xy 125.73 198.12) (xy 317.5 198.12)
 		)
 		(stroke
 			(width 0)
@@ -7778,7 +7796,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 139.7) (xy 340.36 139.7)
+			(xy 354.33 175.26) (xy 340.36 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7818,7 +7836,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 97.79) (xy 285.75 119.38)
+			(xy 285.75 133.35) (xy 285.75 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7868,7 +7886,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 185.42) (xy 115.57 187.96)
+			(xy 115.57 220.98) (xy 115.57 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7918,7 +7936,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 119.38) (xy 257.81 119.38)
+			(xy 246.38 154.94) (xy 257.81 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8078,7 +8096,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 147.32) (xy 349.25 147.32)
+			(xy 340.36 182.88) (xy 349.25 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8098,7 +8116,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 127) (xy 275.59 124.46)
+			(xy 275.59 162.56) (xy 275.59 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8118,7 +8136,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 185.42) (xy 116.84 185.42)
+			(xy 115.57 220.98) (xy 116.84 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8168,7 +8186,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 105.41) (xy 246.38 119.38)
+			(xy 246.38 140.97) (xy 246.38 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8238,7 +8256,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 124.46) (xy 257.81 124.46)
+			(xy 194.31 160.02) (xy 257.81 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8258,7 +8276,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 97.79) (xy 285.75 97.79)
+			(xy 295.91 133.35) (xy 285.75 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8318,7 +8336,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 163.83) (xy 331.47 160.02)
+			(xy 331.47 199.39) (xy 331.47 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8398,7 +8416,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 172.72) (xy 135.89 172.72)
+			(xy 125.73 208.28) (xy 135.89 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8408,7 +8426,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 160.02) (xy 314.96 142.24)
+			(xy 314.96 195.58) (xy 314.96 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8458,7 +8476,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 135.89) (xy 267.97 135.89)
+			(xy 266.7 171.45) (xy 267.97 171.45)
 		)
 		(stroke
 			(width 0)
@@ -8518,7 +8536,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 147.32) (xy 349.25 332.74)
+			(xy 349.25 182.88) (xy 349.25 332.74)
 		)
 		(stroke
 			(width 0)
@@ -8588,7 +8606,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 124.46) (xy 115.57 153.67)
+			(xy 115.57 160.02) (xy 115.57 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8628,7 +8646,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 149.86) (xy 351.79 330.2)
+			(xy 351.79 185.42) (xy 351.79 330.2)
 		)
 		(stroke
 			(width 0)
@@ -8678,7 +8696,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 162.56) (xy 125.73 165.1)
+			(xy 125.73 198.12) (xy 125.73 200.66)
 		)
 		(stroke
 			(width 0)
@@ -8688,7 +8706,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 184.15) (xy 135.89 184.15)
+			(xy 144.78 219.71) (xy 135.89 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8728,7 +8746,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 137.16) (xy 340.36 137.16)
+			(xy 344.17 172.72) (xy 340.36 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8768,7 +8786,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 170.18) (xy 144.78 173.99)
+			(xy 144.78 205.74) (xy 144.78 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8808,7 +8826,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 97.79) (xy 234.95 97.79)
+			(xy 227.33 133.35) (xy 234.95 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8828,7 +8846,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 124.46) (xy 194.31 124.46)
+			(xy 115.57 160.02) (xy 194.31 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8838,7 +8856,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 160.02) (xy 331.47 160.02)
+			(xy 330.2 195.58) (xy 331.47 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8848,7 +8866,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 149.86) (xy 351.79 149.86)
+			(xy 340.36 185.42) (xy 351.79 185.42)
 		)
 		(stroke
 			(width 0)
@@ -8858,7 +8876,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 160.02) (xy 332.74 160.02)
+			(xy 331.47 195.58) (xy 332.74 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8888,7 +8906,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 241.3) (xy 341.63 241.3)
+			(xy 260.35 240.03) (xy 341.63 240.03)
 		)
 		(stroke
 			(width 0)
@@ -9008,16 +9026,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 184.15) (xy 144.78 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "821dc52a-7975-494c-94f4-fa9393f535d9")
-	)
-	(wire
-		(pts
 			(xy 538.48 260.35) (xy 563.88 260.35)
 		)
 		(stroke
@@ -9028,7 +9036,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 121.92) (xy 331.47 127)
+			(xy 331.47 157.48) (xy 331.47 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9058,7 +9066,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 119.38) (xy 275.59 119.38)
+			(xy 285.75 154.94) (xy 275.59 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9158,7 +9166,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 144.78) (xy 340.36 144.78)
+			(xy 341.63 180.34) (xy 340.36 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9238,7 +9246,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 181.61) (xy 144.78 184.15)
+			(xy 144.78 217.17) (xy 144.78 219.71)
 		)
 		(stroke
 			(width 0)
@@ -9248,7 +9256,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 97.79) (xy 234.95 96.52)
+			(xy 234.95 133.35) (xy 234.95 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9288,7 +9296,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 127) (xy 257.81 127)
+			(xy 248.92 162.56) (xy 257.81 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9328,7 +9336,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 105.41) (xy 246.38 105.41)
+			(xy 234.95 140.97) (xy 246.38 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9388,7 +9396,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 144.78) (xy 322.58 144.78)
+			(xy 317.5 180.34) (xy 322.58 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9398,7 +9406,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 139.7) (xy 354.33 262.89)
+			(xy 354.33 175.26) (xy 354.33 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9408,7 +9416,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 137.16) (xy 266.7 135.89)
+			(xy 266.7 172.72) (xy 266.7 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9438,7 +9446,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 185.42) (xy 114.3 184.15)
+			(xy 114.3 220.98) (xy 114.3 219.71)
 		)
 		(stroke
 			(width 0)
@@ -9458,7 +9466,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 142.24) (xy 346.71 308.61)
+			(xy 346.71 177.8) (xy 346.71 308.61)
 		)
 		(stroke
 			(width 0)
@@ -9498,7 +9506,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 127) (xy 331.47 127)
+			(xy 275.59 162.56) (xy 331.47 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9558,7 +9566,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 170.18) (xy 144.78 170.18)
+			(xy 125.73 205.74) (xy 144.78 205.74)
 		)
 		(stroke
 			(width 0)
@@ -9578,7 +9586,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 135.89) (xy 266.7 135.89)
+			(xy 265.43 171.45) (xy 266.7 171.45)
 		)
 		(stroke
 			(width 0)
@@ -9588,7 +9596,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 184.15) (xy 135.89 181.61)
+			(xy 135.89 219.71) (xy 135.89 217.17)
 		)
 		(stroke
 			(width 0)
@@ -9608,7 +9616,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 142.24) (xy 340.36 142.24)
+			(xy 346.71 177.8) (xy 340.36 177.8)
 		)
 		(stroke
 			(width 0)
@@ -9618,7 +9626,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 127) (xy 248.92 251.46)
+			(xy 248.92 162.56) (xy 248.92 251.46)
 		)
 		(stroke
 			(width 0)
@@ -9648,7 +9656,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 144.78) (xy 341.63 241.3)
+			(xy 341.63 180.34) (xy 341.63 240.03)
 		)
 		(stroke
 			(width 0)
@@ -9848,7 +9856,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 162.56) (xy 317.5 144.78)
+			(xy 317.5 198.12) (xy 317.5 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9878,7 +9886,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 160.02) (xy 314.96 160.02)
+			(xy 125.73 195.58) (xy 314.96 195.58)
 		)
 		(stroke
 			(width 0)
@@ -9888,7 +9896,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 157.48) (xy 125.73 160.02)
+			(xy 125.73 193.04) (xy 125.73 195.58)
 		)
 		(stroke
 			(width 0)
@@ -9908,7 +9916,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 185.42) (xy 116.84 184.15)
+			(xy 116.84 220.98) (xy 116.84 219.71)
 		)
 		(stroke
 			(width 0)
@@ -9918,7 +9926,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 172.72) (xy 135.89 173.99)
+			(xy 135.89 208.28) (xy 135.89 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9988,7 +9996,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 185.42) (xy 115.57 185.42)
+			(xy 114.3 220.98) (xy 115.57 220.98)
 		)
 		(stroke
 			(width 0)
@@ -10128,7 +10136,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 142.24) (xy 322.58 142.24)
+			(xy 314.96 177.8) (xy 322.58 177.8)
 		)
 		(stroke
 			(width 0)
@@ -10178,7 +10186,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 255.27) (xy 260.35 241.3)
+			(xy 260.35 255.27) (xy 260.35 240.03)
 		)
 		(stroke
 			(width 0)
@@ -10218,7 +10226,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 224.79) (xy 194.31 224.79)
+			(xy 128.27 228.6) (xy 194.31 228.6)
 		)
 		(stroke
 			(width 0)
@@ -10228,7 +10236,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 97.79) (xy 227.33 96.52)
+			(xy 227.33 133.35) (xy 227.33 132.08)
 		)
 		(stroke
 			(width 0)
@@ -10237,7 +10245,7 @@
 		(uuid "ff45a2a1-fdd1-4e1f-9f55-28c5a2320312")
 	)
 	(label "D-"
-		(at 312.42 160.02 180)
+		(at 312.42 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10327,7 +10335,7 @@
 		(uuid "59621fb1-4572-43a0-8245-a84814d77850")
 	)
 	(label "D+"
-		(at 312.42 162.56 180)
+		(at 312.42 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10416,16 +10424,6 @@
 		)
 		(uuid "ad8b8c4c-12a4-42e0-8b57-01e45321b82b")
 	)
-	(label "Receiver_Input_Enable"
-		(at 535.94 251.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc1dd4fb-13fc-4f81-b6d3-15f1c92e8bc5")
-	)
 	(label "WIO_USR_LED"
 		(at 386.08 280.67 0)
 		(effects
@@ -10435,16 +10433,6 @@
 			(justify left bottom)
 		)
 		(uuid "bcf405ee-46cb-48fd-ad1a-8c7672c5f86a")
-	)
-	(label "Batt_Out"
-		(at 177.8 314.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bda68e09-ae97-4308-8c85-0422ce50e6d9")
 	)
 	(label "SPI-SCK"
 		(at 440.69 264.16 180)
@@ -10575,16 +10563,6 @@
 			(justify left bottom)
 		)
 		(uuid "e84eee62-4e27-4887-9334-470461b56917")
-	)
-	(label "Receiver_Output_Enable"
-		(at 538.48 234.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec259602-78ff-40d6-b901-1b63433a5eb7")
 	)
 	(label "SPI-COTI"
 		(at 440.69 269.24 180)
@@ -10736,6 +10714,30 @@
 			)
 		)
 	)
+	(global_label "Battery_Out"
+		(shape input)
+		(at 177.8 314.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6aecdec-9561-4aba-ad68-d02f0cbd4554")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.9176 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R_US")
 		(at 660.4 245.11 0)
@@ -10815,17 +10817,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 660.4 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key PN" "RMCF0805ZT0R00CT-ND"
 			(at 660.4 245.11 0)
 			(hide yes)
@@ -10837,7 +10828,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 660.4 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -11264,7 +11255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
 			(at 386.08 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -11297,7 +11288,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Lite-On Inc."
 			(at 386.08 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -11332,6 +11323,28 @@
 		)
 		(property "STANDARD" ""
 			(at 386.08 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C190KGKT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "160-1435-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11366,7 +11379,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0bee8dbe-d612-40c2-87e9-9dc614d28669")
 		(property "Reference" "R33"
@@ -11380,7 +11393,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "0"
 			(at 651.51 246.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11402,7 +11415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 648.97 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -11424,7 +11437,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 648.97 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -11459,6 +11472,28 @@
 		)
 		(property "STANDARD" ""
 			(at 648.97 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0805ZT0R00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0805ZT0R00CT-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11807,7 +11842,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 530.62 203.04 0)
 			(hide yes)
 			(show_name no)
@@ -11828,7 +11863,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 515.62 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -11863,6 +11898,28 @@
 		)
 		(property "STANDARD" ""
 			(at 515.62 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "311-1344-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12011,7 +12068,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
 			(at 391.16 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -12033,7 +12090,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Samtec Inc."
 			(at 391.16 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -12068,6 +12125,28 @@
 		)
 		(property "STANDARD" ""
 			(at 391.16 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMA-J-P-H-ST-EM1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "SAM8857-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12167,17 +12246,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Abracon LLC"
-			(at 189.23 251.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key PN" "535-AOTA-N252010S-2R2MTCT-ND"
 			(at 189.23 251.46 90)
 			(hide yes)
@@ -12189,7 +12257,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Abracon LLC"
 			(at 189.23 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -12290,7 +12358,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8937/swt0210-spec.pdf"
+		(property "Datasheet" "https://www.ckswitches.com/media/1467/pts647.pdf"
 			(at 363.22 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -12312,7 +12380,7 @@
 				)
 			)
 		)
-		(property "MPN" "SWT0210-045026GSA"
+		(property "MPN" "PTS647SK38SMTR2 LFS"
 			(at 363.22 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -12323,7 +12391,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "GCT"
+		(property "Digi-Key PN" "108-PTS647SK38SMTR2LFSTR-ND"
 			(at 363.22 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -12334,18 +12402,7 @@
 				)
 			)
 		)
-		(property "Digi-Key PN" "2073-SWT0210-045026GSACT-ND"
-			(at 363.22 262.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "C&K"
 			(at 363.22 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -12482,17 +12539,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Same Sky"
-			(at 495.3 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key PN" "2223-MSD-1-ACT-ND"
 			(at 495.3 219.71 0)
 			(hide yes)
@@ -12504,7 +12550,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Same Sky"
 			(at 495.3 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12718,7 +12764,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-smaj-datasheet"
 			(at 648.97 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -12740,7 +12786,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Littelfuse Inc."
 			(at 648.97 252.73 90)
 			(hide yes)
 			(show_name no)
@@ -12775,6 +12821,28 @@
 		)
 		(property "STANDARD" ""
 			(at 648.97 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMAJ5.0CA"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "SMAJ5.0CALFTR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12843,7 +12911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://files.seeedstudio.com/products/317990687/res/LoRa-E5%20module%20datasheet_V1.0.pdf"
 			(at 414.02 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -12865,7 +12933,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Seeed Technology Co., Ltd"
 			(at 414.02 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -12900,6 +12968,28 @@
 		)
 		(property "STANDARD" ""
 			(at 414.02 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LoRa-E5-HF"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "1597-317990829TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13047,7 +13137,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 463.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -13069,7 +13159,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 463.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -13104,6 +13194,28 @@
 		)
 		(property "STANDARD" ""
 			(at 463.55 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT10K0TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13149,7 +13261,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1K"
 			(at 503.174 287.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13170,7 +13282,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 502.92 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -13192,7 +13304,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 502.92 284.48 90)
 			(hide yes)
 			(show_name no)
@@ -13227,6 +13339,28 @@
 		)
 		(property "STANDARD" ""
 			(at 502.92 284.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT1K00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13294,7 +13428,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 379.73 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -13316,7 +13450,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 379.73 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -13351,6 +13485,28 @@
 		)
 		(property "STANDARD" ""
 			(at 379.73 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT10K0TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13454,7 +13610,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 137.16 0)
+		(at 266.7 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13465,7 +13621,7 @@
 		(fields_autoplaced yes)
 		(uuid "27dd1d95-dcdf-4491-ae39-b6a5fc310fe0")
 		(property "Reference" "#PWR071"
-			(at 266.7 143.51 0)
+			(at 266.7 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13476,7 +13632,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 142.24 0)
+			(at 266.7 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13486,7 +13642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 137.16 0)
+			(at 266.7 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13497,7 +13653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 137.16 0)
+			(at 266.7 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13508,7 +13664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 137.16 0)
+			(at 266.7 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13630,7 +13786,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1m"
+		(property "Value" "1M"
 			(at 161.29 260.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13652,7 +13808,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 163.83 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -13674,7 +13830,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 163.83 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -13709,6 +13865,28 @@
 		)
 		(property "STANDARD" ""
 			(at 163.83 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1M00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT1M00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13755,7 +13933,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 50V"
 			(at 488.696 308.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13777,7 +13955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 511.57 317.34 0)
 			(hide yes)
 			(show_name no)
@@ -13798,7 +13976,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 496.57 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -13833,6 +14011,28 @@
 		)
 		(property "STANDARD" ""
 			(at 496.57 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "311-1344-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14214,7 +14414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_01x05_Shielded")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
 		(at 325.12 303.53 180)
 		(unit 1)
 		(body_style 1)
@@ -14226,7 +14426,7 @@
 		(fields_autoplaced yes)
 		(uuid "3342f79f-85f9-478b-ad7d-f5d7b1c9fdbc")
 		(property "Reference" "J2"
-			(at 322.58 302.2599 0)
+			(at 322.58 301.9043 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14237,7 +14437,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Shielded"
-			(at 322.58 304.7999 0)
+			(at 322.58 304.4443 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14258,7 +14458,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2025/06/eSR_SZ.pdf"
 			(at 325.12 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -14269,7 +14469,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic shielded connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 325.12 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -14280,7 +14480,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "JST Sales America Inc."
 			(at 325.12 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -14324,7 +14524,29 @@
 				)
 			)
 		)
-		(pin "SH"
+		(property "MPN" "BM05B-SRSS-TB"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "455-BM05B-SRSS-TBTR-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "MP"
 			(uuid "81c78c2e-b837-4cd4-8b7c-4291f7ff812c")
 		)
 		(pin "3"
@@ -14353,7 +14575,7 @@
 	)
 	(symbol
 		(lib_id "buck-wio:USB-C-16P")
-		(at 115.57 168.91 0)
+		(at 115.57 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14363,7 +14585,7 @@
 		(dnp no)
 		(uuid "342da572-850d-4e56-8ff2-eb51edc76722")
 		(property "Reference" "J1"
-			(at 106.68 166.878 0)
+			(at 106.68 202.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14374,7 +14596,7 @@
 			)
 		)
 		(property "Value" "USB_C_2.0_16P"
-			(at 106.68 169.418 0)
+			(at 106.68 204.978 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14385,7 +14607,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 115.57 168.91 0)
+			(at 115.57 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14396,7 +14618,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/UJ20-C-H-G-SMT-2A-P16-TR.pdf"
-			(at 115.57 168.91 0)
+			(at 115.57 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14407,7 +14629,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 115.57 168.91 0)
+			(at 115.57 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14418,18 +14640,7 @@
 			)
 		)
 		(property "MPN" "UJ20-C-H-G-SMT-2A-P16-TR"
-			(at 115.57 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Same Sky"
-			(at 115.57 168.91 0)
+			(at 115.57 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14440,7 +14651,7 @@
 			)
 		)
 		(property "Digi-Key PN" "2223-UJ20-C-H-G-SMT-2A-P16-TRCT-ND"
-			(at 115.57 168.91 0)
+			(at 115.57 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14450,8 +14661,8 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 115.57 168.91 0)
+		(property "MANUFACTURER" "Same Sky"
+			(at 115.57 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14462,7 +14673,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 115.57 168.91 0)
+			(at 115.57 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14473,7 +14684,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 115.57 168.91 0)
+			(at 115.57 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14484,7 +14695,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 115.57 168.91 0)
+			(at 115.57 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14614,7 +14825,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_01x04_Shielded")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 560.07 344.17 0)
 		(unit 1)
 		(body_style 1)
@@ -14626,7 +14837,7 @@
 		(fields_autoplaced yes)
 		(uuid "38774f06-1bd3-4035-80a1-bb624a3454b5")
 		(property "Reference" "J10"
-			(at 562.61 344.1699 0)
+			(at 562.61 344.5255 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14637,7 +14848,7 @@
 			)
 		)
 		(property "Value" "I2C2"
-			(at 562.61 346.7099 0)
+			(at 562.61 347.0655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14658,7 +14869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2025/06/eSR_SZ.pdf"
 			(at 560.07 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -14669,7 +14880,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic shielded connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 560.07 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -14680,7 +14891,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "JST Sales America Inc."
 			(at 560.07 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -14724,10 +14935,32 @@
 				)
 			)
 		)
+		(property "MPN" "BM04B-SRSS-TB"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "455-BM04B-SRSS-TBTR-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77da8969-4ccc-4181-a62a-5fadcca2ad7b")
 		)
-		(pin "SH"
+		(pin "MP"
 			(uuid "9e68dd35-2a04-4858-9062-87d6c51ec33e")
 		)
 		(pin "4"
@@ -14770,7 +15003,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1m"
+		(property "Value" "1M"
 			(at 269.24 260.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14792,7 +15025,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 271.78 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -14814,7 +15047,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 271.78 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -14849,6 +15082,28 @@
 		)
 		(property "STANDARD" ""
 			(at 271.78 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1M00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT1M00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15025,17 +15280,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 171.45 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key PN" "296-TPS22991CRAARCT-ND"
 			(at 171.45 255.27 0)
 			(hide yes)
@@ -15047,7 +15291,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Texas Instruments"
 			(at 171.45 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -15271,7 +15515,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 331.47 163.83 0)
+		(at 331.47 199.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15282,7 +15526,7 @@
 		(fields_autoplaced yes)
 		(uuid "46b91606-e809-48f2-bf87-67dcaf9e7601")
 		(property "Reference" "#PWR073"
-			(at 331.47 170.18 0)
+			(at 331.47 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15293,7 +15537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 331.47 168.91 0)
+			(at 331.47 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15303,7 +15547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.47 163.83 0)
+			(at 331.47 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15314,7 +15558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 163.83 0)
+			(at 331.47 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15325,7 +15569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 331.47 163.83 0)
+			(at 331.47 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15369,7 +15613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 50V"
 			(at 488.696 290.068 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15391,7 +15635,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 511.57 298.29 0)
 			(hide yes)
 			(show_name no)
@@ -15412,7 +15656,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 496.57 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -15456,6 +15700,28 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "311-1344-2-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa38593b-c396-402d-b339-492e54a1fcd2")
 		)
@@ -15473,7 +15739,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 113.03 0)
+		(at 234.95 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15483,7 +15749,7 @@
 		(dnp no)
 		(uuid "4a49ab3a-68ba-45f5-8b8c-db684621543f")
 		(property "Reference" "#PWR072"
-			(at 234.95 119.38 0)
+			(at 234.95 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15494,7 +15760,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 118.11 0)
+			(at 234.95 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15504,7 +15770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 113.03 0)
+			(at 234.95 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15515,7 +15781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 113.03 0)
+			(at 234.95 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15526,7 +15792,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 113.03 0)
+			(at 234.95 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15591,7 +15857,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 641.35 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -15612,7 +15878,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 641.35 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -15656,6 +15922,28 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "311-1344-2-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cbd67453-5a7c-4af8-aa12-dc7d9eb10b39")
 		)
@@ -15673,7 +15961,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 331.47 121.92 0)
+		(at 331.47 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15684,7 +15972,7 @@
 		(fields_autoplaced yes)
 		(uuid "4df47f73-881a-4d3d-b017-9a913329cbf3")
 		(property "Reference" "#PWR019"
-			(at 331.47 125.73 0)
+			(at 331.47 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15695,7 +15983,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 331.47 116.84 0)
+			(at 331.47 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15705,7 +15993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.47 121.92 0)
+			(at 331.47 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15716,7 +16004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 121.92 0)
+			(at 331.47 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15727,7 +16015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 331.47 121.92 0)
+			(at 331.47 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15771,7 +16059,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1m"
+		(property "Value" "1M"
 			(at 530.86 273.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15793,7 +16081,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 533.4 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -15815,7 +16103,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 533.4 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -15850,6 +16138,28 @@
 		)
 		(property "STANDARD" ""
 			(at 533.4 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1M00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT1M00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15953,7 +16263,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_01x04_Shielded")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 560.07 326.39 0)
 		(unit 1)
 		(body_style 1)
@@ -15965,7 +16275,7 @@
 		(fields_autoplaced yes)
 		(uuid "51232120-6984-47d8-8344-3585d83844e0")
 		(property "Reference" "J8"
-			(at 562.61 326.3899 0)
+			(at 562.61 326.7455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15976,7 +16286,7 @@
 			)
 		)
 		(property "Value" "I2C1"
-			(at 562.61 328.9299 0)
+			(at 562.61 329.2855 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15997,7 +16307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst.com/wp-content/uploads/2025/06/eSR_SZ.pdf"
 			(at 560.07 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -16008,7 +16318,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic shielded connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 560.07 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -16019,7 +16329,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "JST Sales America Inc."
 			(at 560.07 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -16063,10 +16373,32 @@
 				)
 			)
 		)
+		(property "MPN" "BM04B-SRSS-TB"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "455-BM04B-SRSS-TBTR-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "12c2a9b7-8669-4744-8b5a-20be86721cc1")
 		)
-		(pin "SH"
+		(pin "MP"
 			(uuid "a1295e98-02a5-4f5c-aa7c-1fe23c788ae7")
 		)
 		(pin "4"
@@ -16133,7 +16465,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 618.49 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -16155,7 +16487,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 618.49 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -16190,6 +16522,28 @@
 		)
 		(property "STANDARD" ""
 			(at 618.49 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603ZT0R00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603ZT0R00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16235,7 +16589,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1K"
 			(at 503.174 270.764 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16256,7 +16610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 502.92 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -16278,7 +16632,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 502.92 267.97 90)
 			(hide yes)
 			(show_name no)
@@ -16313,6 +16667,28 @@
 		)
 		(property "STANDARD" ""
 			(at 502.92 267.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT1K00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16437,7 +16813,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1m"
+		(property "Value" "1M"
 			(at 153.67 321.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16459,7 +16835,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 156.21 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -16481,7 +16857,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 156.21 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -16516,6 +16892,28 @@
 		)
 		(property "STANDARD" ""
 			(at 156.21 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1M00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT1M00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16641,7 +17039,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1m"
+		(property "Value" "1M"
 			(at 541.02 273.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16663,7 +17061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 538.48 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -16685,7 +17083,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 538.48 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -16720,6 +17118,28 @@
 		)
 		(property "STANDARD" ""
 			(at 538.48 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1M00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT1M00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16898,17 +17318,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "3PEAK"
-			(at 571.5 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key PN" "5503-TPT482-VS2RCT-ND"
 			(at 571.5 259.08 0)
 			(hide yes)
@@ -16920,7 +17329,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "3PEAK"
 			(at 571.5 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -17006,7 +17415,7 @@
 	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
-		(at 295.91 101.6 270)
+		(at 295.91 137.16 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -17017,7 +17426,7 @@
 		(dnp no)
 		(uuid "637fa6cf-2a35-4569-95a9-639289338e57")
 		(property "Reference" "D2"
-			(at 302.26 103.1875 0)
+			(at 302.26 138.7475 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17027,7 +17436,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 299.72 103.1875 0)
+			(at 299.72 138.7475 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17037,7 +17446,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 295.91 101.6 0)
+			(at 295.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17047,8 +17456,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 295.91 101.6 0)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
+			(at 295.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17059,7 +17468,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 295.91 101.6 0)
+			(at 295.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17070,7 +17479,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 295.91 101.6 0)
+			(at 295.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17080,8 +17489,8 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 295.91 101.6 0)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 295.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17092,7 +17501,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 295.91 101.6 0)
+			(at 295.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17103,7 +17512,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 295.91 101.6 0)
+			(at 295.91 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17114,7 +17523,29 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 295.91 101.6 0)
+			(at 295.91 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C190KGKT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "160-1435-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17317,7 +17748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF 25V"
 			(at 293.37 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17339,7 +17770,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT188R61E106ME13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 289.56 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -17361,7 +17792,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 289.56 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -17396,6 +17827,28 @@
 		)
 		(property "STANDARD" ""
 			(at 289.56 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRT188R61E106ME13D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "490-12323-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17464,7 +17917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 445.53 257.65 0)
 			(hide yes)
 			(show_name no)
@@ -17485,7 +17938,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 430.53 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -17520,6 +17973,28 @@
 		)
 		(property "STANDARD" ""
 			(at 430.53 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "311-1344-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17624,7 +18099,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 295.91 113.03 0)
+		(at 295.91 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17635,7 +18110,7 @@
 		(fields_autoplaced yes)
 		(uuid "745a660c-c022-40a6-a500-b0ffa961bcdc")
 		(property "Reference" "#PWR039"
-			(at 295.91 119.38 0)
+			(at 295.91 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17646,7 +18121,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 295.91 118.11 0)
+			(at 295.91 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17656,7 +18131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 295.91 113.03 0)
+			(at 295.91 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17667,7 +18142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 113.03 0)
+			(at 295.91 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17678,7 +18153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 295.91 113.03 0)
+			(at 295.91 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17878,7 +18353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 50V"
+		(property "Value" "10uF 25V"
 			(at 498.602 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17900,7 +18375,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT188R61E106ME13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 525.54 203.04 0)
 			(hide yes)
 			(show_name no)
@@ -17921,7 +18396,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 510.54 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -17956,6 +18431,28 @@
 		)
 		(property "STANDARD" ""
 			(at 510.54 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRT188R61E106ME13D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "490-12323-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18102,7 +18599,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 548.64 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -18124,7 +18621,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 548.64 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -18159,6 +18656,28 @@
 		)
 		(property "STANDARD" ""
 			(at 548.64 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT4K70TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18282,7 +18801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF 25V"
 			(at 185.42 256.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18304,7 +18823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT188R61E106ME13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 181.61 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -18325,7 +18844,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 181.61 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -18360,6 +18879,28 @@
 		)
 		(property "STANDARD" ""
 			(at 181.61 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRT188R61E106ME13D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "490-12323-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18459,17 +19000,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 196.85 313.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key PN" "296-LM66200DRLRCT-ND"
 			(at 196.85 313.69 0)
 			(hide yes)
@@ -18481,7 +19011,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Texas Instruments"
 			(at 196.85 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -18560,7 +19090,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 144.78 177.8 0)
+		(at 144.78 213.36 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18571,7 +19101,7 @@
 		(dnp no)
 		(uuid "7ca91536-cabd-466a-bb63-cc0beac4647a")
 		(property "Reference" "R25"
-			(at 149.352 176.784 0)
+			(at 149.352 212.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18581,7 +19111,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 149.352 178.562 0)
+			(at 149.352 214.122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18591,7 +19121,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 143.764 178.054 90)
+			(at 143.764 213.614 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18601,8 +19131,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 144.78 177.8 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 144.78 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18613,7 +19143,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 144.78 177.8 0)
+			(at 144.78 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18623,8 +19153,8 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 144.78 177.8 0)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 144.78 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18635,7 +19165,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 144.78 177.8 0)
+			(at 144.78 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18646,7 +19176,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 144.78 177.8 0)
+			(at 144.78 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18657,7 +19187,29 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 144.78 177.8 0)
+			(at 144.78 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT5K10"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT5K10TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18728,7 +19280,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 552.45 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -18750,7 +19302,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 552.45 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -18785,6 +19337,28 @@
 		)
 		(property "STANDARD" ""
 			(at 552.45 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT4K70TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18933,7 +19507,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 212.09 328.93 0)
 			(hide yes)
 			(show_name no)
@@ -18955,7 +19529,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 212.09 328.93 0)
 			(hide yes)
 			(show_name no)
@@ -18990,6 +19564,28 @@
 		)
 		(property "STANDARD" ""
 			(at 212.09 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT10K0TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19016,7 +19612,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 234.95 96.52 0)
+		(at 234.95 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19026,7 +19622,7 @@
 		(dnp no)
 		(uuid "88273f64-0961-492f-aef2-5f82b0e957ac")
 		(property "Reference" "TP2"
-			(at 236.982 87.376 0)
+			(at 236.982 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19037,7 +19633,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 236.982 89.916 0)
+			(at 236.982 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19048,7 +19644,7 @@
 			)
 		)
 		(property "Footprint" "buck-forest:Testpad"
-			(at 240.03 96.52 0)
+			(at 240.03 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19059,7 +19655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 96.52 0)
+			(at 240.03 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19070,7 +19666,7 @@
 			)
 		)
 		(property "Description" "3V3"
-			(at 238.6346 92.456 0)
+			(at 238.6346 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19080,7 +19676,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 234.95 96.52 0)
+			(at 234.95 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19091,7 +19687,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 234.95 96.52 0)
+			(at 234.95 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19102,7 +19698,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 234.95 96.52 0)
+			(at 234.95 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19113,7 +19709,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 234.95 96.52 0)
+			(at 234.95 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19137,7 +19733,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 295.91 109.22 0)
+		(at 295.91 144.78 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19149,7 +19745,7 @@
 		(fields_autoplaced yes)
 		(uuid "88850379-dcb1-44dd-bd20-44f5aeae8f8b")
 		(property "Reference" "R13"
-			(at 298.45 107.9499 0)
+			(at 298.45 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19160,7 +19756,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 298.45 110.4899 0)
+			(at 298.45 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19171,7 +19767,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 294.894 109.474 90)
+			(at 294.894 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19181,8 +19777,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 295.91 109.22 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 295.91 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19193,7 +19789,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 295.91 109.22 0)
+			(at 295.91 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19203,8 +19799,8 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 295.91 109.22 0)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 295.91 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19215,7 +19811,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 295.91 109.22 0)
+			(at 295.91 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19226,7 +19822,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 295.91 109.22 0)
+			(at 295.91 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19237,7 +19833,29 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 295.91 109.22 0)
+			(at 295.91 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT10K0TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19361,7 +19979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 50V"
 			(at 488.696 273.558 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19383,7 +20001,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 511.57 281.78 0)
 			(hide yes)
 			(show_name no)
@@ -19404,7 +20022,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 496.57 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -19439,6 +20057,28 @@
 		)
 		(property "STANDARD" ""
 			(at 496.57 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "311-1344-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19541,17 +20181,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "On Shore Technology Inc."
-			(at 638.81 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key PN" "ED10565-ND"
 			(at 638.81 236.22 0)
 			(hide yes)
@@ -19563,7 +20192,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "On Shore Technology Inc."
 			(at 638.81 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -19870,7 +20499,7 @@
 	)
 	(symbol
 		(lib_id "buck-wio:CH572D_Module")
-		(at 331.47 143.51 0)
+		(at 331.47 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19878,10 +20507,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "904a9fe6-4dcc-4161-9bbd-c664e5175c40")
 		(property "Reference" "U4"
-			(at 324.104 126.238 0)
+			(at 343.154 161.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19891,8 +20519,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" ""
-			(at 331.47 143.51 0)
+		(property "Value" "CH572D Module"
+			(at 342.392 163.322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19902,7 +20530,7 @@
 			)
 		)
 		(property "Footprint" "CH572D:CH572D-Module"
-			(at 331.47 143.51 0)
+			(at 331.47 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19912,8 +20540,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 331.47 143.51 0)
+		(property "Datasheet" "https://www.wch-ic.com/downloads/CH572DS1_PDF.html"
+			(at 331.47 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19924,7 +20552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 143.51 0)
+			(at 331.47 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19934,8 +20562,8 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 331.47 143.51 0)
+		(property "MANUFACTURER" "Nanjing Qinheng Microelectronics (WCH)"
+			(at 331.47 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19946,7 +20574,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 331.47 143.51 0)
+			(at 331.47 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19957,7 +20585,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 331.47 143.51 0)
+			(at 331.47 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19968,7 +20596,29 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 331.47 143.51 0)
+			(at 331.47 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CH572D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" ""
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20100,7 +20750,7 @@
 	)
 	(symbol
 		(lib_id "buck-wio:LM66200DRLR")
-		(at 266.7 125.73 0)
+		(at 266.7 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20110,7 +20760,7 @@
 		(dnp no)
 		(uuid "9162daaf-cb14-4100-bc12-45d692d44bc0")
 		(property "Reference" "U2"
-			(at 266.7 110.236 0)
+			(at 266.7 145.796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20120,7 +20770,7 @@
 			)
 		)
 		(property "Value" "LM66200DRLR"
-			(at 266.7 112.522 0)
+			(at 266.7 148.082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20130,7 +20780,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
-			(at 266.7 125.73 0)
+			(at 266.7 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20141,7 +20791,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66200.pdf"
-			(at 266.7 125.73 0)
+			(at 266.7 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20152,7 +20802,7 @@
 			)
 		)
 		(property "Description" "2.5A Cont."
-			(at 266.7 114.554 0)
+			(at 266.7 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20162,18 +20812,7 @@
 			)
 		)
 		(property "MPN" "LM66200DRLR"
-			(at 266.7 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 266.7 125.73 0)
+			(at 266.7 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20184,7 +20823,7 @@
 			)
 		)
 		(property "Digi-Key PN" "296-LM66200DRLRCT-ND"
-			(at 266.7 125.73 0)
+			(at 266.7 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20194,8 +20833,8 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 266.7 125.73 0)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 266.7 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20206,7 +20845,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 266.7 125.73 0)
+			(at 266.7 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20217,7 +20856,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 266.7 125.73 0)
+			(at 266.7 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20228,7 +20867,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 266.7 125.73 0)
+			(at 266.7 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20526,7 +21165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF 50V"
 			(at 365.76 278.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20548,7 +21187,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
 			(at 361.95 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -20570,7 +21209,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "YAGEO"
 			(at 361.95 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -20605,6 +21244,28 @@
 		)
 		(property "STANDARD" ""
 			(at 361.95 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "311-1344-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20876,7 +21537,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 386.08 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -20898,7 +21559,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 386.08 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -20933,6 +21594,28 @@
 		)
 		(property "STANDARD" ""
 			(at 386.08 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT10K0TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21002,7 +21685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 262.89 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -21024,7 +21707,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "KEMET"
 			(at 262.89 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -21059,6 +21742,28 @@
 		)
 		(property "STANDARD" ""
 			(at 262.89 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0805C105K3RACTU"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "399-C0805C105K3RACTUTR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21127,7 +21832,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.harwin.com/m/7d31e750480889aa/original/C001-C001XX-Component-Specification-M20-Series-2-54mm-pitch-PCB-connectors.pdf"
 			(at 285.75 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -21149,7 +21854,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Harwin Inc."
 			(at 285.75 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -21184,6 +21889,28 @@
 		)
 		(property "STANDARD" ""
 			(at 285.75 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "M20-9990246"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "952-2262-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21231,7 +21958,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF 25V"
 			(at 245.11 256.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21253,7 +21980,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 248.92 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -21275,7 +22002,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "TDK"
 			(at 248.92 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -21310,6 +22037,28 @@
 		)
 		(property "STANDARD" ""
 			(at 248.92 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA3E1X7R1E105K080AC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "445-6931-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21419,17 +22168,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 212.09 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key PN" "296-50503-1-ND"
 			(at 212.09 254 0)
 			(hide yes)
@@ -21441,7 +22179,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Texas Instruments"
 			(at 212.09 254 0)
 			(hide yes)
 			(show_name no)
@@ -21511,7 +22249,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 227.33 96.52 0)
+		(at 227.33 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21522,7 +22260,7 @@
 		(fields_autoplaced yes)
 		(uuid "b87ec080-436e-40a9-a4e5-1bec4c1498aa")
 		(property "Reference" "#PWR085"
-			(at 227.33 100.33 0)
+			(at 227.33 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21533,7 +22271,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 227.33 91.44 0)
+			(at 227.33 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21543,7 +22281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 96.52 0)
+			(at 227.33 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21554,7 +22292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 96.52 0)
+			(at 227.33 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21565,7 +22303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 227.33 96.52 0)
+			(at 227.33 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21599,7 +22337,7 @@
 		(dnp no)
 		(uuid "b9658088-d22c-4dbe-acde-252a929f8538")
 		(property "Reference" "C14"
-			(at 232.918 318.516 0)
+			(at 222.758 317.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21610,7 +22348,7 @@
 			)
 		)
 		(property "Value" "1uF 25V"
-			(at 231.394 321.056 0)
+			(at 220.98 320.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21631,7 +22369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 229.87 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -21653,7 +22391,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "KEMET"
 			(at 229.87 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -21688,6 +22426,28 @@
 		)
 		(property "STANDARD" ""
 			(at 229.87 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0805C105K3RACTU"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "399-C0805C105K3RACTUTR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21792,7 +22552,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 234.95 105.41 0)
+		(at 234.95 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21802,7 +22562,7 @@
 		(dnp no)
 		(uuid "bc7000b6-4350-418e-b6c6-ebed4f6ac527")
 		(property "Reference" "TP1"
-			(at 237.236 98.044 0)
+			(at 237.236 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21813,7 +22573,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 237.236 100.584 0)
+			(at 237.236 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21824,7 +22584,7 @@
 			)
 		)
 		(property "Footprint" "buck-forest:Testpad"
-			(at 240.03 105.41 0)
+			(at 240.03 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21835,7 +22595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 105.41 0)
+			(at 240.03 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21846,7 +22606,7 @@
 			)
 		)
 		(property "Description" "EN"
-			(at 238.3377 103.1241 0)
+			(at 238.3377 138.6841 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21856,7 +22616,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 234.95 105.41 0)
+			(at 234.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21867,7 +22627,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 234.95 105.41 0)
+			(at 234.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21878,7 +22638,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 234.95 105.41 0)
+			(at 234.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21889,7 +22649,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 234.95 105.41 0)
+			(at 234.95 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22148,7 +22908,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 234.95 109.22 0)
+		(at 234.95 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22158,7 +22918,7 @@
 		(dnp no)
 		(uuid "c8c56c5c-399d-4a57-b1eb-9d0c5f58be98")
 		(property "Reference" "R21"
-			(at 232.41 107.9499 0)
+			(at 232.41 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22168,8 +22928,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1m"
-			(at 232.41 110.4899 0)
+		(property "Value" "1M"
+			(at 232.41 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22180,7 +22940,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 235.966 109.474 90)
+			(at 235.966 145.034 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22190,8 +22950,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 234.95 109.22 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 234.95 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22202,7 +22962,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 234.95 109.22 0)
+			(at 234.95 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22212,8 +22972,8 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 234.95 109.22 0)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 234.95 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22224,7 +22984,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 234.95 109.22 0)
+			(at 234.95 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22235,7 +22995,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 234.95 109.22 0)
+			(at 234.95 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22246,7 +23006,29 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 234.95 109.22 0)
+			(at 234.95 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1M00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT1M00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22394,7 +23176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 458.47 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -22416,7 +23198,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 458.47 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -22451,6 +23233,28 @@
 		)
 		(property "STANDARD" ""
 			(at 458.47 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT10K0TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22519,7 +23323,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF"
 			(at 212.09 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -22552,7 +23356,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Lite-On Inc."
 			(at 212.09 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -22596,6 +23400,28 @@
 				)
 			)
 		)
+		(property "MPN" "LTST-C190KGKT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "160-1435-2-ND"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73164af0-412e-444c-a677-ca46fcf176f9")
 		)
@@ -22613,7 +23439,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 187.96 0)
+		(at 144.78 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22623,7 +23449,7 @@
 		(dnp no)
 		(uuid "d0d525b2-366d-401e-945e-bdd637821398")
 		(property "Reference" "#PWR068"
-			(at 144.78 194.31 0)
+			(at 144.78 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22634,7 +23460,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.256 192.024 0)
+			(at 143.256 223.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22645,7 +23471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 187.96 0)
+			(at 144.78 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22656,7 +23482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 187.96 0)
+			(at 144.78 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22667,7 +23493,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 187.96 0)
+			(at 144.78 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22735,7 +23561,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 610.87 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -22757,7 +23583,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 610.87 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -22792,6 +23618,28 @@
 		)
 		(property "STANDARD" ""
 			(at 610.87 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603ZT0R00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603ZT0R00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22837,7 +23685,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "1K"
 			(at 502.92 305.816 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22858,7 +23706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 502.92 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -22880,7 +23728,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
 			(at 502.92 303.53 90)
 			(hide yes)
 			(show_name no)
@@ -22915,6 +23763,28 @@
 		)
 		(property "STANDARD" ""
 			(at 502.92 303.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT1K00"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT1K00TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22962,7 +23832,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF 25V"
 			(at 146.05 256.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22984,7 +23854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf"
 			(at 149.86 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -23005,7 +23875,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "TDK"
 			(at 149.86 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -23040,6 +23910,28 @@
 		)
 		(property "STANDARD" ""
 			(at 149.86 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA3E1X7R1E105K080AC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "445-6931-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23337,17 +24229,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 279.4 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key PN" "296-TPS22991CRAARCT-ND"
 			(at 279.4 255.27 0)
 			(hide yes)
@@ -23359,7 +24240,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Texas Instruments"
 			(at 279.4 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -23654,17 +24535,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 245.11 314.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key PN" "296-49281-1-ND"
 			(at 245.11 314.96 0)
 			(hide yes)
@@ -23676,7 +24546,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Texas Instruments"
 			(at 245.11 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -23729,7 +24599,7 @@
 		(pin "1"
 			(uuid "a2c83450-46cf-4883-824d-12dcc0cf951d")
 		)
-		(pin "[2,3,5]"
+		(pin "[2,3,5,7]"
 			(uuid "68637d99-38d8-40aa-9399-9e8350245b28")
 		)
 		(instances
@@ -23839,7 +24709,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF 10V"
+		(property "Value" "22uF 16V"
 			(at 234.696 255.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23860,7 +24730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2139/CL10A226MO7JZNC_Spec.pdf"
 			(at 226.06 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -23891,7 +24761,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Samsung Electro-Mechanics"
 			(at 226.06 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -23926,6 +24796,28 @@
 		)
 		(property "STANDARD" ""
 			(at 226.06 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A226MO7JZNC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "1276-7076-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24029,7 +24921,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 135.89 177.8 0)
+		(at 135.89 213.36 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24040,7 +24932,7 @@
 		(dnp no)
 		(uuid "eaf9658c-1c35-4884-9bf3-03a3a40e4979")
 		(property "Reference" "R26"
-			(at 139.7 176.784 0)
+			(at 139.7 212.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24050,7 +24942,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 139.7 179.07 0)
+			(at 139.7 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24060,7 +24952,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 134.874 178.054 90)
+			(at 134.874 213.614 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24070,8 +24962,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 135.89 177.8 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 135.89 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24082,7 +24974,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 135.89 177.8 0)
+			(at 135.89 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24092,8 +24984,8 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
-			(at 135.89 177.8 0)
+		(property "MANUFACTURER" "Stackpole Electronics Inc"
+			(at 135.89 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24104,7 +24996,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 135.89 177.8 0)
+			(at 135.89 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24115,7 +25007,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 135.89 177.8 0)
+			(at 135.89 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24126,7 +25018,29 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 135.89 177.8 0)
+			(at 135.89 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RMCF0603FT5K10"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "RMCF0603FT5K10TR-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24309,7 +25223,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 187.96 0)
+		(at 115.57 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24319,7 +25233,7 @@
 		(dnp no)
 		(uuid "f166c2af-155b-4f15-afb4-fc7b18b3e84d")
 		(property "Reference" "#PWR0101"
-			(at 115.57 194.31 0)
+			(at 115.57 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24330,7 +25244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.046 192.024 0)
+			(at 114.046 227.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24341,7 +25255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 187.96 0)
+			(at 115.57 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24352,7 +25266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 187.96 0)
+			(at 115.57 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24363,7 +25277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 187.96 0)
+			(at 115.57 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24699,7 +25613,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 115.57 124.46 0)
+		(at 115.57 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24709,7 +25623,7 @@
 		(dnp no)
 		(uuid "f65ecd3e-64cb-4537-b489-5c6514f6a151")
 		(property "Reference" "#PWR078"
-			(at 115.57 128.27 0)
+			(at 115.57 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24720,7 +25634,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 113.284 119.634 0)
+			(at 113.284 155.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24731,7 +25645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 124.46 0)
+			(at 115.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24742,7 +25656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 124.46 0)
+			(at 115.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24753,7 +25667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 115.57 124.46 0)
+			(at 115.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24875,7 +25789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF 50V"
+		(property "Value" "10uF 25V"
 			(at 415.29 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24897,7 +25811,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT188R61E106ME13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 440.45 257.65 0)
 			(hide yes)
 			(show_name no)
@@ -24918,7 +25832,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 425.45 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -24953,6 +25867,28 @@
 		)
 		(property "STANDARD" ""
 			(at 425.45 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRT188R61E106ME13D"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key PN" "490-12323-2-ND"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
