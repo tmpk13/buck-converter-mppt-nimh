@@ -7341,6 +7341,12 @@
 		(uuid "2dbddc10-973a-465d-996d-242031b4bfa9")
 	)
 	(junction
+		(at 538.48 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e3eccb8-da48-404e-b24d-31d05cdba5a2")
+	)
+	(junction
 		(at 430.53 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7399,12 +7405,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bbeb5b1-ff1d-46d6-8def-6237260daf1d")
-	)
-	(junction
-		(at 538.48 262.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ebd8f79-288c-48e7-815f-20dc8b1c20de")
 	)
 	(junction
 		(at 361.95 273.05)
@@ -7479,6 +7479,12 @@
 		(uuid "7511b597-aade-44af-af43-b6dae4176f86")
 	)
 	(junction
+		(at 533.4 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78c9faf5-c9d0-40a5-9be0-e02fa5511225")
+	)
+	(junction
 		(at 552.45 323.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7549,12 +7555,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af88b40a-97e3-4651-9025-99b1ecd5d45f")
-	)
-	(junction
-		(at 149.86 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b134d014-17bd-4ed6-8237-1757e9af9e04")
 	)
 	(junction
 		(at 266.7 135.89)
@@ -7645,12 +7645,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3735e23-c2cb-4ea5-9f2e-5fc3d85fe0ab")
-	)
-	(junction
-		(at 533.4 260.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5ab793d-c35c-4987-9936-1cbbd6477a64")
 	)
 	(junction
 		(at 194.31 124.46)
@@ -7844,16 +7838,6 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 262.89) (xy 538.48 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1140f490-ae83-4085-8222-e2fb30c65839")
-	)
-	(wire
-		(pts
 			(xy 461.01 269.24) (xy 461.01 212.09)
 		)
 		(stroke
@@ -7951,6 +7935,16 @@
 			(type default)
 		)
 		(uuid "1c1865a8-aaba-401b-812a-f6e24c30aff4")
+	)
+	(wire
+		(pts
+			(xy 533.4 257.81) (xy 563.88 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d14ba66-9a7e-4897-baab-b348744a23cf")
 	)
 	(wire
 		(pts
@@ -8074,16 +8068,6 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 284.48) (xy 506.73 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f939570-954b-425c-b868-748b34a0b1c8")
-	)
-	(wire
-		(pts
 			(xy 425.45 251.46) (xy 430.53 251.46)
 		)
 		(stroke
@@ -8091,16 +8075,6 @@
 			(type default)
 		)
 		(uuid "2ffb71e9-638f-430c-9117-b994bc60ef13")
-	)
-	(wire
-		(pts
-			(xy 130.81 251.46) (xy 149.86 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "308a5225-6b06-4b7d-9b52-71e54c3c25be")
 	)
 	(wire
 		(pts
@@ -8574,6 +8548,16 @@
 	)
 	(wire
 		(pts
+			(xy 469.9 255.27) (xy 563.88 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633d5725-1b74-4f38-aef3-a77673de7c6a")
+	)
+	(wire
+		(pts
 			(xy 618.49 228.6) (xy 633.73 228.6)
 		)
 		(stroke
@@ -8624,16 +8608,6 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 260.35) (xy 533.4 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "685e514b-b180-496e-8b5b-a63110663350")
-	)
-	(wire
-		(pts
 			(xy 535.94 279.4) (xy 535.94 275.59)
 		)
 		(stroke
@@ -8681,16 +8655,6 @@
 			(type default)
 		)
 		(uuid "69ea24e5-bd7b-4af1-876b-21abd88751ba")
-	)
-	(wire
-		(pts
-			(xy 533.4 260.35) (xy 563.88 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a649c47-be06-4551-99d4-fc9d83292605")
 	)
 	(wire
 		(pts
@@ -8761,16 +8725,6 @@
 			(type default)
 		)
 		(uuid "6d4b25b2-d684-44db-a1c2-e86ae30068e5")
-	)
-	(wire
-		(pts
-			(xy 467.36 257.81) (xy 467.36 271.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d911285-b098-4634-9006-43053d031398")
 	)
 	(wire
 		(pts
@@ -8974,6 +8928,16 @@
 	)
 	(wire
 		(pts
+			(xy 509.27 267.97) (xy 506.73 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb376ae-4eae-4767-a202-2beac24473b3")
+	)
+	(wire
+		(pts
 			(xy 427.99 269.24) (xy 461.01 269.24)
 		)
 		(stroke
@@ -8991,16 +8955,6 @@
 			(type default)
 		)
 		(uuid "7da566ea-aebd-4637-90c0-fa403320f2c9")
-	)
-	(wire
-		(pts
-			(xy 474.98 300.99) (xy 474.98 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f600387-d073-41ab-94ac-750906cde2af")
 	)
 	(wire
 		(pts
@@ -9061,6 +9015,16 @@
 			(type default)
 		)
 		(uuid "821dc52a-7975-494c-94f4-fa9393f535d9")
+	)
+	(wire
+		(pts
+			(xy 538.48 260.35) (xy 563.88 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829de4a2-1052-4698-b817-d1a92ca169ac")
 	)
 	(wire
 		(pts
@@ -9274,16 +9238,6 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 257.81) (xy 563.88 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94706996-c71c-4866-8315-d83442c448cf")
-	)
-	(wire
-		(pts
 			(xy 144.78 181.61) (xy 144.78 184.15)
 		)
 		(stroke
@@ -9401,6 +9355,16 @@
 			(type default)
 		)
 		(uuid "a136a3b2-d49b-4a76-adae-ee4aed870172")
+	)
+	(wire
+		(pts
+			(xy 472.44 257.81) (xy 533.4 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23d35cc-5b04-4de7-8a4e-7e63ad8118bf")
 	)
 	(wire
 		(pts
@@ -9554,16 +9518,6 @@
 	)
 	(wire
 		(pts
-			(xy 538.48 262.89) (xy 563.88 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b8842d-487f-4899-b73e-6aa554eb0cfb")
-	)
-	(wire
-		(pts
 			(xy 554.99 346.71) (xy 541.02 346.71)
 		)
 		(stroke
@@ -9571,6 +9525,26 @@
 			(type default)
 		)
 		(uuid "b624bf13-c83b-46dd-ad31-022797bd7ba0")
+	)
+	(wire
+		(pts
+			(xy 467.36 262.89) (xy 467.36 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b630483f-025c-4225-a003-3cd1d2f70e3d")
+	)
+	(wire
+		(pts
+			(xy 474.98 300.99) (xy 474.98 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74cf739-3f82-4d9a-b795-3aa3180c2783")
 	)
 	(wire
 		(pts
@@ -9654,16 +9628,6 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 260.35) (xy 533.4 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be6e59d3-a4fc-4d81-9875-1e2c7feb242c")
-	)
-	(wire
-		(pts
 			(xy 332.74 298.45) (xy 332.74 262.89)
 		)
 		(stroke
@@ -9671,6 +9635,16 @@
 			(type default)
 		)
 		(uuid "c078b17b-51f8-4bac-8a25-64f82ef2dd84")
+	)
+	(wire
+		(pts
+			(xy 509.27 284.48) (xy 506.73 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c083b08e-6c6c-4438-a4a2-9dfb55158639")
 	)
 	(wire
 		(pts
@@ -9864,16 +9838,6 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 255.27) (xy 563.88 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d74a24ef-d1e5-48a5-87a3-806650e8d4a0")
-	)
-	(wire
-		(pts
 			(xy 458.47 217.17) (xy 458.47 266.7)
 		)
 		(stroke
@@ -9911,16 +9875,6 @@
 			(type default)
 		)
 		(uuid "dae3180c-5825-4db8-9401-c85a360a23b9")
-	)
-	(wire
-		(pts
-			(xy 474.98 262.89) (xy 538.48 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcbac221-b826-45f2-a7d4-6e3d9af83ce2")
 	)
 	(wire
 		(pts
@@ -9974,6 +9928,16 @@
 	)
 	(wire
 		(pts
+			(xy 467.36 262.89) (xy 563.88 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df34c7c4-948e-45cc-8296-a09fc9f6dda0")
+	)
+	(wire
+		(pts
 			(xy 499.11 303.53) (xy 496.57 303.53)
 		)
 		(stroke
@@ -10001,16 +9965,6 @@
 			(type default)
 		)
 		(uuid "e086ce0f-9be9-4b1e-8433-a9c1e35e92f4")
-	)
-	(wire
-		(pts
-			(xy 472.44 276.86) (xy 472.44 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3392186-28c5-49cf-9094-dc24e0adbefc")
 	)
 	(wire
 		(pts
@@ -10054,6 +10008,16 @@
 	)
 	(wire
 		(pts
+			(xy 538.48 260.35) (xy 538.48 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e4d700-e8ef-47e4-bf05-567990ab6149")
+	)
+	(wire
+		(pts
 			(xy 349.25 332.74) (xy 431.8 332.74)
 		)
 		(stroke
@@ -10061,6 +10025,26 @@
 			(type default)
 		)
 		(uuid "e5ef2a45-3217-41bb-bfbb-c1ec76634ea1")
+	)
+	(wire
+		(pts
+			(xy 474.98 260.35) (xy 538.48 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6145505-4031-4097-b7a2-f09887edf3f2")
+	)
+	(wire
+		(pts
+			(xy 533.4 265.43) (xy 533.4 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bce281-1974-48d2-b70d-911288669a8f")
 	)
 	(wire
 		(pts
@@ -10204,16 +10188,6 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 267.97) (xy 506.73 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc2ee067-132d-473f-a745-8530b2601be4")
-	)
-	(wire
-		(pts
 			(xy 490.22 243.84) (xy 492.76 243.84)
 		)
 		(stroke
@@ -10224,13 +10198,23 @@
 	)
 	(wire
 		(pts
-			(xy 521.97 303.53) (xy 506.73 303.53)
+			(xy 509.27 303.53) (xy 506.73 303.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fd5a312d-9979-4a58-b330-33d7f1599188")
+	)
+	(wire
+		(pts
+			(xy 472.44 257.81) (xy 472.44 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7070db-a0f9-4f1d-a316-b2ee4d362feb")
 	)
 	(wire
 		(pts
@@ -10272,15 +10256,15 @@
 		)
 		(uuid "113deb6b-cd5f-47e2-8891-8bd77d54df3d")
 	)
-	(label "VSENSE_VOUT"
-		(at 521.97 303.53 180)
+	(label "Receiver_Input_Enable"
+		(at 500.38 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "258eb51d-27ac-4327-9c9b-a8ccb5b3991f")
+		(uuid "3c296fc2-c564-4203-bdf7-e35434f43900")
 	)
 	(label "UART-1-RX"
 		(at 443.23 274.32 180)
@@ -10322,16 +10306,6 @@
 		)
 		(uuid "445f38d4-b138-4922-8d95-ff6a0e23f910")
 	)
-	(label "Receiver_Output_Enable"
-		(at 539.75 260.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4539a8aa-ad32-4721-8cb6-6b11ad84f96e")
-	)
 	(label "SPI-CS"
 		(at 439.42 293.37 180)
 		(effects
@@ -10352,16 +10326,6 @@
 		)
 		(uuid "59621fb1-4572-43a0-8245-a84814d77850")
 	)
-	(label "BAT_ISENSE"
-		(at 521.97 284.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b871274-49f4-4289-89c0-7ab3647ccb1b")
-	)
 	(label "D+"
 		(at 312.42 162.56 180)
 		(effects
@@ -10371,16 +10335,6 @@
 			(justify right bottom)
 		)
 		(uuid "6cd20228-b1ef-46c9-b3e8-26860f6be496")
-	)
-	(label "Receiver_Input_Enable"
-		(at 539.75 262.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "703abfb1-9410-4849-b712-fffcc18369ac")
 	)
 	(label "RS422_Z"
 		(at 581.66 260.35 0)
@@ -10422,16 +10376,6 @@
 		)
 		(uuid "78f1165a-7b46-460e-802e-eb4daf0a18cc")
 	)
-	(label "VSENSE_VIN"
-		(at 521.97 267.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "798a1b98-52a3-43d3-99b8-012a646030f2")
-	)
 	(label "RS422_B"
 		(at 581.66 257.81 0)
 		(effects
@@ -10451,26 +10395,6 @@
 			(justify right bottom)
 		)
 		(uuid "8ef1d559-cb70-47c9-8560-426fa3493adf")
-	)
-	(label "UART-1-RX"
-		(at 551.18 255.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9af1ba2a-02cd-4641-a077-9d06b579dba9")
-	)
-	(label "UART-1-TX"
-		(at 551.18 257.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a05845ba-a7a6-4fe8-b85a-3a1e65e1f43a")
 	)
 	(label "SWD-WIO-IO"
 		(at 388.62 306.07 180)
@@ -10493,24 +10417,14 @@
 		(uuid "ad8b8c4c-12a4-42e0-8b57-01e45321b82b")
 	)
 	(label "Receiver_Input_Enable"
-		(at 458.47 300.99 180)
+		(at 535.94 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "af62715b-0b6c-415a-9f55-e66f066b3259")
-	)
-	(label "Battery_Shunt_Low"
-		(at 130.81 251.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b334e504-ac4e-4c4e-af22-99b528b54443")
+		(uuid "bc1dd4fb-13fc-4f81-b6d3-15f1c92e8bc5")
 	)
 	(label "WIO_USR_LED"
 		(at 386.08 280.67 0)
@@ -10552,6 +10466,16 @@
 		)
 		(uuid "c70a2cc2-5647-49c0-b44e-ab6b41726de9")
 	)
+	(label "UART-1-RX"
+		(at 551.18 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7b6b462-5e6c-49c4-9fd8-a620def5aca6")
+	)
 	(label "SPI-CITO"
 		(at 471.17 217.17 0)
 		(effects
@@ -10561,6 +10485,16 @@
 			(justify left bottom)
 		)
 		(uuid "cb45af9f-5f6c-460e-a668-71f55c2edd2d")
+	)
+	(label "Receiver_Output_Enable"
+		(at 500.38 260.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc83531b-b75e-4c40-81f1-0a0dcfe1ce34")
 	)
 	(label "UART-WIO-TX"
 		(at 445.77 295.91 180)
@@ -10591,6 +10525,16 @@
 			(justify right bottom)
 		)
 		(uuid "da6c868a-241d-44a5-84a7-2c3eef231695")
+	)
+	(label "UART-1-TX"
+		(at 551.18 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da8f9741-16c2-4dc1-b64c-6c89b184c1cf")
 	)
 	(label "RS422_A"
 		(at 581.66 255.27 0)
@@ -10632,6 +10576,16 @@
 		)
 		(uuid "e84eee62-4e27-4887-9334-470461b56917")
 	)
+	(label "Receiver_Output_Enable"
+		(at 538.48 234.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec259602-78ff-40d6-b901-1b63433a5eb7")
+	)
 	(label "SPI-COTI"
 		(at 440.69 269.24 180)
 		(effects
@@ -10662,15 +10616,77 @@
 		)
 		(uuid "f27a92d2-45c1-48dd-bd91-eeccdb2a993b")
 	)
-	(label "Receiver_Output_Enable"
-		(at 458.47 276.86 180)
+	(global_label "VSENSE_OUT"
+		(shape input)
+		(at 509.27 303.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "f8c54a5f-0327-409a-938b-9397b617107c")
+		(uuid "56a7419b-1258-4f05-bf99-a182e187095f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 523.0506 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VSENSE_VIN"
+		(shape input)
+		(at 509.27 267.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5eeee9ee-f976-4bb9-b382-b48e1a19f282")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 523.0506 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Battery_Out"
+		(shape input)
+		(at 149.86 251.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6cdd9108-ca9c-4489-9837-6ba4d3c9be8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.9776 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "PWM_Buck"
 		(shape input)
@@ -10685,6 +10701,30 @@
 		(uuid "d90d73c1-7946-4c92-99c7-cd6d68080b9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 443.3771 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BAT_ISENSE"
+		(shape input)
+		(at 509.27 284.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df535147-4a32-4195-852f-101cd4a84498")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 523.0506 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10787,6 +10827,50 @@
 			)
 		)
 		(property "Digi-Key PN" "RMCF0805ZT0R00CT-ND"
+			(at 660.4 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 660.4 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 660.4 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 660.4 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 660.4 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -10957,6 +11041,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 516.89 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 516.89 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 516.89 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 516.89 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a2274361-a5b7-4007-9a23-3a713f387c02")
 		)
@@ -11026,6 +11154,50 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 541.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 541.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 541.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 541.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 541.02 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11125,6 +11297,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 386.08 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 386.08 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 386.08 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 386.08 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af1b8fb1-ec4d-414c-b33e-4b1e2a688f0f")
 		)
@@ -11208,6 +11424,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 648.97 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 648.97 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 648.97 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 648.97 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "057450af-7f5f-4fd8-a3e0-3abacbfd3748")
 		)
@@ -11280,6 +11540,50 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 516.89 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 516.89 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 516.89 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 516.89 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 516.89 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11524,6 +11828,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 515.62 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 515.62 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 515.62 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 515.62 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bab318ee-5014-4f70-877a-f8a86d48d219")
 		)
@@ -11685,6 +12033,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 391.16 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 391.16 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 391.16 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 391.16 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1278aef8-854f-4ef3-a8d0-1232239c9ed7")
 		)
@@ -11787,6 +12179,50 @@
 			)
 		)
 		(property "Digi-Key PN" "535-AOTA-N252010S-2R2MTCT-ND"
+			(at 189.23 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 189.23 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 189.23 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 189.23 251.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 189.23 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -11909,6 +12345,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 363.22 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 363.22 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 363.22 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 363.22 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "08d36851-57e0-4f4e-9def-3b6893e359c7")
 		)
@@ -12014,6 +12494,50 @@
 			)
 		)
 		(property "Digi-Key PN" "2223-MSD-1-ACT-ND"
+			(at 495.3 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 495.3 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 495.3 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 495.3 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 495.3 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12216,6 +12740,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 648.97 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 648.97 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 648.97 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 648.97 252.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0b126f30-3d68-4100-8d17-28a7dbe22c59")
 		)
@@ -12287,6 +12855,50 @@
 			)
 		)
 		(property "Description" "MCU with embedded SX1262 LoRa IC"
+			(at 414.02 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 414.02 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 414.02 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 414.02 290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 414.02 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -12457,6 +13069,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 463.55 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 463.55 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 463.55 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 463.55 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "195e9f9e-9db0-49a8-8761-7d4104d3705f")
 		)
@@ -12536,6 +13192,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 502.92 284.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 502.92 284.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 502.92 284.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 502.92 284.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8527de7-ceb8-459b-846a-cdbf76fc8b66")
 		)
@@ -12606,6 +13306,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 379.73 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 379.73 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 379.73 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 379.73 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 379.73 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -12930,6 +13674,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 163.83 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 163.83 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 163.83 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 163.83 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd369fe9-3375-4dda-ba02-3370f11251af")
 		)
@@ -13002,6 +13790,50 @@
 		)
 		(property "Description" ""
 			(at 496.57 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 496.57 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 496.57 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 496.57 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 496.57 307.34 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13325,6 +14157,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 156.21 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 156.21 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 156.21 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 156.21 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94ac3ff1-c66e-49fd-b78f-0f002c5d9d1e")
 		)
@@ -13394,6 +14270,50 @@
 			)
 		)
 		(property "Description" "Generic shielded connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 325.12 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 325.12 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 325.12 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 325.12 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -13520,6 +14440,50 @@
 			)
 		)
 		(property "Digi-Key PN" "2223-UJ20-C-H-G-SMT-2A-P16-TRCT-ND"
+			(at 115.57 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 115.57 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 115.57 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 115.57 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 115.57 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -13716,6 +14680,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 560.07 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 560.07 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 560.07 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 560.07 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77da8969-4ccc-4181-a62a-5fadcca2ad7b")
 		)
@@ -13796,6 +14804,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 271.78 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 271.78 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 271.78 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 271.78 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 271.78 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -13985,6 +15037,50 @@
 			)
 		)
 		(property "Digi-Key PN" "296-TPS22991CRAARCT-ND"
+			(at 171.45 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 171.45 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 171.45 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 171.45 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 171.45 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -14316,6 +15412,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 496.57 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 496.57 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 496.57 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 496.57 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa38593b-c396-402d-b339-492e54a1fcd2")
 		)
@@ -14464,6 +15604,50 @@
 		)
 		(property "Description" ""
 			(at 641.35 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 641.35 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 641.35 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 641.35 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 641.35 252.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14621,6 +15805,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 533.4 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 533.4 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 533.4 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 533.4 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 533.4 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -14791,6 +16019,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 560.07 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 560.07 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 560.07 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 560.07 326.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "12c2a9b7-8669-4744-8b5a-20be86721cc1")
 		)
@@ -14883,6 +16155,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 618.49 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 618.49 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 618.49 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 618.49 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0614e47-48a5-4f0f-8819-b10323828e18")
 		)
@@ -14953,6 +16269,50 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 502.92 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 502.92 267.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 502.92 267.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 502.92 267.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 502.92 267.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15121,6 +16481,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 156.21 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 156.21 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 156.21 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 156.21 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c1dd3ac5-d669-48b9-98fa-e756ac464465")
 		)
@@ -15271,6 +16675,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 538.48 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 538.48 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 538.48 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 538.48 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 538.48 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -15472,6 +16920,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 571.5 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 571.5 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 571.5 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 571.5 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "a2f850cf-8e01-4845-9fa9-ed6f84aae633")
 		)
@@ -15578,6 +17070,50 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 295.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 295.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 295.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 295.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 295.91 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15825,6 +17361,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 289.56 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 289.56 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 289.56 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 289.56 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2ed08359-49a6-4e56-b4b1-b81c5dde9104")
 		)
@@ -15897,6 +17477,50 @@
 		)
 		(property "Description" ""
 			(at 430.53 247.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 430.53 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 430.53 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 430.53 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 430.53 247.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16297,6 +17921,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 510.54 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 510.54 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 510.54 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 510.54 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d9b7b8b-8879-4474-abf6-accac223033f")
 		)
@@ -16446,6 +18114,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 548.64 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 548.64 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 548.64 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 548.64 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 548.64 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -16613,6 +18325,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 181.61 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 181.61 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 181.61 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 181.61 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b9331c60-8b0a-442b-a29f-89a323ed4e4d")
 		)
@@ -16725,6 +18481,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 196.85 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 196.85 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 196.85 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 196.85 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "fbb9230d-1404-46df-9980-d52a63b25a81")
 		)
@@ -16823,6 +18623,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 144.78 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 144.78 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 144.78 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 144.78 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5d6d5a2-45b9-4179-91c1-571aa90146a5")
 		)
@@ -16896,6 +18740,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 552.45 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 552.45 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 552.45 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 552.45 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 552.45 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -17067,6 +18955,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 212.09 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 212.09 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 212.09 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 212.09 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67f7e3e0-41bc-4578-af82-0ecded402186")
 		)
@@ -17147,6 +19079,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 234.95 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 234.95 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 234.95 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 234.95 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b7ee3e67-d1a1-4de3-a400-c4dcce1df460")
 		)
@@ -17217,6 +19193,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 295.91 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 295.91 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 295.91 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 295.91 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 295.91 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -17384,6 +19404,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 496.57 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 496.57 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 496.57 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 496.57 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70724b11-89d6-4e86-a57d-582aec0fa5bb")
 		)
@@ -17489,6 +19553,50 @@
 			)
 		)
 		(property "Digi-Key PN" "ED10565-ND"
+			(at 638.81 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 638.81 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 638.81 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 638.81 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 638.81 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -17826,6 +19934,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 331.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 331.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 331.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 331.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "f9eae5c0-81c3-44d7-b204-2cf9fe273721")
 		)
@@ -18032,6 +20184,50 @@
 			)
 		)
 		(property "Digi-Key PN" "296-LM66200DRLRCT-ND"
+			(at 266.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 266.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 266.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 266.7 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 266.7 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -18374,6 +20570,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 361.95 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 361.95 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 361.95 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 361.95 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47db055d-281d-4f8f-bdc6-a2d01480afbc")
 		)
@@ -18534,6 +20774,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 541.02 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 541.02 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 541.02 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 541.02 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1719f2a7-e2b9-4060-9e71-61c869028b60")
 		)
@@ -18604,6 +20888,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 386.08 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 386.08 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 386.08 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 386.08 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 386.08 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -18696,6 +21024,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 262.89 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 262.89 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 262.89 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 262.89 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47805b85-948a-4755-a4e3-e17b8b6da81a")
 		)
@@ -18767,6 +21139,50 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 285.75 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 285.75 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 285.75 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 285.75 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 285.75 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -18849,6 +21265,50 @@
 			)
 		)
 		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 248.92 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 248.92 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 248.92 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 248.92 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 248.92 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -18971,6 +21431,50 @@
 			)
 		)
 		(property "Digi-Key PN" "296-50503-1-ND"
+			(at 212.09 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 212.09 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 212.09 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 212.09 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 212.09 254 0)
 			(hide yes)
 			(show_name no)
@@ -19149,6 +21653,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 229.87 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 229.87 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 229.87 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 229.87 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "101e31ed-8b71-405d-86b1-92fd78efc472")
 		)
@@ -19299,6 +21847,50 @@
 		)
 		(property "Description" "EN"
 			(at 238.3377 103.1241 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 234.95 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 234.95 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 234.95 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 234.95 105.41 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19620,6 +22212,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 234.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 234.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 234.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 234.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c77dcfd4-55f3-4b93-8417-bdb3033adeb6")
 		)
@@ -19780,6 +22416,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 458.47 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 458.47 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 458.47 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 458.47 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "03bcabb7-4520-49f1-8b4e-c176d50406e8")
 		)
@@ -19862,6 +22542,50 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 212.09 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 212.09 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 212.09 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 212.09 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 212.09 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -20033,6 +22757,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 610.87 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 610.87 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 610.87 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 610.87 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "75b9d06f-e7c8-4d47-8d79-d0093041dd75")
 		)
@@ -20103,6 +22871,50 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 502.92 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 502.92 303.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 502.92 303.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 502.92 303.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 502.92 303.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20185,6 +22997,50 @@
 		)
 		(property "Description" "10-16V X5R/X7R"
 			(at 138.684 259.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 149.86 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 149.86 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 149.86 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 149.86 255.27 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20351,6 +23207,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 156.21 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 156.21 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 156.21 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 156.21 297.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "054100d2-a07c-4002-b8df-4924e235279d")
 		)
@@ -20449,6 +23349,50 @@
 			)
 		)
 		(property "Digi-Key PN" "296-TPS22991CRAARCT-ND"
+			(at 279.4 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 279.4 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 279.4 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 279.4 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 279.4 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -20645,10 +23589,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "de72278c-0def-4d08-98f9-285a07c41a0a")
 		(property "Reference" "U10"
-			(at 245.11 308.61 0)
+			(at 245.11 305.562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20658,7 +23601,7 @@
 			)
 		)
 		(property "Value" "TLV75733PDRV"
-			(at 245.11 314.96 0)
+			(at 245.11 307.848 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20723,6 +23666,50 @@
 			)
 		)
 		(property "Digi-Key PN" "296-49281-1-ND"
+			(at 245.11 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 245.11 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 245.11 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 245.11 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 245.11 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -20904,6 +23891,50 @@
 				)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 226.06 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 226.06 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 226.06 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 226.06 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e0072243-d78f-4006-bd17-229c6cc92355")
 		)
@@ -21051,6 +24082,50 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 135.89 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 135.89 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 135.89 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 135.89 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 135.89 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21835,6 +24910,50 @@
 		)
 		(property "Description" ""
 			(at 425.45 247.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 425.45 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 425.45 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 425.45 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 425.45 247.65 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
