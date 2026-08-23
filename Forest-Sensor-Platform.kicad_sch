@@ -23401,7 +23401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 25V"
+		(property "Value" "1u"
 			(at 41.91 223.5199 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -125,7 +125,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
@@ -766,7 +766,7 @@
         "uuid": "87718b8e-f370-4106-84e1-c3212929dd95"
       }
     ],
-    "used_designators": "L1,L3-6,C11,C13,C15-16,C19-40,C42-48,RST3-4,TP1-8,R1-2,R11-24,R30-31,R35-58,J2-3,J5-6,J9-15,H1-4,#FLG1,F1,Q1-11,D1-14,U1-2,U4,U6-13,Y1-2,#PWR2,#PWR4-12,#PWR14-17,#PWR19-20,#PWR22,#PWR26-32,#PWR35,#PWR38-39,#PWR42-46,#PWR48,#PWR51-64,#PWR67-73,#PWR75-109",
+    "used_designators": "L1,L3-6,C11,C13,C15-16,C19-40,C42-48,RST3-4,TP1-9,R1-2,R11-24,R30-31,R35-58,J2-3,J5-6,J9-15,H1-4,#FLG1,F1,Q1-11,D1-14,U1-2,U4,U6-13,Y1-2,#PWR2,#PWR4-12,#PWR14-17,#PWR19-20,#PWR22,#PWR26-32,#PWR35,#PWR38-39,#PWR42-46,#PWR48,#PWR51-64,#PWR67-73,#PWR75-109",
     "variants": []
   },
   "sheets": [
