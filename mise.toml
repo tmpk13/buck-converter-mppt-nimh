@@ -1,0 +1,5 @@
+# pixi keeps the Python environment (pixi.toml, pixi.lock); mise pins pixi.
+# Tasks go here and call `pixi run ...`.
+
+[tools]
+pixi = "0.66.0"
