@@ -1,0 +1,114 @@
+* Q2 high-side PMOS asynchronous buck - buck-converter-real.kicad_sch
+*
+* Solar In --+-- Q2.S (MCAC054P10Y-TP PMOS)
+*            +-- R54 47k --+-- base node --+-- Q3.D (BSS123)
+*            +-- D8 (SS56) +               +-- Q1.B1/B2
+*            +-- Q1.C1 (NPN collector)
+* Q1 E1+E2 -- R56 22 -- Q2.G
+* Q1.C2 (PNP collector) -- lowrail
+* Q2.D --+-- D1 (freewheel, cathode to SW) --+-- L6 33uH --> +BATT
+*
+* Variant switches (1m = fitted, 1G = removed):
+*   rd8   D8, the SS56 sitting in parallel with R54
+*   rlrg  PNP collector tied straight to GND (as drawn)
+*   rzen  PNP collector tied to a Vin-10V zener rail (proposed fix)
+*   r54   pull-up on the level-shift node; 47k as drawn is too weak at 100kHz
+*   rb    base resistor between the level-shift node and the BJT bases;
+*         absent on the board (1m), needed to bound PNP saturation current
+*   r56   series gate resistor
+*   rbg   resistor from the BJT base node to GND
+*   r54b  pull-up landing on the BJT base node instead of Q3's drain
+
+.include q2_models.inc
+
+.param vin=24
+.param duty=0.19
+.param fsw=100k
+.param per={1/fsw}
+.param ton={duty*per}
+.param rd8=1m
+.param rlrg=1m
+.param rzen=1G
+.param r54=47k
+.param rb=1m
+.param r56=22
+.param rl6=58m
+.param rbg=1G
+.param r54b=1G
+
+* ---------------- solar input ----------------
+* 24V 50W panel: 2.08A available, this stage draws ~0.19A, so a stiff
+* source is a fair model at this operating point.
+Vin   solar 0 DC {vin}
+Cin   solar 0 20u
+
+* ---------------- MCU PWM (U3.PB10) ----------------
+Vpwm  pwm 0 PULSE(0 3.3 0 20n 20n {ton} {per})
+R55   pwm 0 100k
+
+* ---------------- Q3 BSS123 level shifter ----------------
+* Node "a" is Q3's drain. On the board R54, D8 and the BJT bases all sit on
+* this one node; rb=1m reproduces that, rb=2.2k inserts the missing resistor.
+Vaq3  a q3d DC 0
+MQ3   q3d pwm 0 0 BSS123
+
+* ---------------- base network ----------------
+* r54 pulls up Q3's drain node (Option B); r54b pulls up the BJT base
+* node instead, which is where the schematic puts it as of 2026-08-16.
+R54   solar a {r54}
+R54b  solar bnode {r54b}
+RD8s  solar d8a {rd8}
+Vad8  d8a d8b DC 0
+D8    d8b a SS56
+Rb    a bnode {rb}
+* R58 as drawn 2026-08-14: base node to GND, NOT in series
+Rbg   bnode 0 {rbg}
+
+* ---------------- Q1 MBT3946DW1T1 emitter follower ----------------
+* unit 1 NPN: collector on Solar In, pulls the gate up  -> Q2 off
+* unit 2 PNP: collector on lowrail,  pulls the gate down -> Q2 on
+QN    solar bnode gdrv NPN3946
+QP    lowrail bnode gdrv PNP3946
+
+RLRG  lowrail 0 {rlrg}
+RZEN  lowrail zr {rzen}
+Dz    zr solar DZ12
+Rzb   zr 0 10k
+Czr   solar zr 1u
+
+* ---------------- gate ----------------
+R56   gdrv g {r56}
+
+* ---------------- power stage ----------------
+* Q2 drain/gate/source/bulk
+MQ2   sw g solar solar PMOS_MCAC054P10Y
+
+* D1 is drawn as a generic "D" with no part number; modelled as the
+* SS56-class Schottky the freewheel slot needs.
+D1    0 sw SS56
+
+* L6 Bourns SRN6045TA-330M, 33uH, 145 mohm DCR, Isat 2.5A, Irms 1.8A
+L6    sw lx 33u
+RL6   lx batt {rl6}
+
+* +BATT ceramics: C22 47u + C23 47u + C34 1u (1206 X5R, derated)
+Cout  batt cesr 60u
+Resr  cesr 0 10m
+
+* R1 50 mohm shunt + F1 PTC to the XT30 pack connector J6
+Rshunt batt fsw_n 50m
+Rptc  fsw_n bplus 60m
+
+* 3S NiMH pack: 3.9V EMF + 0.15 ohm internal
+Rint  bplus bx 0.15
+VB    bx 0 DC 3.9
+
+* ---------------- instrumentation ----------------
+Bpin  pin  0 V = -v(solar)*i(Vin)
+Bpout pout 0 V = v(batt)*i(VB)
+Bvgs  vgs  0 V = v(g)-v(solar)
+Bvds  vds  0 V = v(sw)-v(solar)
+
+.options reltol=2e-3 abstol=1e-9 vntol=1e-6 itl4=500 method=gear
+
+.end

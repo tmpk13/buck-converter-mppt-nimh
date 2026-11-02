@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.5*%
+%TF.CreationDate,2026-08-22T23:58:49-07:00*%
+%TF.ProjectId,Forest-Sensor-Platform,466f7265-7374-42d5-9365-6e736f722d50,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.5) date 2026-08-22 23:58:49*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,1.500000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,TP9*%
+X122660000Y-119070000D03*
+%TD*%
+%TO.C,TP7*%
+X122660000Y-121630000D03*
+%TD*%
+%TO.C,TP1*%
+X105950000Y-116150000D03*
+%TD*%
+%TO.C,TP2*%
+X104010000Y-116150000D03*
+%TD*%
+M02*

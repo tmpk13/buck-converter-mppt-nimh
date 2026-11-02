@@ -1,0 +1,12 @@
+[workspace]
+authors = ["tmpk13 <167717442+tmpk13@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "buck-converter-mppt-nimh"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+matplotlib = ">=3.10.8,<4"
+numpy = ">=2.4.3,<3"

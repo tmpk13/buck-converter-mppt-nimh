@@ -1,0 +1,122 @@
+[
+ {
+  "vin": 5.0,
+  "duty": 0.82328125,
+  "clamped": false,
+  "ichg": 0.9940126,
+  "pin": 4.195009,
+  "pbat": 4.024876,
+  "vgsmax": -0.4786005,
+  "vgsmin": -3.433481,
+  "failed": false,
+  "eff_pct": 95.94439487495737
+ },
+ {
+  "vin": 6.0,
+  "duty": 0.6849804687500001,
+  "clamped": false,
+  "ichg": 0.9832304,
+  "pin": 4.179715,
+  "pbat": 3.979634,
+  "vgsmax": -0.4222407,
+  "vgsmin": -4.148668,
+  "failed": false,
+  "eff_pct": 95.21304682257043
+ },
+ {
+  "vin": 8.0,
+  "duty": 0.5125781250000001,
+  "clamped": false,
+  "ichg": 1.012643,
+  "pin": 4.366395,
+  "pbat": 4.103181,
+  "vgsmax": -0.352607,
+  "vgsmin": -5.578707,
+  "failed": false,
+  "eff_pct": 93.97182343787038
+ },
+ {
+  "vin": 10.0,
+  "duty": 0.40743164062500004,
+  "clamped": false,
+  "ichg": 1.017522,
+  "pin": 4.431705,
+  "pbat": 4.123716,
+  "vgsmax": -0.3054061,
+  "vgsmin": -7.001834,
+  "failed": false,
+  "eff_pct": 93.05032713143136
+ },
+ {
+  "vin": 12.0,
+  "duty": 0.33638671875,
+  "clamped": false,
+  "ichg": 1.002594,
+  "pin": 4.402782,
+  "pbat": 4.060996,
+  "vgsmax": -0.2811245,
+  "vgsmin": -7.498076,
+  "failed": false,
+  "eff_pct": 92.23704466857546
+ },
+ {
+  "vin": 16.0,
+  "duty": 0.24687011718750002,
+  "clamped": false,
+  "ichg": 0.9934613,
+  "pin": 4.425259,
+  "pbat": 4.022671,
+  "vgsmax": -0.2537116,
+  "vgsmin": -8.309896,
+  "failed": false,
+  "eff_pct": 90.90249858821822
+ },
+ {
+  "vin": 20.0,
+  "duty": 0.19382324218750002,
+  "clamped": false,
+  "ichg": 1.039917,
+  "pin": 4.706911,
+  "pbat": 4.218039,
+  "vgsmax": -0.2399951,
+  "vgsmin": -8.967733,
+  "failed": false,
+  "eff_pct": 89.61374030654075
+ },
+ {
+  "vin": 24.0,
+  "duty": 0.15735351562500002,
+  "clamped": false,
+  "ichg": 1.003196,
+  "pin": 4.586597,
+  "pbat": 4.063582,
+  "vgsmax": -0.2273025,
+  "vgsmin": -9.534077,
+  "failed": false,
+  "eff_pct": 88.59688348464014
+ },
+ {
+  "vin": 28.0,
+  "duty": 0.13177734375,
+  "clamped": false,
+  "ichg": 1.011042,
+  "pin": 4.684077,
+  "pbat": 4.096557,
+  "vgsmax": -0.2145435,
+  "vgsmin": -9.895014,
+  "failed": false,
+  "eff_pct": 87.45708065858011
+ },
+ {
+  "vin": 32.0,
+  "duty": 0.11235839843750002,
+  "clamped": false,
+  "ichg": 1.036445,
+  "pin": 4.880608,
+  "pbat": 4.203449,
+  "vgsmax": -0.204854,
+  "vgsmin": -9.934134,
+  "failed": false,
+  "eff_pct": 86.12551960739319
+ }
+]

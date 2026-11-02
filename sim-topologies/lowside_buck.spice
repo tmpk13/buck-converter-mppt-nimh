@@ -1,0 +1,39 @@
+* Low-side buck (inverse buck): ground-referenced NMOS, battery floats between Vin rail and inductor
+* Gate driven DIRECTLY by 3.3V MCU PWM through GPIO output impedance
+.include common.inc
+
+.param Vin_val=@VIN@
+.param duty=@DUTY@
+.param fsw=100k
+.param period={1/fsw}
+.param ton={duty*period}
+
+Vin input 0 DC {Vin_val}
+Cin input 0 100u IC={Vin_val}
+
+* MCU PWM 3.3V, ~30 ohm GPIO source impedance
+Vpwm pwm 0 PULSE(0 3.3 0 10n 10n {ton} {period})
+Rg pwm g 30
+
+* Battery floats: bat+ at input rail, bat- at node X
+Rint input bx 0.15
+VB bx X DC 3.9
+Cout input xc 100u IC=4.0
+Resr xc X 20m
+
+* Inductor from battery negative to switch node
+RL X x2 38m
+L1 x2 sw 47u IC=1
+
+* Ground-referenced logic-level NMOS (D G S)
+M1 sw g 0 NLL
+
+* Freewheel diode back to input rail
+D1 sw input SS56
+
+Bpin pinv 0 V = -v(input)*i(Vin)
+Bpb  pbv  0 V = (v(input)-v(X))*i(VB)
+Bvgs vgsv 0 V = v(g)
+
+.options reltol=2e-3 abstol=1e-9 vntol=1e-6 itl4=100 method=gear
+.end
