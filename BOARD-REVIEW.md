@@ -276,6 +276,31 @@ Untracked and load-bearing: `usb.kicad_sch`, `buck_converter.kicad_sch`, `board.
 placed symbols live only in each file's `lib_symbols` cache. A fresh clone still does not
 open into a working project. Commit the sheet split as one change with the lib tables.
 
+## Found at first power-up, 2026-11-03
+
+The first hand-built board, fed 3.3 V at J4 with no firmware, held a 200 mA bench supply
+in current limit while a meter found no short between 3V3 and GND. P1 and P2 together
+caused it; with R33 off and D7 reworked the power check passed.
+
+### P1 - D7's silkscreen marks its GND end as the cathode
+
+D7 (SMAJ5.0CA, bidirectional) has A1 = pin 1 on GND, and `Diode_SMD:D_SMA` closes its
+outline at pad 1, the mark a diode's cathode gets. A striped (unidirectional) part fitted
+by that mark has its cathode on GND and conducts across whatever feeds the sensor supply,
+holding it under 1 V; a resistance check reads that as open. The part on the BOM is
+right; the board invites the substitute. Fix: swap D7's pins so pin 1 is on the
+sensor-supply net. The mark then sits on the line side, where a unidirectional SMAJ5.0A
+fitted by it is correct for this positive-only supply.
+
+### P2 - Nothing on the board says R33 and R34 are either/or
+
+R33 (+3.3V) and R34 (+5V) pick J7's sensor supply. The PCB carries R33's DNP flag, but its
+silkscreen shows two ordinary pads, so a hand build fits both and ties +5V to +3.3V. In
+the 3.3 V check that put D7, U9 and C28/C29/C44 on the rail under test, which is how P1
+drew current; with USB or the boost on, U2's 5 V would reach the Wio-E5 (3.9 V absolute
+maximum), U6, U1 and the SD card. Fix: a 3-pad solder jumper (center to the sensor
+supply, outer pads to +3.3V and +5V), or at least "R33 OR R34" on the silkscreen.
+
 ## Verified correct this round
 
 - **CH572D symbol pinout: every pin checked against the WCH datasheet diagram** (1 PA3,
@@ -307,3 +332,4 @@ open into a working project. Commit the sheet split as one change with the lib t
 4. H4, H5 - clamp and LED rewiring; M1 TVS swap in the same pass.
 5. M2, M3, M6 - shunt copper, boot strap, R35 decision.
 6. M4, M5, M7, M8, L1-L3 - protection set, BOM fields, rules and hygiene.
+7. P1 + P2 - D7 pin swap and an either/or sensor-supply strap, in the next layout pass.
