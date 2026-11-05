@@ -25,9 +25,12 @@ Two faults, each enough on its own to keep the chip silent.
      need Y2 updated from the library and XI/XO rerouted.
    - Rework on a built board: turn Y2 90 degrees. The pads still overlap each
      terminal by about 70%. The crystal has no polarity, so 90 or 270 both work.
-2. **U9 tilted on too much exposed-pad solder (assembly).** Some pins did not
-   reach their pads, and the excess solder left a 1.5 kohm leak from XI (pin 3) to
-   GND that held XI at 0 V. Reflowing U9 with a thin exposed-pad layer fixed both.
+2. **U9 tilted on too much exposed-pad solder (assembly, helped by the
+   footprint).** Some pins did not reach their pads, and the excess solder left a
+   1.5 kohm leak from XI (pin 3) to GND that held XI at 0 V. Reflowing U9 with a
+   thin exposed-pad layer fixed both. Solder mask covers the exposed pad except
+   four 0.5 mm windows, and the footprint's paste filled them 1:1, so solder could
+   not spread; the paste squares are now 0.4 mm (review P4).
 
 Found along the way, not the fix:
 
@@ -77,7 +80,8 @@ off, 20 ns/div). A 1x probe can stop the oscillator.
 
 ## For the next board
 
-- Update Y2 from the library and reroute XI/XO before ordering.
+- Update Y2 and U9 from the library (crystal pads, smaller exposed-pad paste) and
+  reroute XI/XO before ordering.
 - U9: a thin, even layer on the exposed pad; check that the chip sits flat. Use
   the preheater.
 - Run the unpowered checks above before the first USB plug-in.

@@ -312,10 +312,13 @@ The buck-forest XRCGB32M000F1S1DR0 footprint is Murata's bottom view drawn as th
 view, which shorts XI to XO and leaves the CH572D with no clock. Fixed in the library
 (b402d0c); the layout still needs Y2 updated and XI/XO rerouted.
 
-### P4 - U9's exposed pad takes too much solder by hand
+### P4 - U9's exposed pad takes too much solder
 
-Excess solder under the exposed pad tilted U9 off some pins and leaked XI to GND. Not a
-layout error; a hand build needs a thin, even layer.
+Excess solder under the exposed pad tilted U9 off some pins and leaked XI to GND. The
+footprint helps it along: solder mask covers the exposed pad except four 0.5 mm windows,
+and the paste squares filled those windows 1:1, so the solder could not spread and stood
+tall. The paste squares are now 0.4 mm (36% less paste); the board needs U9 updated from
+the library. By hand, use a thin, even layer.
 
 ## Verified correct this round
 
