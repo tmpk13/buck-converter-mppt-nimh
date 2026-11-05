@@ -301,6 +301,22 @@ drew current; with USB or the boost on, U2's 5 V would reach the Wio-E5 (3.9 V a
 maximum), U6, U1 and the SD card. Fix: a 3-pad solder jumper (center to the sensor
 supply, outer pads to +3.3V and +5V), or at least "R33 OR R34" on the silkscreen.
 
+## Found at first USB bring-up, 2026-11-04
+
+The CH572D stayed silent on USB until both of these were fixed; the diagnosis and the
+checks that find them are in CH572D-BRINGUP.md.
+
+### P3 - Y2's footprint puts XI/XO on the crystal's joined no-connect pads
+
+The buck-forest XRCGB32M000F1S1DR0 footprint is Murata's bottom view drawn as the top
+view, which shorts XI to XO and leaves the CH572D with no clock. Fixed in the library
+(b402d0c); the layout still needs Y2 updated and XI/XO rerouted.
+
+### P4 - U9's exposed pad takes too much solder by hand
+
+Excess solder under the exposed pad tilted U9 off some pins and leaked XI to GND. Not a
+layout error; a hand build needs a thin, even layer.
+
 ## Verified correct this round
 
 - **CH572D symbol pinout: every pin checked against the WCH datasheet diagram** (1 PA3,
